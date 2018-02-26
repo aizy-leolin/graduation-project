@@ -1,0 +1,52 @@
+Start testing: Dec 27 11:11 CST
+----------------------------------------------------------
+1/2 Testing: test_test
+1/2 Test: test_test
+Command: "/bin/sh" "/home/huangxf/test/gr-test/build/lib/test_test_test.sh"
+Directory: /home/huangxf/test/gr-test/build/lib
+"test_test" start time: Dec 27 11:11 CST
+Output:
+----------------------------------------------------------
+
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"test_test" end time: Dec 27 11:11 CST
+"test_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: qa_print_fb
+2/2 Test: qa_print_fb
+Command: "/bin/sh" "/home/huangxf/test/gr-test/build/python/qa_print_fb_test.sh"
+Directory: /home/huangxf/test/gr-test/build/python
+"qa_print_fb" start time: Dec 27 11:11 CST
+Output:
+----------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
+0
+0
+1
+1
+0
+0
+0
+0
+1
+1
+0
+0
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"qa_print_fb" end time: Dec 27 11:11 CST
+"qa_print_fb" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 27 11:11 CST

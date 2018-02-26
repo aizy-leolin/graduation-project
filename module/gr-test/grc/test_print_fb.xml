@@ -1,0 +1,15 @@
+<block>
+  <name>Print fb</name>
+  <key>test_print_fb</key>
+  <category>TEST</category>
+  <import>import test</import>
+  <make>test.print_fb()</make>
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

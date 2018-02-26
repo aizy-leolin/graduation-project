@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/test/api.h
+gnuradio/attributes.h
+-
+
+../include/test/print_fb.h
+test/api.h
+-
+gnuradio/block.h
+-
+
+/home/huangxf/test/gr-test/lib/print_fb_impl.cc
+config.h
+/home/huangxf/test/gr-test/lib/config.h
+gnuradio/io_signature.h
+-
+print_fb_impl.h
+/home/huangxf/test/gr-test/lib/print_fb_impl.h
+
+/home/huangxf/test/gr-test/lib/print_fb_impl.h
+test/print_fb.h
+-
+
