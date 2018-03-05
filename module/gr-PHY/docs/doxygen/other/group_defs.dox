@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio PHY C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the PHY GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

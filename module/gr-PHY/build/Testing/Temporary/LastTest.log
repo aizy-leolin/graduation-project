@@ -1,0 +1,63 @@
+Start testing: Mar 05 09:55 CST
+----------------------------------------------------------
+1/3 Testing: qa_recv_bit
+1/3 Test: qa_recv_bit
+Command: "/bin/sh" "/home/huangxf/graduation-project/module/gr-PHY/build/python/qa_recv_bit_test.sh"
+Directory: /home/huangxf/graduation-project/module/gr-PHY/build/python
+"qa_recv_bit" start time: Mar 05 09:55 CST
+Output:
+----------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+OK
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"qa_recv_bit" end time: Mar 05 09:55 CST
+"qa_recv_bit" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: qa_conv_encode
+2/3 Test: qa_conv_encode
+Command: "/bin/sh" "/home/huangxf/graduation-project/module/gr-PHY/build/python/qa_conv_encode_test.sh"
+Directory: /home/huangxf/graduation-project/module/gr-PHY/build/python
+"qa_conv_encode" start time: Mar 05 09:55 CST
+Output:
+----------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK
+<end of output>
+Test time =   0.18 sec
+----------------------------------------------------------
+Test Passed.
+"qa_conv_encode" end time: Mar 05 09:55 CST
+"qa_conv_encode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: qa_conv_decode
+3/3 Test: qa_conv_decode
+Command: "/bin/sh" "/home/huangxf/graduation-project/module/gr-PHY/build/python/qa_conv_decode_test.sh"
+Directory: /home/huangxf/graduation-project/module/gr-PHY/build/python
+"qa_conv_decode" start time: Mar 05 09:55 CST
+Output:
+----------------------------------------------------------
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.008s
+
+OK
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"qa_conv_decode" end time: Mar 05 09:55 CST
+"qa_conv_decode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 05 09:55 CST
