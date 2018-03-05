@@ -21,9 +21,9 @@
 
 from gnuradio import gr, gr_unittest
 from gnuradio import blocks
-from OOKrecv import OOKrecv
+from conv_decode import conv_decode
 
-class qa_OOKrecv (gr_unittest.TestCase):
+class qa_conv_decode (gr_unittest.TestCase):
 
     def setUp (self):
         self.tb = gr.top_block ()
@@ -36,19 +36,26 @@ class qa_OOKrecv (gr_unittest.TestCase):
         self.tb.run ()
         # check data
 
-    def test_001_OOKrecv(self):
+    def test_001_conv_encode(self):
 
-    	src_data = [0,0.1,1.2,0.8,0.3,0.1,0.9,1.1,0.5,0.2]
-    	expected_result = (0,1,0,1,0)
-    	src = blocks.vector_source_f(src_data)
-    	dec = OOKrecv(2,1)
-    	snk = blocks.vector_sink_b()
-    	self.tb.connect(src,dec,snk)
-    	self.tb.run()
+        #src_data = [1,0,1,1,1,0,1,0,0,1,1,0]
+        src_data = [1,1,0,1,0,0,0,1,0,1,1,1,0,0,0,0,1,0,0,1,0,1,0,0]
+        expected_result = (0,0,0,0,0,1,0,1,1,1,0,1)
+        min_data = [0] * 24
+        max_data = [1] * 24
+        src = blocks.vector_source_f(src_data)
+        minsrc = blocks.vector_source_f(min_data)
+        maxsrc = blocks.vector_source_f(max_data)
+        decode = conv_decode(5)
+        snk = blocks.vector_sink_b()
+        self.tb.connect(src,(decode,0),snk)
+        self.tb.connect(minsrc,(decode,1))
+        self.tb.connect(maxsrc,(decode,2))
+        self.tb.run()
 
-    	result_data = snk.data()
-    	self.assertTupleEqual (expected_result,expected_result)
+        result_data = snk.data()
+        self.assertTupleEqual (result_data,expected_result)
 
 
 if __name__ == '__main__':
-    gr_unittest.run(qa_OOKrecv, "qa_OOKrecv.xml")
+    gr_unittest.run(qa_conv_decode, "qa_conv_decode.xml")

@@ -1,0 +1,6 @@
+<testsuite errors="0" failures="0" name="unittest.suite.TestSuite" tests="2" time="0.003">
+  <testcase classname="__main__.qa_conv_encode" name="test_001_conv_encode" time="0.0022"></testcase>
+  <testcase classname="__main__.qa_conv_encode" name="test_001_t" time="0.0003"></testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

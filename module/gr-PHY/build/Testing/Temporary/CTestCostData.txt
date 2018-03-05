@@ -1,0 +1,4 @@
+qa_recv_bit 13 0.0150527
+qa_conv_encode 10 0.0180755
+qa_conv_decode 9 0.0230863
+---
