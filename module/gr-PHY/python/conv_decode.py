@@ -114,12 +114,18 @@ class conv_decode(gr.decim_block):
                     level += self.window
             out[i] = beststate >> 5
             self.file.write(str(out[i])+'\n')
-            self.file2.write(str(in0[i<<1])+' '+str(in0[(i<<1)+1])+'\n')
+            if in0[i<<1]>sum(std0[:])/2:
+                tmp0 = 1
+            else:
+                tmp0 = 0
+            if in0[(i<<1)+1]>sum(std1[:])/2:
+                tmp1 = 1
+            else:
+                tmp1 = 0
+            self.file2.write(str(tmp0)+' '+str(tmp1)+'\n')
             self.now += 1
             if self.now == self.window:
                 self.now = 0
-        print(minin[0])
-        print(maxin[0])
 
         return len(output_items[0])
 

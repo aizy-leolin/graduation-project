@@ -22,6 +22,33 @@
 import numpy
 from gnuradio import gr
 
+def maxsum(arr):
+    newlen = max(1,len(arr)/10)
+    maxtmp = [0]*newlen
+    for data in arr:
+        for index in range(0,newlen):
+            if data > maxtmp[index]:
+                if index > 0:
+                    maxtmp[index-1] = maxtmp[index]
+                maxtmp[index] = data
+            else:
+                break
+    return float(sum(maxtmp))/newlen  
+
+def segsum(arr):
+    arrlen = len(arr)
+    tot = sum(arr)/arrlen
+    seg = max(1,arrlen/10)
+    ans = 0
+    maxdis = 0
+    nowsum = sum(arr[0:seg])
+    for cnt in range(seg,arrlen-seg):
+        nowsum += arr[seg]
+        if abs((nowsum/(cnt+1) - tot)/(arrlen-(cnt+1))) > maxdis:
+            maxdis = abs((nowsum/(cnt+1) - tot)/(arrlen-(cnt+1)))
+            ans = cnt
+    return sum(arr[0:ans+1])/(ans+1)
+
 class recv_bit(gr.decim_block):
     """
     docstring for block recv_bit
@@ -37,10 +64,6 @@ class recv_bit(gr.decim_block):
         self.lenMax = 100
         self.decim = decim
 
-
-
-
-
     def work(self, input_items, output_items):
         in0 = input_items[0]
         out = output_items[0]
@@ -50,6 +73,8 @@ class recv_bit(gr.decim_block):
 
         for i in range(0,len(in0)/self.decim):
             tot = float(sum(in0[i*self.decim:(i+1)*self.decim]))/self.decim
+            #tot = maxsum(in0[i*self.decim:(i+1)*self.decim])
+            #tot = segsum(in0[i*self.decim:(i+1)*self.decim])
             if self.len < self.lenMax:
                 if self.len == 0:
                     self.valuemin = tot
@@ -61,7 +86,7 @@ class recv_bit(gr.decim_block):
                 if tot > self.valuemax:
                     self.valuemax = self.valuemax*0.2 + tot*0.8
                 if tot < self.valuemin:
-                    self.valuemin = (self.valuemin + tot) / 2
+                    self.valuemin = self.valuemin * 0.5 + tot * 0.5
                 continue
             out[i] = tot
             minout[i] = self.valuemin
