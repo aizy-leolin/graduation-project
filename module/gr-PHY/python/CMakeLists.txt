@@ -33,7 +33,8 @@ GR_PYTHON_INSTALL(
     __init__.py
     recv_bit.py
     conv_encode.py
-    conv_decode.py DESTINATION ${GR_PYTHON_DIR}/PHY
+    conv_decode.py
+    wave_to_bit.py DESTINATION ${GR_PYTHON_DIR}/PHY
 )
 
 ########################################################################
@@ -46,3 +47,4 @@ set(GR_TEST_PYTHON_DIRS ${CMAKE_BINARY_DIR}/swig)
 GR_ADD_TEST(qa_recv_bit ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_recv_bit.py)
 GR_ADD_TEST(qa_conv_encode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_conv_encode.py)
 GR_ADD_TEST(qa_conv_decode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_conv_decode.py)
+GR_ADD_TEST(qa_wave_to_bit ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_wave_to_bit.py)

@@ -126,6 +126,5 @@ class conv_decode(gr.decim_block):
             self.now += 1
             if self.now == self.window:
                 self.now = 0
-
         return len(output_items[0])
 

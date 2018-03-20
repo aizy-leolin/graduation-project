@@ -95,6 +95,6 @@ class recv_bit(gr.decim_block):
                 self.valuemax = self.valuemax * 0.9 + tot * 0.1
             else:
                 self.valuemin = self.valuemin * 0.9 + tot * 0.1
-        print('recv_bit: %f %f %f %f'%(in0[0],out[0],minout[0],maxout[0]))
+        #print('recv_bit: %f %f %f %f'%(in0[0],out[0],minout[0],maxout[0]))
         #print(len(out))
         return len(output_items[0])

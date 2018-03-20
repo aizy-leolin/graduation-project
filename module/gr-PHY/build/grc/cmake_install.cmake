@@ -37,6 +37,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_recv_bit.xml"
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_conv_encode.xml"
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_conv_decode.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_wave_to_bit.xml"
     )
 endif()
 
