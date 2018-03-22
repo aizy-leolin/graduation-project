@@ -131,7 +131,7 @@ class wave_to_bit(gr.decim_block):
         if len(self.cache) == 0:
             self.cache = arr.copy()
             return sum(arr)
-        ans = sum(self.cache[round(self.maxsplitpos)*self.interval:]) + sum(arr[:round(self.maxsplitpos)*self.interval])
+        ans = sum(self.cache[int(round(self.maxsplitpos))*self.interval:]) + sum(arr[:int(round(self.maxsplitpos))*self.interval])
         self.cache = arr.copy()
         return ans
 
