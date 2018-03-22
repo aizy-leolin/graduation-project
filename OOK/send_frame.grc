@@ -105,7 +105,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>80000</value>
+      <value>4000000</value>
     </param>
   </block>
   <block>
@@ -183,7 +183,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(848, 68)</value>
+      <value>(928, 76)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -336,7 +336,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>100</value>
+      <value>4</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -399,7 +399,7 @@
     </param>
     <param>
       <key>packet_len</key>
-      <value>8</value>
+      <value>64</value>
     </param>
     <param>
       <key>type</key>
@@ -580,7 +580,7 @@
     </param>
     <param>
       <key>vector</key>
-      <value>(1,0)</value>
+      <value>(1,0,0,1,1,1,0,1)</value>
     </param>
   </block>
   <block>
@@ -670,7 +670,7 @@
     </param>
     <param>
       <key>header_len</key>
-      <value>12</value>
+      <value>7</value>
     </param>
     <param>
       <key>id</key>
@@ -1460,7 +1460,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(880, 185)</value>
+      <value>(896, 185)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1604,7 +1604,7 @@
     </param>
     <param>
       <key>otw</key>
-      <value></value>
+      <value>sc8</value>
     </param>
   </block>
   <connection>
