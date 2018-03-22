@@ -1,5 +1,6 @@
-qa_recv_bit 27 0.00743185
-qa_conv_encode 24 0.00777638
-qa_conv_decode 23 0.00703479
-qa_wave_to_bit 5 0.0297038
+qa_recv_bit 55 0.0037104
+qa_conv_encode 52 0.00289346
+qa_conv_decode 51 0.00367112
+qa_wave_to_bit 31 0.00479
+qa_find_preamble 18 0.00983873
 ---

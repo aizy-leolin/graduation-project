@@ -21,5 +21,6 @@ install(FILES
     PHY_recv_bit.xml
     PHY_conv_encode.xml
     PHY_conv_decode.xml
-    PHY_wave_to_bit.xml DESTINATION share/gnuradio/grc/blocks
+    PHY_wave_to_bit.xml
+    PHY_find_preamble.xml DESTINATION share/gnuradio/grc/blocks
 )

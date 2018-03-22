@@ -100,17 +100,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -121,6 +110,17 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
 
 # Special rule for the target test
 test:
@@ -166,19 +166,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-python/CMakeFiles/pygen_python_8de9a.dir/rule:
-	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pygen_python_8de9a.dir/rule
-.PHONY : python/CMakeFiles/pygen_python_8de9a.dir/rule
+python/CMakeFiles/pygen_python_82216.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 python/CMakeFiles/pygen_python_82216.dir/rule
+.PHONY : python/CMakeFiles/pygen_python_82216.dir/rule
 
 # Convenience name for target.
-pygen_python_8de9a: python/CMakeFiles/pygen_python_8de9a.dir/rule
+pygen_python_82216: python/CMakeFiles/pygen_python_82216.dir/rule
 
-.PHONY : pygen_python_8de9a
+.PHONY : pygen_python_82216
 
 # fast build rule for target.
-pygen_python_8de9a/fast:
-	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f python/CMakeFiles/pygen_python_8de9a.dir/build.make python/CMakeFiles/pygen_python_8de9a.dir/build
-.PHONY : pygen_python_8de9a/fast
+pygen_python_82216/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f python/CMakeFiles/pygen_python_82216.dir/build.make python/CMakeFiles/pygen_python_82216.dir/build
+.PHONY : pygen_python_82216/fast
 
 # Help Target
 help:
@@ -190,9 +190,9 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... pygen_python_8de9a"
-	@echo "... install/strip"
+	@echo "... pygen_python_82216"
 	@echo "... install/local"
+	@echo "... install/strip"
 	@echo "... test"
 .PHONY : help
 
