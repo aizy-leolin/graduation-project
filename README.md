@@ -36,6 +36,7 @@ I think you can read nothing here ^_^
 * usrp sink的采样过低，会产生不够平滑的插值
 * USRP Source的采样率要大于80k（不然会强行倍增到80k+）
 * 当打开各种模块的property时，滑动鼠标滚轮时，如果鼠标正好指放在某一项可下拉的属性里并且你还没发现，那你就完了
+* 如果没有符号同步，那么就等价于减少了信号能量，直接降低了信噪比，记得同步……
 
 # Block tutorial
 
@@ -50,3 +51,4 @@ I think you can read nothing here ^_^
 * 输入：信息流、Trigger、Head message。输出：Header、Payload
 * 当Trigger出现1时，开始截取header并输出。注意Trigger中的第一位1，对应着Header的第一位
 * Trigger触发后，输出Header，然后根据header信息输出payload。有意思的是，输出完payload后，输入指针会指向payload的最后一位，而不是指向payload后的第一位，不知道为什么要这样设计。
+* 没什么事就把Guard interval设成0就好了
