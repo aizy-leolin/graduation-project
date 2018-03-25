@@ -22,5 +22,7 @@
 ########################################################################
 install(FILES
     api.h
-    DESTINATION include/PHY
+    conv_encode_tag.h
+    float_to_bit_tag.h
+    conv_decode_tag.h DESTINATION include/PHY
 )

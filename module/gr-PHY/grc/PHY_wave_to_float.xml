@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<block>
+  <name>wave_to_float</name>
+  <key>PHY_wave_to_float</key>
+  <category>PHY</category>
+  <import>import PHY</import>
+  <make>PHY.wave_to_float($decim)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>decim</name>
+    <key>decim</key>
+    <type>int</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+  <source>
+    <name>minout</name>
+    <type>float</type>
+  </source>
+    <source>
+    <name>maxout</name>
+    <type>float</type>
+  </source>
+</block>

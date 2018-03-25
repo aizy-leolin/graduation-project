@@ -33,6 +33,11 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/PHY" TYPE FILE FILES "/home/huangxf/graduation-project/module/gr-PHY/include/PHY/api.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/PHY" TYPE FILE FILES
+    "/home/huangxf/graduation-project/module/gr-PHY/include/PHY/api.h"
+    "/home/huangxf/graduation-project/module/gr-PHY/include/PHY/conv_encode_tag.h"
+    "/home/huangxf/graduation-project/module/gr-PHY/include/PHY/float_to_bit_tag.h"
+    "/home/huangxf/graduation-project/module/gr-PHY/include/PHY/conv_decode_tag.h"
+    )
 endif()
 

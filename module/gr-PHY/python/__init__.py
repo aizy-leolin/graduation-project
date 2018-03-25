@@ -36,4 +36,6 @@ from conv_encode import conv_encode
 from conv_decode import conv_decode
 from wave_to_bit import wave_to_bit
 from find_preamble import find_preamble
+from wave_to_float import wave_to_float
+from float_to_bit import float_to_bit
 #

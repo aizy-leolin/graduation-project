@@ -35,7 +35,9 @@ GR_PYTHON_INSTALL(
     conv_encode.py
     conv_decode.py
     wave_to_bit.py
-    find_preamble.py DESTINATION ${GR_PYTHON_DIR}/PHY
+    find_preamble.py
+    wave_to_float.py
+    float_to_bit.py DESTINATION ${GR_PYTHON_DIR}/PHY
 )
 
 ########################################################################
@@ -50,3 +52,8 @@ GR_ADD_TEST(qa_conv_encode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_c
 GR_ADD_TEST(qa_conv_decode ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_conv_decode.py)
 GR_ADD_TEST(qa_wave_to_bit ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_wave_to_bit.py)
 GR_ADD_TEST(qa_find_preamble ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_find_preamble.py)
+GR_ADD_TEST(qa_conv_encode_tag ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_conv_encode_tag.py)
+GR_ADD_TEST(qa_wave_to_float ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_wave_to_float.py)
+GR_ADD_TEST(qa_float_to_bit ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_float_to_bit.py)
+GR_ADD_TEST(qa_float_to_bit_tag ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_float_to_bit_tag.py)
+GR_ADD_TEST(qa_conv_decode_tag ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_conv_decode_tag.py)

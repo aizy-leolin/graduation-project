@@ -24,9 +24,10 @@ include(GrPlatform) #define LIB_SUFFIX
 
 include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
-
 list(APPEND PHY_sources
-)
+    conv_encode_tag_impl.cc
+    float_to_bit_tag_impl.cc
+    conv_decode_tag_impl.cc )
 
 set(PHY_sources "${PHY_sources}" PARENT_SCOPE)
 if(NOT PHY_sources)

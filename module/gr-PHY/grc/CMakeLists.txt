@@ -16,11 +16,15 @@
 # along with GNU Radio; see the file COPYING.  If not, write to
 # the Free Software Foundation, Inc., 51 Franklin Street,
 # Boston, MA 02110-1301, USA.
-
 install(FILES
     PHY_recv_bit.xml
     PHY_conv_encode.xml
     PHY_conv_decode.xml
     PHY_wave_to_bit.xml
-    PHY_find_preamble.xml DESTINATION share/gnuradio/grc/blocks
+    PHY_find_preamble.xml
+    PHY_conv_encode_tag.xml
+    PHY_wave_to_float.xml
+    PHY_float_to_bit.xml
+    PHY_float_to_bit_tag.xml
+    PHY_conv_decode_tag.xml DESTINATION share/gnuradio/grc/blocks
 )
