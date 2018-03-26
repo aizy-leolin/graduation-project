@@ -1,6 +1,12 @@
-qa_recv_bit 55 0.0037104
-qa_conv_encode 52 0.00289346
-qa_conv_decode 51 0.00367112
-qa_wave_to_bit 31 0.00479
-qa_find_preamble 18 0.00983873
+qa_recv_bit 57 0.0191492
+qa_conv_encode 54 0.00474196
+qa_conv_decode 53 0.00469185
+qa_wave_to_bit 33 0.00659342
+qa_find_preamble 20 0.0121376
+test_PHY 2 0.00572252
+qa_conv_encode_tag 2 0.0725895
+qa_wave_to_float 1 0.149119
+qa_float_to_bit 1 0.197184
+qa_float_to_bit_tag 1 0.153771
+qa_conv_decode_tag 1 0.14223
 ---

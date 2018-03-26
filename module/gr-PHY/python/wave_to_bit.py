@@ -38,7 +38,7 @@ class wave_to_bit(gr.decim_block):
         self.len = 0
         self.lenMax = 10000
         self.decim = decim
-        self.file=open('/home/huangxf/test/temp3.txt','w')
+        #self.file=open('/home/huangxf/test/temp3.txt','w')
         
         self.interval = self.decim/10
         self.cache = numpy.zeros(0)
@@ -92,19 +92,19 @@ class wave_to_bit(gr.decim_block):
             if mindis > dis:
                 mindis = dis
                 minpos =x
-        for x in range(10):
-            self.file.write(str(sum(arr[x*self.interval:(x+1)*self.interval]))+' ')
+        #for x in range(10):
+        #    self.file.write(str(sum(arr[x*self.interval:(x+1)*self.interval]))+' ')
         if self.state:
             if (mindis - self.valuemin) > (self.valuemax -maxdis):
                 self.last = tmp[max(maxpos+9,len(self.last)/self.interval+1)*self.interval:].copy()
-                self.file.write('\n %d'%(maxpos-len(self.last)/self.interval,))
+                #self.file.write('\n %d'%(maxpos-len(self.last)/self.interval,))
             else:
                 self.last = tmp[max(minpos+9,len(self.last)/self.interval+1)*self.interval:].copy()
-                self.file.write('\n %d'%(minpos-len(self.last)/self.interval,))
+                #self.file.write('\n %d'%(minpos-len(self.last)/self.interval,))
         else:
             self.last = arr[self.interval:].copy()
 
-        self.file.write(' %f %f\n'%(mindis,maxdis))
+        #self.file.write(' %f %f\n'%(mindis,maxdis))
 
         return mindis,maxdis
 
@@ -125,13 +125,13 @@ class wave_to_bit(gr.decim_block):
                 self.maxsplitdis = maxdis
                 self.maxsplitpos = maxpos
 
-        for x in range(10):
-            self.file.write(str(sum(arr[x*self.interval:(x+1)*self.interval]))+' ')
-        self.file.write('\n %f %f\n'%(self.maxsplitpos,self.maxsplitdis))
+        #for x in range(10):
+        #    self.file.write(str(sum(arr[x*self.interval:(x+1)*self.interval]))+' ')
+        #self.file.write('\n %f %f\n'%(self.maxsplitpos,self.maxsplitdis))
         if len(self.cache) == 0:
             self.cache = arr.copy()
             return sum(arr)
-        ans = sum(self.cache[round(self.maxsplitpos)*self.interval:]) + sum(arr[:round(self.maxsplitpos)*self.interval])
+        ans = sum(self.cache[int(round(self.maxsplitpos))*self.interval:]) + sum(arr[:int(round(self.maxsplitpos))*self.interval])
         self.cache = arr.copy()
         return ans
 
@@ -195,7 +195,7 @@ class wave_to_bit(gr.decim_block):
                 out[i]=0
                 '''
         #self.file.write(str(in0[-1])+' '+str(out[-1])+' '+str(self.valuemin)+' '+str(self.valuemax)+'\n')
-        self.file.write('----------------------\n'+str(self.valuemin)+' '+str(self.valuemax)+'\n---------------------------\n')
+        #self.file.write('----------------------\n'+str(self.valuemin)+' '+str(self.valuemax)+'\n---------------------------\n')
         #print('recv_bit: %f %f %f %f'%(in0[0],out[0],minout[0],maxout[0]))
         #print(len(out))
         return len(output_items[0])

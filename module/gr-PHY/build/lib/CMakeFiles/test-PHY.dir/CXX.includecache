@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/huangxf/graduation-project/module/gr-PHY/lib/qa_PHY.cc
+qa_PHY.h
+/home/huangxf/graduation-project/module/gr-PHY/lib/qa_PHY.h
+
+/home/huangxf/graduation-project/module/gr-PHY/lib/qa_PHY.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/huangxf/graduation-project/module/gr-PHY/lib/test_PHY.cc
+config.h
+/home/huangxf/graduation-project/module/gr-PHY/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_PHY.h
+/home/huangxf/graduation-project/module/gr-PHY/lib/qa_PHY.h
+iostream
+-
+fstream
+-
+

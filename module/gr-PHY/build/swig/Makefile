@@ -56,16 +56,6 @@ CMAKE_BINARY_DIR = /home/huangxf/graduation-project/module/gr-PHY/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
@@ -88,6 +78,16 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -165,19 +165,235 @@ depend:
 	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+swig/CMakeFiles/PHY_swig_swig_doc.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/PHY_swig_swig_doc.dir/rule
+.PHONY : swig/CMakeFiles/PHY_swig_swig_doc.dir/rule
+
+# Convenience name for target.
+PHY_swig_swig_doc: swig/CMakeFiles/PHY_swig_swig_doc.dir/rule
+
+.PHONY : PHY_swig_swig_doc
+
+# fast build rule for target.
+PHY_swig_swig_doc/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/PHY_swig_swig_doc.dir/build.make swig/CMakeFiles/PHY_swig_swig_doc.dir/build
+.PHONY : PHY_swig_swig_doc/fast
+
+# Convenience name for target.
+swig/CMakeFiles/PHY_swig_swig_2d0df.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/PHY_swig_swig_2d0df.dir/rule
+.PHONY : swig/CMakeFiles/PHY_swig_swig_2d0df.dir/rule
+
+# Convenience name for target.
+PHY_swig_swig_2d0df: swig/CMakeFiles/PHY_swig_swig_2d0df.dir/rule
+
+.PHONY : PHY_swig_swig_2d0df
+
+# fast build rule for target.
+PHY_swig_swig_2d0df/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/PHY_swig_swig_2d0df.dir/build.make swig/CMakeFiles/PHY_swig_swig_2d0df.dir/build
+.PHONY : PHY_swig_swig_2d0df/fast
+
+# Convenience name for target.
+swig/CMakeFiles/_PHY_swig_swig_tag.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_PHY_swig_swig_tag.dir/rule
+.PHONY : swig/CMakeFiles/_PHY_swig_swig_tag.dir/rule
+
+# Convenience name for target.
+_PHY_swig_swig_tag: swig/CMakeFiles/_PHY_swig_swig_tag.dir/rule
+
+.PHONY : _PHY_swig_swig_tag
+
+# fast build rule for target.
+_PHY_swig_swig_tag/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_swig_tag.dir/build.make swig/CMakeFiles/_PHY_swig_swig_tag.dir/build
+.PHONY : _PHY_swig_swig_tag/fast
+
+# Convenience name for target.
+swig/CMakeFiles/_PHY_swig_doc_tag.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_PHY_swig_doc_tag.dir/rule
+.PHONY : swig/CMakeFiles/_PHY_swig_doc_tag.dir/rule
+
+# Convenience name for target.
+_PHY_swig_doc_tag: swig/CMakeFiles/_PHY_swig_doc_tag.dir/rule
+
+.PHONY : _PHY_swig_doc_tag
+
+# fast build rule for target.
+_PHY_swig_doc_tag/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_doc_tag.dir/build.make swig/CMakeFiles/_PHY_swig_doc_tag.dir/build
+.PHONY : _PHY_swig_doc_tag/fast
+
+# Convenience name for target.
+swig/CMakeFiles/pygen_swig_e497b.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/pygen_swig_e497b.dir/rule
+.PHONY : swig/CMakeFiles/pygen_swig_e497b.dir/rule
+
+# Convenience name for target.
+pygen_swig_e497b: swig/CMakeFiles/pygen_swig_e497b.dir/rule
+
+.PHONY : pygen_swig_e497b
+
+# fast build rule for target.
+pygen_swig_e497b/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/pygen_swig_e497b.dir/build.make swig/CMakeFiles/pygen_swig_e497b.dir/build
+.PHONY : pygen_swig_e497b/fast
+
+# Convenience name for target.
+swig/CMakeFiles/_PHY_swig.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 swig/CMakeFiles/_PHY_swig.dir/rule
+.PHONY : swig/CMakeFiles/_PHY_swig.dir/rule
+
+# Convenience name for target.
+_PHY_swig: swig/CMakeFiles/_PHY_swig.dir/rule
+
+.PHONY : _PHY_swig
+
+# fast build rule for target.
+_PHY_swig/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig.dir/build.make swig/CMakeFiles/_PHY_swig.dir/build
+.PHONY : _PHY_swig/fast
+
+PHY_swigPYTHON_wrap.o: PHY_swigPYTHON_wrap.cxx.o
+
+.PHONY : PHY_swigPYTHON_wrap.o
+
+# target to build an object file
+PHY_swigPYTHON_wrap.cxx.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig.dir/build.make swig/CMakeFiles/_PHY_swig.dir/PHY_swigPYTHON_wrap.cxx.o
+.PHONY : PHY_swigPYTHON_wrap.cxx.o
+
+PHY_swigPYTHON_wrap.i: PHY_swigPYTHON_wrap.cxx.i
+
+.PHONY : PHY_swigPYTHON_wrap.i
+
+# target to preprocess a source file
+PHY_swigPYTHON_wrap.cxx.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig.dir/build.make swig/CMakeFiles/_PHY_swig.dir/PHY_swigPYTHON_wrap.cxx.i
+.PHONY : PHY_swigPYTHON_wrap.cxx.i
+
+PHY_swigPYTHON_wrap.s: PHY_swigPYTHON_wrap.cxx.s
+
+.PHONY : PHY_swigPYTHON_wrap.s
+
+# target to generate assembly for a file
+PHY_swigPYTHON_wrap.cxx.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig.dir/build.make swig/CMakeFiles/_PHY_swig.dir/PHY_swigPYTHON_wrap.cxx.s
+.PHONY : PHY_swigPYTHON_wrap.cxx.s
+
+PHY_swig_swig_2d0df.o: PHY_swig_swig_2d0df.cpp.o
+
+.PHONY : PHY_swig_swig_2d0df.o
+
+# target to build an object file
+PHY_swig_swig_2d0df.cpp.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/PHY_swig_swig_2d0df.dir/build.make swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.o
+.PHONY : PHY_swig_swig_2d0df.cpp.o
+
+PHY_swig_swig_2d0df.i: PHY_swig_swig_2d0df.cpp.i
+
+.PHONY : PHY_swig_swig_2d0df.i
+
+# target to preprocess a source file
+PHY_swig_swig_2d0df.cpp.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/PHY_swig_swig_2d0df.dir/build.make swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.i
+.PHONY : PHY_swig_swig_2d0df.cpp.i
+
+PHY_swig_swig_2d0df.s: PHY_swig_swig_2d0df.cpp.s
+
+.PHONY : PHY_swig_swig_2d0df.s
+
+# target to generate assembly for a file
+PHY_swig_swig_2d0df.cpp.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/PHY_swig_swig_2d0df.dir/build.make swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.s
+.PHONY : PHY_swig_swig_2d0df.cpp.s
+
+_PHY_swig_doc_tag.o: _PHY_swig_doc_tag.cpp.o
+
+.PHONY : _PHY_swig_doc_tag.o
+
+# target to build an object file
+_PHY_swig_doc_tag.cpp.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_doc_tag.dir/build.make swig/CMakeFiles/_PHY_swig_doc_tag.dir/_PHY_swig_doc_tag.cpp.o
+.PHONY : _PHY_swig_doc_tag.cpp.o
+
+_PHY_swig_doc_tag.i: _PHY_swig_doc_tag.cpp.i
+
+.PHONY : _PHY_swig_doc_tag.i
+
+# target to preprocess a source file
+_PHY_swig_doc_tag.cpp.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_doc_tag.dir/build.make swig/CMakeFiles/_PHY_swig_doc_tag.dir/_PHY_swig_doc_tag.cpp.i
+.PHONY : _PHY_swig_doc_tag.cpp.i
+
+_PHY_swig_doc_tag.s: _PHY_swig_doc_tag.cpp.s
+
+.PHONY : _PHY_swig_doc_tag.s
+
+# target to generate assembly for a file
+_PHY_swig_doc_tag.cpp.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_doc_tag.dir/build.make swig/CMakeFiles/_PHY_swig_doc_tag.dir/_PHY_swig_doc_tag.cpp.s
+.PHONY : _PHY_swig_doc_tag.cpp.s
+
+_PHY_swig_swig_tag.o: _PHY_swig_swig_tag.cpp.o
+
+.PHONY : _PHY_swig_swig_tag.o
+
+# target to build an object file
+_PHY_swig_swig_tag.cpp.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_swig_tag.dir/build.make swig/CMakeFiles/_PHY_swig_swig_tag.dir/_PHY_swig_swig_tag.cpp.o
+.PHONY : _PHY_swig_swig_tag.cpp.o
+
+_PHY_swig_swig_tag.i: _PHY_swig_swig_tag.cpp.i
+
+.PHONY : _PHY_swig_swig_tag.i
+
+# target to preprocess a source file
+_PHY_swig_swig_tag.cpp.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_swig_tag.dir/build.make swig/CMakeFiles/_PHY_swig_swig_tag.dir/_PHY_swig_swig_tag.cpp.i
+.PHONY : _PHY_swig_swig_tag.cpp.i
+
+_PHY_swig_swig_tag.s: _PHY_swig_swig_tag.cpp.s
+
+.PHONY : _PHY_swig_swig_tag.s
+
+# target to generate assembly for a file
+_PHY_swig_swig_tag.cpp.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f swig/CMakeFiles/_PHY_swig_swig_tag.dir/build.make swig/CMakeFiles/_PHY_swig_swig_tag.dir/_PHY_swig_swig_tag.cpp.s
+.PHONY : _PHY_swig_swig_tag.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... rebuild_cache"
+	@echo "... PHY_swig_swig_doc"
+	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... PHY_swig_swig_2d0df"
+	@echo "... _PHY_swig_swig_tag"
+	@echo "... _PHY_swig_doc_tag"
+	@echo "... pygen_swig_e497b"
+	@echo "... _PHY_swig"
 	@echo "... test"
 	@echo "... edit_cache"
+	@echo "... PHY_swigPYTHON_wrap.o"
+	@echo "... PHY_swigPYTHON_wrap.i"
+	@echo "... PHY_swigPYTHON_wrap.s"
+	@echo "... PHY_swig_swig_2d0df.o"
+	@echo "... PHY_swig_swig_2d0df.i"
+	@echo "... PHY_swig_swig_2d0df.s"
+	@echo "... _PHY_swig_doc_tag.o"
+	@echo "... _PHY_swig_doc_tag.i"
+	@echo "... _PHY_swig_doc_tag.s"
+	@echo "... _PHY_swig_swig_tag.o"
+	@echo "... _PHY_swig_swig_tag.i"
+	@echo "... _PHY_swig_swig_tag.s"
 .PHONY : help
 
 

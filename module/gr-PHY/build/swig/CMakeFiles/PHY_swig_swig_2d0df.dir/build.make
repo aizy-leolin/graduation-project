@@ -84,6 +84,7 @@ swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/prefs.i
 swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/msg_handler.i
 swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/constants.i
 swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/gr_extras.i
+swig/PHY_swig_swig_2d0df.cpp: swig/PHY_swig_doc.i
 swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/runtime_swig.i
 swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/tagged_stream_block.i
 swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/realtime.i
@@ -91,14 +92,23 @@ swig/PHY_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/block_detail.i
 swig/PHY_swig_swig_2d0df.cpp: swig/PHY_swig.tag
 	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && /usr/bin/cmake -E copy /home/huangxf/graduation-project/module/gr-PHY/build/swig/PHY_swig_swig_2d0df.cpp.in /home/huangxf/graduation-project/module/gr-PHY/build/swig/PHY_swig_swig_2d0df.cpp
 
+swig/PHY_swig_doc.i: swig/PHY_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for PHY_swig_doc"
+	cd /home/huangxf/graduation-project/module/gr-PHY/docs/doxygen && /usr/bin/python2 -B /home/huangxf/graduation-project/module/gr-PHY/docs/doxygen/swig_doc.py /home/huangxf/graduation-project/module/gr-PHY/build/swig/PHY_swig_doc_swig_docs/xml /home/huangxf/graduation-project/module/gr-PHY/build/swig/PHY_swig_doc.i
+
 swig/PHY_swig.tag: swig/_PHY_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating PHY_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating PHY_swig.tag"
 	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && ./_PHY_swig_swig_tag
 	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && /usr/bin/cmake -E touch /home/huangxf/graduation-project/module/gr-PHY/build/swig/PHY_swig.tag
 
+swig/PHY_swig_doc_swig_docs/xml/index.xml: swig/_PHY_swig_doc_tag
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for PHY_swig_doc docs"
+	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && ./_PHY_swig_doc_tag
+	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && /usr/bin/doxygen /home/huangxf/graduation-project/module/gr-PHY/build/swig/PHY_swig_doc_swig_docs/Doxyfile
+
 swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.o: swig/CMakeFiles/PHY_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.o: swig/PHY_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.o"
 	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.o -c /home/huangxf/graduation-project/module/gr-PHY/build/swig/PHY_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.i: cmake_force
@@ -130,7 +140,7 @@ PHY_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/PHY_swig_swig_2d0df: swig/CMakeFiles/PHY_swig_swig_2d0df.dir/PHY_swig_swig_2d0df.cpp.o
 swig/PHY_swig_swig_2d0df: swig/CMakeFiles/PHY_swig_swig_2d0df.dir/build.make
 swig/PHY_swig_swig_2d0df: swig/CMakeFiles/PHY_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable PHY_swig_swig_2d0df"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PHY_swig_swig_2d0df"
 	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PHY_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
 	cd /home/huangxf/graduation-project/module/gr-PHY/build/swig && /usr/bin/cmake -E make_directory /home/huangxf/graduation-project/module/gr-PHY/build/swig
@@ -150,7 +160,9 @@ swig/CMakeFiles/PHY_swig_swig_2d0df.dir/clean:
 .PHONY : swig/CMakeFiles/PHY_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/PHY_swig_swig_2d0df.dir/depend: swig/PHY_swig_swig_2d0df.cpp
+swig/CMakeFiles/PHY_swig_swig_2d0df.dir/depend: swig/PHY_swig_doc.i
 swig/CMakeFiles/PHY_swig_swig_2d0df.dir/depend: swig/PHY_swig.tag
+swig/CMakeFiles/PHY_swig_swig_2d0df.dir/depend: swig/PHY_swig_doc_swig_docs/xml/index.xml
 	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/huangxf/graduation-project/module/gr-PHY /home/huangxf/graduation-project/module/gr-PHY/swig /home/huangxf/graduation-project/module/gr-PHY/build /home/huangxf/graduation-project/module/gr-PHY/build/swig /home/huangxf/graduation-project/module/gr-PHY/build/swig/CMakeFiles/PHY_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/PHY_swig_swig_2d0df.dir/depend
 

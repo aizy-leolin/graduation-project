@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/gnuradio-PHY.dir/test_impl.cc.o"
+  "CMakeFiles/gnuradio-PHY.dir/conv_encode_tag_impl.cc.o"
+  "CMakeFiles/gnuradio-PHY.dir/float_to_bit_tag_impl.cc.o"
+  "CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_impl.cc.o"
   "libgnuradio-PHY.pdb"
   "libgnuradio-PHY.so"
 )

@@ -105,7 +105,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>40</value>
+      <value>10</value>
     </param>
   </block>
   <block>
@@ -132,7 +132,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>7</value>
+      <value>12</value>
     </param>
   </block>
   <block>
@@ -159,7 +159,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>40000000</value>
+      <value>8000000</value>
     </param>
   </block>
   <block>
@@ -848,7 +848,7 @@
     </param>
     <param>
       <key>cutoff_freq</key>
-      <value>samp_rate/decim *2</value>
+      <value>samp_rate/decim</value>
     </param>
     <param>
       <key>decim</key>

@@ -73,7 +73,7 @@ class conv_decode(gr.decim_block):
             for j in range(0,self.state):
 
                 x = (j & 0x1F) <<1
-                y = ((j & 0x1F) <<1 ) +1
+                y = x +1
                 if ((j>>5) == 0):
 
                     likehood2 = self.oldlikehood[y] + abs(in0[i<<1]-std0[self.encode0[y]]) + abs(in0[(i<<1)+1]-std1[self.encode1[y]])

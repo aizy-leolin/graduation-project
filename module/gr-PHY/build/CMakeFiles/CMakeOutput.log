@@ -552,3 +552,20 @@ make[1]: Leaving directory '/home/huangxf/graduation-project/module/gr-PHY/build
     Feature record: C_FEATURE:0c_restrict
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
+Performing C++ SOURCE FILE Test HAVE_WNO_UNUSED_BUT_SET_VARIABLE succeeded with the following output:
+Change Dir: /home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa0f7/fast"
+make[1]: Entering directory '/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_aa0f7.dir/build.make CMakeFiles/cmTC_aa0f7.dir/build
+make[2]: Entering directory '/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_aa0f7.dir/src.cxx.o
+/usr/bin/c++     -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_aa0f7.dir/src.cxx.o -c /home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_aa0f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa0f7.dir/link.txt --verbose=1
+/usr/bin/c++    -DHAVE_WNO_UNUSED_BUT_SET_VARIABLE    CMakeFiles/cmTC_aa0f7.dir/src.cxx.o  -o cmTC_aa0f7 -rdynamic 
+make[2]: Leaving directory '/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/huangxf/graduation-project/module/gr-PHY/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

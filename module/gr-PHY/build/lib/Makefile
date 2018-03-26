@@ -89,6 +89,28 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
@@ -110,28 +132,6 @@ install/local: preinstall
 install/local/fast: install/local
 
 .PHONY : install/local/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -165,6 +165,171 @@ depend:
 	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+lib/CMakeFiles/gnuradio-PHY.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/gnuradio-PHY.dir/rule
+.PHONY : lib/CMakeFiles/gnuradio-PHY.dir/rule
+
+# Convenience name for target.
+gnuradio-PHY: lib/CMakeFiles/gnuradio-PHY.dir/rule
+
+.PHONY : gnuradio-PHY
+
+# fast build rule for target.
+gnuradio-PHY/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/build
+.PHONY : gnuradio-PHY/fast
+
+# Convenience name for target.
+lib/CMakeFiles/test-PHY.dir/rule:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/test-PHY.dir/rule
+.PHONY : lib/CMakeFiles/test-PHY.dir/rule
+
+# Convenience name for target.
+test-PHY: lib/CMakeFiles/test-PHY.dir/rule
+
+.PHONY : test-PHY
+
+# fast build rule for target.
+test-PHY/fast:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/build
+.PHONY : test-PHY/fast
+
+conv_decode_tag_impl.o: conv_decode_tag_impl.cc.o
+
+.PHONY : conv_decode_tag_impl.o
+
+# target to build an object file
+conv_decode_tag_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_impl.cc.o
+.PHONY : conv_decode_tag_impl.cc.o
+
+conv_decode_tag_impl.i: conv_decode_tag_impl.cc.i
+
+.PHONY : conv_decode_tag_impl.i
+
+# target to preprocess a source file
+conv_decode_tag_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_impl.cc.i
+.PHONY : conv_decode_tag_impl.cc.i
+
+conv_decode_tag_impl.s: conv_decode_tag_impl.cc.s
+
+.PHONY : conv_decode_tag_impl.s
+
+# target to generate assembly for a file
+conv_decode_tag_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_impl.cc.s
+.PHONY : conv_decode_tag_impl.cc.s
+
+conv_encode_tag_impl.o: conv_encode_tag_impl.cc.o
+
+.PHONY : conv_encode_tag_impl.o
+
+# target to build an object file
+conv_encode_tag_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_encode_tag_impl.cc.o
+.PHONY : conv_encode_tag_impl.cc.o
+
+conv_encode_tag_impl.i: conv_encode_tag_impl.cc.i
+
+.PHONY : conv_encode_tag_impl.i
+
+# target to preprocess a source file
+conv_encode_tag_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_encode_tag_impl.cc.i
+.PHONY : conv_encode_tag_impl.cc.i
+
+conv_encode_tag_impl.s: conv_encode_tag_impl.cc.s
+
+.PHONY : conv_encode_tag_impl.s
+
+# target to generate assembly for a file
+conv_encode_tag_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_encode_tag_impl.cc.s
+.PHONY : conv_encode_tag_impl.cc.s
+
+float_to_bit_tag_impl.o: float_to_bit_tag_impl.cc.o
+
+.PHONY : float_to_bit_tag_impl.o
+
+# target to build an object file
+float_to_bit_tag_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_tag_impl.cc.o
+.PHONY : float_to_bit_tag_impl.cc.o
+
+float_to_bit_tag_impl.i: float_to_bit_tag_impl.cc.i
+
+.PHONY : float_to_bit_tag_impl.i
+
+# target to preprocess a source file
+float_to_bit_tag_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_tag_impl.cc.i
+.PHONY : float_to_bit_tag_impl.cc.i
+
+float_to_bit_tag_impl.s: float_to_bit_tag_impl.cc.s
+
+.PHONY : float_to_bit_tag_impl.s
+
+# target to generate assembly for a file
+float_to_bit_tag_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_tag_impl.cc.s
+.PHONY : float_to_bit_tag_impl.cc.s
+
+qa_PHY.o: qa_PHY.cc.o
+
+.PHONY : qa_PHY.o
+
+# target to build an object file
+qa_PHY.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/qa_PHY.cc.o
+.PHONY : qa_PHY.cc.o
+
+qa_PHY.i: qa_PHY.cc.i
+
+.PHONY : qa_PHY.i
+
+# target to preprocess a source file
+qa_PHY.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/qa_PHY.cc.i
+.PHONY : qa_PHY.cc.i
+
+qa_PHY.s: qa_PHY.cc.s
+
+.PHONY : qa_PHY.s
+
+# target to generate assembly for a file
+qa_PHY.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/qa_PHY.cc.s
+.PHONY : qa_PHY.cc.s
+
+test_PHY.o: test_PHY.cc.o
+
+.PHONY : test_PHY.o
+
+# target to build an object file
+test_PHY.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/test_PHY.cc.o
+.PHONY : test_PHY.cc.o
+
+test_PHY.i: test_PHY.cc.i
+
+.PHONY : test_PHY.i
+
+# target to preprocess a source file
+test_PHY.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/test_PHY.cc.i
+.PHONY : test_PHY.cc.i
+
+test_PHY.s: test_PHY.cc.s
+
+.PHONY : test_PHY.s
+
+# target to generate assembly for a file
+test_PHY.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/test_PHY.cc.s
+.PHONY : test_PHY.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,10 +339,27 @@ help:
 	@echo "... list_install_components"
 	@echo "... install"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... test"
+	@echo "... gnuradio-PHY"
+	@echo "... test-PHY"
 	@echo "... install/strip"
 	@echo "... install/local"
-	@echo "... test"
-	@echo "... edit_cache"
+	@echo "... conv_decode_tag_impl.o"
+	@echo "... conv_decode_tag_impl.i"
+	@echo "... conv_decode_tag_impl.s"
+	@echo "... conv_encode_tag_impl.o"
+	@echo "... conv_encode_tag_impl.i"
+	@echo "... conv_encode_tag_impl.s"
+	@echo "... float_to_bit_tag_impl.o"
+	@echo "... float_to_bit_tag_impl.i"
+	@echo "... float_to_bit_tag_impl.s"
+	@echo "... qa_PHY.o"
+	@echo "... qa_PHY.i"
+	@echo "... qa_PHY.s"
+	@echo "... test_PHY.o"
+	@echo "... test_PHY.i"
+	@echo "... test_PHY.s"
 .PHONY : help
 
 

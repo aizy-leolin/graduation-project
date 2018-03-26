@@ -40,6 +40,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/huangxf/graduation-project/module/gr-PHY/python/conv_decode.py"
     "/home/huangxf/graduation-project/module/gr-PHY/python/wave_to_bit.py"
     "/home/huangxf/graduation-project/module/gr-PHY/python/find_preamble.py"
+    "/home/huangxf/graduation-project/module/gr-PHY/python/wave_to_float.py"
+    "/home/huangxf/graduation-project/module/gr-PHY/python/float_to_bit.py"
     )
 endif()
 
@@ -51,12 +53,16 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/conv_decode.pyc"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/wave_to_bit.pyc"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/find_preamble.pyc"
+    "/home/huangxf/graduation-project/module/gr-PHY/build/python/wave_to_float.pyc"
+    "/home/huangxf/graduation-project/module/gr-PHY/build/python/float_to_bit.pyc"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/__init__.pyo"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/recv_bit.pyo"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/conv_encode.pyo"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/conv_decode.pyo"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/wave_to_bit.pyo"
     "/home/huangxf/graduation-project/module/gr-PHY/build/python/find_preamble.pyo"
+    "/home/huangxf/graduation-project/module/gr-PHY/build/python/wave_to_float.pyo"
+    "/home/huangxf/graduation-project/module/gr-PHY/build/python/float_to_bit.pyo"
     )
 endif()
 
