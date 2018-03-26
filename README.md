@@ -37,6 +37,7 @@ I think you can read nothing here ^_^
 * USRP Source的采样率要大于80k（不然会强行倍增到80k+）
 * 当打开各种模块的property时，滑动鼠标滚轮时，如果鼠标正好指放在某一项可下拉的属性里并且你还没发现，那你就完了
 * 如果没有符号同步，那么就等价于减少了信号能量，直接降低了信噪比，记得同步……
+* tagged_stream的work最后面要return真实output长度，不是noutput_item
 
 # Block tutorial
 
