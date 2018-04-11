@@ -20,6 +20,7 @@
 # 
 
 import numpy
+import time
 from gnuradio import gr
 
 class float_to_bit(gr.sync_block):
@@ -38,11 +39,13 @@ class float_to_bit(gr.sync_block):
         minin = input_items[1]
         maxin = input_items[2]
         out = output_items[0]
+        tmp = time.time()
         # <+signal processing here+>
         for x in range(len(in0)):
             if in0[x] > (maxin[x] * 0.3 + minin[0] * 0.7):
                 out[x] = 1
             else:
                 out[x] = 0
+        print('float_to_bit: %f'%((time.time()-tmp)/len(output_items[0])))
         return len(output_items[0])
 

@@ -3,6 +3,12 @@
 /usr/local/include/PHY/conv_encode_tag.h
 /usr/local/include/PHY/float_to_bit_tag.h
 /usr/local/include/PHY/conv_decode_tag.h
+/usr/local/include/PHY/float_to_bit_cpp.h
+/usr/local/include/PHY/wave_to_float_cpp.h
+/usr/local/include/PHY/find_preamble_cpp.h
+/usr/local/include/PHY/wave_to_float_single_cpp.h
+/usr/local/include/PHY/conv_decode_tag_single.h
+/usr/local/include/PHY/float_to_bit_single_cpp.h
 /usr/local/lib/libgnuradio-PHY.so
 /usr/local/lib/python2.7/dist-packages/PHY/_PHY_swig.so
 /usr/local/lib/python2.7/dist-packages/PHY/PHY_swig.py
@@ -44,6 +50,12 @@
 /usr/local/share/gnuradio/grc/blocks/PHY_float_to_bit.xml
 /usr/local/share/gnuradio/grc/blocks/PHY_float_to_bit_tag.xml
 /usr/local/share/gnuradio/grc/blocks/PHY_conv_decode_tag.xml
+/usr/local/share/gnuradio/grc/blocks/PHY_float_to_bit_cpp.xml
+/usr/local/share/gnuradio/grc/blocks/PHY_wave_to_float_cpp.xml
+/usr/local/share/gnuradio/grc/blocks/PHY_find_preamble_cpp.xml
+/usr/local/share/gnuradio/grc/blocks/PHY_wave_to_float_single_cpp.xml
+/usr/local/share/gnuradio/grc/blocks/PHY_conv_decode_tag_single.xml
+/usr/local/share/gnuradio/grc/blocks/PHY_float_to_bit_single_cpp.xml
 /usr/local/share/doc/gr-PHY/xml/combine.xslt
 /usr/local/share/doc/gr-PHY/xml/index.xsd
 /usr/local/share/doc/gr-PHY/xml/index.xml

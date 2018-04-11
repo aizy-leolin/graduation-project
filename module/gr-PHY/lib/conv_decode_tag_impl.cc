@@ -24,6 +24,7 @@
 
 #include <gnuradio/io_signature.h>
 #include "conv_decode_tag_impl.h"
+//#include <ctime>
 
 namespace gr {
   namespace PHY {
@@ -63,12 +64,6 @@ namespace gr {
     {
     }
     
-    float abs(float x)
-    {
-      if (x>0)
-        return x; 
-      return -x;
-    }
 
     int
     conv_decode_tag_impl::calculate_output_stream_length(const gr_vector_int &ninput_items)
@@ -90,7 +85,7 @@ namespace gr {
       const float *minin = (const float *) input_items[1];
       const float *maxin = (const float *) input_items[2];
       unsigned char *out = (unsigned char *) output_items[0];
-
+      //clock_t start = clock();
 
       float oldlikehood[1<<6] = {0};
       float likehood[1<<6] ={0};
@@ -269,9 +264,13 @@ namespace gr {
         beststate = route[beststate][i];
       }
 
+      for (int i=0;i<(1<<6);++i)
+        delete route[i];
+      delete route;
       // Do <+signal processing+>
 
       // Tell runtime system how many output items we produced.
+      //printf("conv_decode: %.10f\n",(double(clock()-start)/CLOCKS_PER_SEC)/ninput_items[0]);
       return (ninput_items[0]>>1)-6;
     }
 

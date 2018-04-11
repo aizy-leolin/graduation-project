@@ -24,5 +24,11 @@ install(FILES
     api.h
     conv_encode_tag.h
     float_to_bit_tag.h
-    conv_decode_tag.h DESTINATION include/PHY
+    conv_decode_tag.h
+    float_to_bit_cpp.h
+    wave_to_float_cpp.h
+    find_preamble_cpp.h
+    wave_to_float_single_cpp.h
+    conv_decode_tag_single.h
+    float_to_bit_single_cpp.h DESTINATION include/PHY
 )

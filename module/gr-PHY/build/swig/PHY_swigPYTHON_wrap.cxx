@@ -3011,52 +3011,64 @@ SWIG_Python_NonDynamicSetAttr(PyObject *obj, PyObject *name, PyObject *value) {
 
 #define SWIGTYPE_p_allocator_type swig_types[0]
 #define SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t swig_types[1]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t swig_types[2]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t swig_types[3]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t swig_types[4]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t swig_types[5]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__block_detail_t swig_types[6]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__block_t swig_types[7]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_reader_t swig_types[8]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_t swig_types[9]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__flat_flowgraph_t swig_types[10]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__flowgraph_t swig_types[11]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__hier_block2_t swig_types[12]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t swig_types[13]
-#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[14]
-#define SWIGTYPE_p_char swig_types[15]
-#define SWIGTYPE_p_const_reference swig_types[16]
-#define SWIGTYPE_p_difference_type swig_types[17]
-#define SWIGTYPE_p_gr__PHY__conv_decode_tag swig_types[18]
-#define SWIGTYPE_p_gr__PHY__conv_encode_tag swig_types[19]
-#define SWIGTYPE_p_gr__PHY__float_to_bit_tag swig_types[20]
-#define SWIGTYPE_p_gr__basic_block swig_types[21]
-#define SWIGTYPE_p_gr__block swig_types[22]
-#define SWIGTYPE_p_gr__block_gateway swig_types[23]
-#define SWIGTYPE_p_gr__endianness_t swig_types[24]
-#define SWIGTYPE_p_gr__hier_block2 swig_types[25]
-#define SWIGTYPE_p_gr__rt_status_t swig_types[26]
-#define SWIGTYPE_p_gr__sync_block swig_types[27]
-#define SWIGTYPE_p_gr__sync_decimator swig_types[28]
-#define SWIGTYPE_p_gr__sync_interpolator swig_types[29]
-#define SWIGTYPE_p_gr__tagged_stream_block swig_types[30]
-#define SWIGTYPE_p_gr__top_block swig_types[31]
-#define SWIGTYPE_p_int swig_types[32]
-#define SWIGTYPE_p_long_long swig_types[33]
-#define SWIGTYPE_p_reference swig_types[34]
-#define SWIGTYPE_p_short swig_types[35]
-#define SWIGTYPE_p_signed_char swig_types[36]
-#define SWIGTYPE_p_size_type swig_types[37]
-#define SWIGTYPE_p_sptr swig_types[38]
-#define SWIGTYPE_p_std__complexT_double_t swig_types[39]
-#define SWIGTYPE_p_std__complexT_float_t swig_types[40]
-#define SWIGTYPE_p_unsigned_char swig_types[41]
-#define SWIGTYPE_p_unsigned_int swig_types[42]
-#define SWIGTYPE_p_unsigned_long_long swig_types[43]
-#define SWIGTYPE_p_unsigned_short swig_types[44]
-#define SWIGTYPE_p_value_type swig_types[45]
-static swig_type_info *swig_types[47];
-static swig_module_info swig_module = {swig_types, 46, 0, 0, 0, 0};
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t swig_types[2]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t swig_types[3]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t swig_types[4]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t swig_types[5]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t swig_types[6]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t swig_types[7]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t swig_types[8]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t swig_types[9]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t swig_types[10]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t swig_types[11]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__block_detail_t swig_types[12]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__block_t swig_types[13]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_reader_t swig_types[14]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__buffer_t swig_types[15]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__flat_flowgraph_t swig_types[16]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__flowgraph_t swig_types[17]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__hier_block2_t swig_types[18]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t swig_types[19]
+#define SWIGTYPE_p_boost__shared_ptrT_gr__top_block_t swig_types[20]
+#define SWIGTYPE_p_char swig_types[21]
+#define SWIGTYPE_p_const_reference swig_types[22]
+#define SWIGTYPE_p_difference_type swig_types[23]
+#define SWIGTYPE_p_gr__PHY__conv_decode_tag swig_types[24]
+#define SWIGTYPE_p_gr__PHY__conv_decode_tag_single swig_types[25]
+#define SWIGTYPE_p_gr__PHY__conv_encode_tag swig_types[26]
+#define SWIGTYPE_p_gr__PHY__find_preamble_cpp swig_types[27]
+#define SWIGTYPE_p_gr__PHY__float_to_bit_cpp swig_types[28]
+#define SWIGTYPE_p_gr__PHY__float_to_bit_single_cpp swig_types[29]
+#define SWIGTYPE_p_gr__PHY__float_to_bit_tag swig_types[30]
+#define SWIGTYPE_p_gr__PHY__wave_to_float_cpp swig_types[31]
+#define SWIGTYPE_p_gr__PHY__wave_to_float_single_cpp swig_types[32]
+#define SWIGTYPE_p_gr__basic_block swig_types[33]
+#define SWIGTYPE_p_gr__block swig_types[34]
+#define SWIGTYPE_p_gr__block_gateway swig_types[35]
+#define SWIGTYPE_p_gr__endianness_t swig_types[36]
+#define SWIGTYPE_p_gr__hier_block2 swig_types[37]
+#define SWIGTYPE_p_gr__rt_status_t swig_types[38]
+#define SWIGTYPE_p_gr__sync_block swig_types[39]
+#define SWIGTYPE_p_gr__sync_decimator swig_types[40]
+#define SWIGTYPE_p_gr__sync_interpolator swig_types[41]
+#define SWIGTYPE_p_gr__tagged_stream_block swig_types[42]
+#define SWIGTYPE_p_gr__top_block swig_types[43]
+#define SWIGTYPE_p_int swig_types[44]
+#define SWIGTYPE_p_long_long swig_types[45]
+#define SWIGTYPE_p_reference swig_types[46]
+#define SWIGTYPE_p_short swig_types[47]
+#define SWIGTYPE_p_signed_char swig_types[48]
+#define SWIGTYPE_p_size_type swig_types[49]
+#define SWIGTYPE_p_sptr swig_types[50]
+#define SWIGTYPE_p_std__complexT_double_t swig_types[51]
+#define SWIGTYPE_p_std__complexT_float_t swig_types[52]
+#define SWIGTYPE_p_unsigned_char swig_types[53]
+#define SWIGTYPE_p_unsigned_int swig_types[54]
+#define SWIGTYPE_p_unsigned_long_long swig_types[55]
+#define SWIGTYPE_p_unsigned_short swig_types[56]
+#define SWIGTYPE_p_value_type swig_types[57]
+static swig_type_info *swig_types[59];
+static swig_module_info swig_module = {swig_types, 58, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4374,6 +4386,12 @@ SWIG_From_long_SS_long  (long long value)
 #include "PHY/conv_encode_tag.h"
 #include "PHY/float_to_bit_tag.h"
 #include "PHY/conv_decode_tag.h"
+#include "PHY/float_to_bit_cpp.h"
+#include "PHY/wave_to_float_cpp.h"
+#include "PHY/find_preamble_cpp.h"
+#include "PHY/wave_to_float_single_cpp.h"
+#include "PHY/conv_decode_tag_single.h"
+#include "PHY/float_to_bit_single_cpp.h"
 
 
 SWIGINTERN swig_type_info*
@@ -14663,6 +14681,19096 @@ SWIGINTERN PyObject *conv_decode_tag_sptr_swigregister(PyObject *SWIGUNUSEDPARM(
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::float_to_bit_cpp::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_make",0,0)) SWIG_fail;
+  {
+    try {
+      result = gr::PHY::float_to_bit_cpp::make();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::float_to_bit_cpp::sptr(static_cast< const gr::PHY::float_to_bit_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_float_to_bit_cpp(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::float_to_bit_cpp *arg1 = (gr::PHY::float_to_bit_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_float_to_bit_cpp",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__float_to_bit_cpp, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_float_to_bit_cpp" "', argument " "1"" of type '" "gr::PHY::float_to_bit_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::float_to_bit_cpp * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *float_to_bit_cpp_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__PHY__float_to_bit_cpp, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_float_to_bit_cpp_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_float_to_bit_cpp_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *)new boost::shared_ptr< gr::PHY::float_to_bit_cpp >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_float_to_bit_cpp_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::float_to_bit_cpp *arg1 = (gr::PHY::float_to_bit_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_float_to_bit_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__float_to_bit_cpp, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_float_to_bit_cpp_sptr" "', argument " "1"" of type '" "gr::PHY::float_to_bit_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::float_to_bit_cpp * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *)new boost::shared_ptr< gr::PHY::float_to_bit_cpp >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_float_to_bit_cpp_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_float_to_bit_cpp_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__PHY__float_to_bit_cpp, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_float_to_bit_cpp_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_float_to_bit_cpp_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::PHY::float_to_bit_cpp >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::PHY::float_to_bit_cpp >::shared_ptr(gr::PHY::float_to_bit_cpp *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::PHY::float_to_bit_cpp *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (gr::PHY::float_to_bit_cpp *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__PHY__float_to_bit_cpp, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_float_to_bit_cpp_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_float_to_bit_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_float_to_bit_cpp_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::PHY::float_to_bit_cpp::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_make",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->make();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::float_to_bit_cpp::sptr(static_cast< const gr::PHY::float_to_bit_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_cpp_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_float_to_bit_cpp_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_cpp_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_float_to_bit_cpp_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_cpp_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_float_to_bit_cpp_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_cpp_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "float_to_bit_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:float_to_bit_cpp_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_cpp_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_cpp_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "float_to_bit_cpp_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:float_to_bit_cpp_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "float_to_bit_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "float_to_bit_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_cpp_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_cpp_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_cpp_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_cpp_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "float_to_bit_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *float_to_bit_cpp_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  int arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *  kwnames[] = {
+    (char *) "decim", NULL 
+  };
+  gr::PHY::wave_to_float_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"O:wave_to_float_cpp_make",kwnames,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "wave_to_float_cpp_make" "', argument " "1"" of type '" "int""'");
+  } 
+  arg1 = static_cast< int >(val1);
+  {
+    try {
+      result = gr::PHY::wave_to_float_cpp::make(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::wave_to_float_cpp::sptr(static_cast< const gr::PHY::wave_to_float_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_wave_to_float_cpp(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::wave_to_float_cpp *arg1 = (gr::PHY::wave_to_float_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_wave_to_float_cpp",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__wave_to_float_cpp, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_wave_to_float_cpp" "', argument " "1"" of type '" "gr::PHY::wave_to_float_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::wave_to_float_cpp * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *wave_to_float_cpp_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__PHY__wave_to_float_cpp, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_wave_to_float_cpp_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_wave_to_float_cpp_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *)new boost::shared_ptr< gr::PHY::wave_to_float_cpp >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_wave_to_float_cpp_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::wave_to_float_cpp *arg1 = (gr::PHY::wave_to_float_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_wave_to_float_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__wave_to_float_cpp, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_wave_to_float_cpp_sptr" "', argument " "1"" of type '" "gr::PHY::wave_to_float_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::wave_to_float_cpp * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *)new boost::shared_ptr< gr::PHY::wave_to_float_cpp >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_wave_to_float_cpp_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_wave_to_float_cpp_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__PHY__wave_to_float_cpp, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_wave_to_float_cpp_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_wave_to_float_cpp_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::PHY::wave_to_float_cpp >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::PHY::wave_to_float_cpp >::shared_ptr(gr::PHY::wave_to_float_cpp *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::PHY::wave_to_float_cpp *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (gr::PHY::wave_to_float_cpp *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__PHY__wave_to_float_cpp, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_wave_to_float_cpp_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_wave_to_float_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_wave_to_float_cpp_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "decim", NULL 
+  };
+  gr::PHY::wave_to_float_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_make",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_make" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (*arg1)->make(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::wave_to_float_cpp::sptr(static_cast< const gr::PHY::wave_to_float_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_cpp_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_wave_to_float_cpp_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_cpp_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_wave_to_float_cpp_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_cpp_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_wave_to_float_cpp_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_cpp_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "wave_to_float_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:wave_to_float_cpp_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_cpp_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_cpp_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "wave_to_float_cpp_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:wave_to_float_cpp_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "wave_to_float_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "wave_to_float_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_cpp_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_cpp_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_cpp_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_cpp_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "wave_to_float_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *wave_to_float_cpp_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::vector< int,std::allocator< int > > *arg1 = 0 ;
+  int arg2 ;
+  int arg3 ;
+  int res1 = SWIG_OLDOBJ ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "preamble",(char *) "rate",(char *) "skip", NULL 
+  };
+  gr::PHY::find_preamble_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:find_preamble_cpp_make",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res1 = swig::asptr(obj0, &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_make" "', argument " "1"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_preamble_cpp_make" "', argument " "1"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg1 = ptr;
+  }
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_make" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "find_preamble_cpp_make" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = gr::PHY::find_preamble_cpp::make((std::vector< int,std::allocator< int > > const &)*arg1,arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::find_preamble_cpp::sptr(static_cast< const gr::PHY::find_preamble_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_find_preamble_cpp(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::find_preamble_cpp *arg1 = (gr::PHY::find_preamble_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_find_preamble_cpp",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__find_preamble_cpp, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_find_preamble_cpp" "', argument " "1"" of type '" "gr::PHY::find_preamble_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::find_preamble_cpp * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *find_preamble_cpp_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__PHY__find_preamble_cpp, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_find_preamble_cpp_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_find_preamble_cpp_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *)new boost::shared_ptr< gr::PHY::find_preamble_cpp >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_find_preamble_cpp_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::find_preamble_cpp *arg1 = (gr::PHY::find_preamble_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_find_preamble_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__find_preamble_cpp, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_find_preamble_cpp_sptr" "', argument " "1"" of type '" "gr::PHY::find_preamble_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::find_preamble_cpp * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *)new boost::shared_ptr< gr::PHY::find_preamble_cpp >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_find_preamble_cpp_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_find_preamble_cpp_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__PHY__find_preamble_cpp, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_find_preamble_cpp_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_find_preamble_cpp_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::PHY::find_preamble_cpp >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::PHY::find_preamble_cpp >::shared_ptr(gr::PHY::find_preamble_cpp *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::PHY::find_preamble_cpp *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (gr::PHY::find_preamble_cpp *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__PHY__find_preamble_cpp, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_find_preamble_cpp_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_find_preamble_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_find_preamble_cpp_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  int arg3 ;
+  int arg4 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int val3 ;
+  int ecode3 = 0 ;
+  int val4 ;
+  int ecode4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "preamble",(char *) "rate",(char *) "skip", NULL 
+  };
+  gr::PHY::find_preamble_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOOO:find_preamble_cpp_sptr_make",kwnames,&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "find_preamble_cpp_sptr_make" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_preamble_cpp_sptr_make" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "find_preamble_cpp_sptr_make" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  ecode4 = SWIG_AsVal_int(obj3, &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "find_preamble_cpp_sptr_make" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = static_cast< int >(val4);
+  {
+    try {
+      result = (*arg1)->make((std::vector< int,std::allocator< int > > const &)*arg2,arg3,arg4);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::find_preamble_cpp::sptr(static_cast< const gr::PHY::find_preamble_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "find_preamble_cpp_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_find_preamble_cpp_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "find_preamble_cpp_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_find_preamble_cpp_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "find_preamble_cpp_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_find_preamble_cpp_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_find_preamble_cpp_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_find_preamble_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_find_preamble_cpp_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_find_preamble_cpp_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_find_preamble_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_find_preamble_cpp_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_find_preamble_cpp_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'find_preamble_cpp_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "find_preamble_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_preamble_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:find_preamble_cpp_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "find_preamble_cpp_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "find_preamble_cpp_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "find_preamble_cpp_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:find_preamble_cpp_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "find_preamble_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_preamble_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "find_preamble_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_preamble_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"find_preamble_cpp_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_find_preamble_cpp_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::find_preamble_cpp > *arg1 = (boost::shared_ptr< gr::PHY::find_preamble_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:find_preamble_cpp_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "find_preamble_cpp_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::find_preamble_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::find_preamble_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "find_preamble_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "find_preamble_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *find_preamble_cpp_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  int arg1 ;
+  int val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *  kwnames[] = {
+    (char *) "decim", NULL 
+  };
+  gr::PHY::wave_to_float_single_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"O:wave_to_float_single_cpp_make",kwnames,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_int(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "wave_to_float_single_cpp_make" "', argument " "1"" of type '" "int""'");
+  } 
+  arg1 = static_cast< int >(val1);
+  {
+    try {
+      result = gr::PHY::wave_to_float_single_cpp::make(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::wave_to_float_single_cpp::sptr(static_cast< const gr::PHY::wave_to_float_single_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_wave_to_float_single_cpp(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::wave_to_float_single_cpp *arg1 = (gr::PHY::wave_to_float_single_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_wave_to_float_single_cpp",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__wave_to_float_single_cpp, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_wave_to_float_single_cpp" "', argument " "1"" of type '" "gr::PHY::wave_to_float_single_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::wave_to_float_single_cpp * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *wave_to_float_single_cpp_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__PHY__wave_to_float_single_cpp, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_wave_to_float_single_cpp_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_wave_to_float_single_cpp_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *)new boost::shared_ptr< gr::PHY::wave_to_float_single_cpp >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_wave_to_float_single_cpp_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::wave_to_float_single_cpp *arg1 = (gr::PHY::wave_to_float_single_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_wave_to_float_single_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__wave_to_float_single_cpp, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_wave_to_float_single_cpp_sptr" "', argument " "1"" of type '" "gr::PHY::wave_to_float_single_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::wave_to_float_single_cpp * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *)new boost::shared_ptr< gr::PHY::wave_to_float_single_cpp >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_wave_to_float_single_cpp_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_wave_to_float_single_cpp_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__PHY__wave_to_float_single_cpp, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_wave_to_float_single_cpp_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_wave_to_float_single_cpp_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::PHY::wave_to_float_single_cpp >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::PHY::wave_to_float_single_cpp >::shared_ptr(gr::PHY::wave_to_float_single_cpp *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::PHY::wave_to_float_single_cpp *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (gr::PHY::wave_to_float_single_cpp *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__PHY__wave_to_float_single_cpp, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_wave_to_float_single_cpp_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_wave_to_float_single_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_wave_to_float_single_cpp_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "decim", NULL 
+  };
+  gr::PHY::wave_to_float_single_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_make",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_make" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (*arg1)->make(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::wave_to_float_single_cpp::sptr(static_cast< const gr::PHY::wave_to_float_single_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_single_cpp_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_wave_to_float_single_cpp_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_single_cpp_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_wave_to_float_single_cpp_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_single_cpp_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_wave_to_float_single_cpp_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'wave_to_float_single_cpp_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "wave_to_float_single_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_single_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:wave_to_float_single_cpp_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "wave_to_float_single_cpp_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "wave_to_float_single_cpp_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "wave_to_float_single_cpp_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:wave_to_float_single_cpp_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "wave_to_float_single_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_single_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "wave_to_float_single_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_single_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"wave_to_float_single_cpp_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_wave_to_float_single_cpp_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:wave_to_float_single_cpp_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "wave_to_float_single_cpp_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "wave_to_float_single_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "wave_to_float_single_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *wave_to_float_single_cpp_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  std::string const &arg1_defvalue = "packet_len" ;
+  std::string *arg1 = (std::string *) &arg1_defvalue ;
+  int res1 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  char *  kwnames[] = {
+    (char *) "lengthtagname", NULL 
+  };
+  gr::PHY::conv_decode_tag_single::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"|O:conv_decode_tag_single_make",kwnames,&obj0)) SWIG_fail;
+  if (obj0) {
+    {
+      std::string *ptr = (std::string *)0;
+      res1 = SWIG_AsPtr_std_string(obj0, &ptr);
+      if (!SWIG_IsOK(res1)) {
+        SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_make" "', argument " "1"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "conv_decode_tag_single_make" "', argument " "1"" of type '" "std::string const &""'"); 
+      }
+      arg1 = ptr;
+    }
+  }
+  {
+    try {
+      result = gr::PHY::conv_decode_tag_single::make((std::string const &)*arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::conv_decode_tag_single::sptr(static_cast< const gr::PHY::conv_decode_tag_single::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_conv_decode_tag_single(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::conv_decode_tag_single *arg1 = (gr::PHY::conv_decode_tag_single *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_conv_decode_tag_single",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__conv_decode_tag_single, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_conv_decode_tag_single" "', argument " "1"" of type '" "gr::PHY::conv_decode_tag_single *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::conv_decode_tag_single * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *conv_decode_tag_single_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__PHY__conv_decode_tag_single, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_conv_decode_tag_single_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_conv_decode_tag_single_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *)new boost::shared_ptr< gr::PHY::conv_decode_tag_single >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_conv_decode_tag_single_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::conv_decode_tag_single *arg1 = (gr::PHY::conv_decode_tag_single *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_conv_decode_tag_single_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__conv_decode_tag_single, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_conv_decode_tag_single_sptr" "', argument " "1"" of type '" "gr::PHY::conv_decode_tag_single *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::conv_decode_tag_single * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *)new boost::shared_ptr< gr::PHY::conv_decode_tag_single >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_conv_decode_tag_single_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_conv_decode_tag_single_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__PHY__conv_decode_tag_single, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_conv_decode_tag_single_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_conv_decode_tag_single_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::PHY::conv_decode_tag_single >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::PHY::conv_decode_tag_single >::shared_ptr(gr::PHY::conv_decode_tag_single *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::PHY::conv_decode_tag_single *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (gr::PHY::conv_decode_tag_single *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__PHY__conv_decode_tag_single, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_conv_decode_tag_single_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_conv_decode_tag_single_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_conv_decode_tag_single_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  std::string const &arg2_defvalue = "packet_len" ;
+  std::string *arg2 = (std::string *) &arg2_defvalue ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "lengthtagname", NULL 
+  };
+  gr::PHY::conv_decode_tag_single::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"O|O:conv_decode_tag_single_sptr_make",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  if (obj1) {
+    {
+      std::string *ptr = (std::string *)0;
+      res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+      if (!SWIG_IsOK(res2)) {
+        SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "conv_decode_tag_single_sptr_make" "', argument " "2"" of type '" "std::string const &""'"); 
+      }
+      if (!ptr) {
+        SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "conv_decode_tag_single_sptr_make" "', argument " "2"" of type '" "std::string const &""'"); 
+      }
+      arg2 = ptr;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->make((std::string const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::conv_decode_tag_single::sptr(static_cast< const gr::PHY::conv_decode_tag_single::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, SWIG_POINTER_OWN |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "conv_decode_tag_single_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_conv_decode_tag_single_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "conv_decode_tag_single_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_conv_decode_tag_single_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "conv_decode_tag_single_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_conv_decode_tag_single_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'conv_decode_tag_single_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "conv_decode_tag_single_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "conv_decode_tag_single_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:conv_decode_tag_single_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "conv_decode_tag_single_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "conv_decode_tag_single_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "conv_decode_tag_single_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:conv_decode_tag_single_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "conv_decode_tag_single_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "conv_decode_tag_single_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "conv_decode_tag_single_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "conv_decode_tag_single_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"conv_decode_tag_single_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_conv_decode_tag_single_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::conv_decode_tag_single > *arg1 = (boost::shared_ptr< gr::PHY::conv_decode_tag_single > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:conv_decode_tag_single_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "conv_decode_tag_single_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::conv_decode_tag_single > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::conv_decode_tag_single > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "conv_decode_tag_single_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "conv_decode_tag_single_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *conv_decode_tag_single_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  float arg1 ;
+  float val1 ;
+  int ecode1 = 0 ;
+  PyObject * obj0 = 0 ;
+  char *  kwnames[] = {
+    (char *) "value", NULL 
+  };
+  gr::PHY::float_to_bit_single_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"O:float_to_bit_single_cpp_make",kwnames,&obj0)) SWIG_fail;
+  ecode1 = SWIG_AsVal_float(obj0, &val1);
+  if (!SWIG_IsOK(ecode1)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "float_to_bit_single_cpp_make" "', argument " "1"" of type '" "float""'");
+  } 
+  arg1 = static_cast< float >(val1);
+  {
+    try {
+      result = gr::PHY::float_to_bit_single_cpp::make(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::float_to_bit_single_cpp::sptr(static_cast< const gr::PHY::float_to_bit_single_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_float_to_bit_single_cpp(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::float_to_bit_single_cpp *arg1 = (gr::PHY::float_to_bit_single_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_float_to_bit_single_cpp",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__float_to_bit_single_cpp, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_float_to_bit_single_cpp" "', argument " "1"" of type '" "gr::PHY::float_to_bit_single_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::float_to_bit_single_cpp * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *float_to_bit_single_cpp_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_gr__PHY__float_to_bit_single_cpp, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_float_to_bit_single_cpp_sptr__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_float_to_bit_single_cpp_sptr",0,0)) SWIG_fail;
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *)new boost::shared_ptr< gr::PHY::float_to_bit_single_cpp >();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_float_to_bit_single_cpp_sptr__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  gr::PHY::float_to_bit_single_cpp *arg1 = (gr::PHY::float_to_bit_single_cpp *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"new_float_to_bit_single_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_gr__PHY__float_to_bit_single_cpp, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_float_to_bit_single_cpp_sptr" "', argument " "1"" of type '" "gr::PHY::float_to_bit_single_cpp *""'"); 
+  }
+  arg1 = reinterpret_cast< gr::PHY::float_to_bit_single_cpp * >(argp1);
+  {
+    try {
+      result = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *)new boost::shared_ptr< gr::PHY::float_to_bit_single_cpp >(arg1);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_float_to_bit_single_cpp_sptr(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 1) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 0) {
+    return _wrap_new_float_to_bit_single_cpp_sptr__SWIG_0(self, args);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_gr__PHY__float_to_bit_single_cpp, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_float_to_bit_single_cpp_sptr__SWIG_1(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'new_float_to_bit_single_cpp_sptr'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    boost::shared_ptr< gr::PHY::float_to_bit_single_cpp >::shared_ptr()\n"
+    "    boost::shared_ptr< gr::PHY::float_to_bit_single_cpp >::shared_ptr(gr::PHY::float_to_bit_single_cpp *)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr___deref__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::PHY::float_to_bit_single_cpp *result = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr___deref__",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr___deref__" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (gr::PHY::float_to_bit_single_cpp *)(arg1)->operator ->();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_gr__PHY__float_to_bit_single_cpp, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_float_to_bit_single_cpp_sptr(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"delete_float_to_bit_single_cpp_sptr",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_float_to_bit_single_cpp_sptr" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      delete arg1;
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_make(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  float arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  float val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "value", NULL 
+  };
+  gr::PHY::float_to_bit_single_cpp::sptr result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_make",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_make" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_float(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_make" "', argument " "2"" of type '" "float""'");
+  } 
+  arg2 = static_cast< float >(val2);
+  {
+    try {
+      result = (*arg1)->make(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::PHY::float_to_bit_single_cpp::sptr(static_cast< const gr::PHY::float_to_bit_single_cpp::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_history(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  unsigned int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_history",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_history" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (unsigned int)(*arg1)->history();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_declare_sample_delay__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_declare_sample_delay",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_single_cpp_sptr_declare_sample_delay" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_declare_sample_delay__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_declare_sample_delay",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_declare_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_declare_sample_delay" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      (*arg1)->declare_sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_declare_sample_delay(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_unsigned_SS_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_declare_sample_delay__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_float_to_bit_single_cpp_sptr_declare_sample_delay__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_declare_sample_delay'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::declare_sample_delay(int,int)\n"
+    "    gr::block::declare_sample_delay(unsigned int)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_sample_delay(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which", NULL 
+  };
+  unsigned int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_sample_delay",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_sample_delay" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_sample_delay" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (unsigned int)(*arg1)->sample_delay(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_int(static_cast< unsigned int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_output_multiple(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_output_multiple",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_output_multiple" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->output_multiple();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_relative_rate(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  double result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_relative_rate",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_relative_rate" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (double)(*arg1)->relative_rate();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_start(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_start",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_start" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->start();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_stop",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_stop" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->stop();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_nitems_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_input", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_nitems_read",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_nitems_read" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_nitems_read" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_read(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_nitems_written(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  unsigned int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  unsigned int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_output", NULL 
+  };
+  uint64_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_nitems_written",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_nitems_written" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_nitems_written" "', argument " "2"" of type '" "unsigned int""'");
+  } 
+  arg2 = static_cast< unsigned int >(val2);
+  {
+    try {
+      result = (uint64_t)(*arg1)->nitems_written(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_unsigned_SS_long_SS_long(static_cast< unsigned long long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_set_max_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_set_max_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_max_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_unset_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_unset_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_unset_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_is_set_max_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  bool result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_is_set_max_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_is_set_max_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (bool)(*arg1)->is_set_max_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "m", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_set_min_noutput_items",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_set_min_noutput_items" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      (*arg1)->set_min_noutput_items(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_min_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_min_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_min_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->min_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_max_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_max_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_max_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_set_max_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_max_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_set_max_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_max_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_set_max_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_single_cpp_sptr_set_max_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_max_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_max_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_set_max_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_float_to_bit_single_cpp_sptr_set_max_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_set_max_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_max_output_buffer(long)\n"
+    "    gr::block::set_max_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_min_output_buffer(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "i", NULL 
+  };
+  long result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_min_output_buffer",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (long)(*arg1)->min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_min_output_buffer__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  long arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  long val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_set_min_output_buffer",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "long""'");
+  } 
+  arg2 = static_cast< long >(val2);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_min_output_buffer__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  long arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  long val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_set_min_output_buffer",3,3,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_min_output_buffer" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_set_min_output_buffer" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_long(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_single_cpp_sptr_set_min_output_buffer" "', argument " "3"" of type '" "long""'");
+  } 
+  arg3 = static_cast< long >(val3);
+  {
+    try {
+      (*arg1)->set_min_output_buffer(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_min_output_buffer(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 3) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_set_min_output_buffer__SWIG_0(self, args);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_float_to_bit_single_cpp_sptr_set_min_output_buffer__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_set_min_output_buffer'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::set_min_output_buffer(long)\n"
+    "    gr::block::set_min_output_buffer(int,long)\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_noutput_items(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_noutput_items",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_noutput_items" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_noutput_items_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_noutput_items_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_noutput_items_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_noutput_items_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_noutput_items_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_noutput_items_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_noutput_items_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_nproduced(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_nproduced",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_nproduced" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_nproduced_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_nproduced_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_nproduced_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_nproduced_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_nproduced_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_nproduced_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_nproduced_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_pc_input_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full(int)\n"
+    "    gr::block::pc_input_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_avg(int)\n"
+    "    gr::block::pc_input_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_input_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_input_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_input_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_pc_input_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_input_buffers_full_var(int)\n"
+    "    gr::block::pc_input_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_pc_output_buffers_full'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full(int)\n"
+    "    gr::block::pc_output_buffers_full()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_avg(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_avg(int)\n"
+    "    gr::block::pc_output_buffers_full_avg()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_var__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full_var",2,2,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full_var" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (float)(*arg1)->pc_output_buffers_full_var(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_var__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< float,std::allocator< float > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_output_buffers_full_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->pc_output_buffers_full_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< float,std::allocator< float > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_var(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[3] = {
+    0
+  };
+  Py_ssize_t ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = args ? PyObject_Length(args) : 0;
+  for (ii = 0; (ii < 2) && (ii < argc); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_var__SWIG_1(self, args);
+    }
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_int(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_var__SWIG_0(self, args);
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number or type of arguments for overloaded function 'float_to_bit_single_cpp_sptr_pc_output_buffers_full_var'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    gr::block::pc_output_buffers_full_var(int)\n"
+    "    gr::block::pc_output_buffers_full_var()\n");
+  return 0;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_work_time(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_work_time",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_work_time" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_work_time_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_work_time_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_work_time_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_work_time_var(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_work_time_var",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_work_time_var" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_var();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_work_time_total(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_work_time_total",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_work_time_total" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_work_time_total();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_pc_throughput_avg(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  float result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_pc_throughput_avg",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_pc_throughput_avg" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (float)(*arg1)->pc_throughput_avg();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_float(static_cast< float >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  std::vector< int,std::allocator< int > > *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "mask", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_set_processor_affinity",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    std::vector< int,std::allocator< int > > *ptr = (std::vector< int,std::allocator< int > > *)0;
+    res2 = swig::asptr(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "float_to_bit_single_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_single_cpp_sptr_set_processor_affinity" "', argument " "2"" of type '" "std::vector< int,std::allocator< int > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      (*arg1)->set_processor_affinity((std::vector< int,std::allocator< int > > const &)*arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_unset_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_unset_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_unset_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      (*arg1)->unset_processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_processor_affinity(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::vector< int,std::allocator< int > > result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_processor_affinity",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_processor_affinity" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->processor_affinity();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = swig::from(static_cast< std::vector< int,std::allocator< int > > >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_active_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_active_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_active_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->active_thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  int result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_thread_priority",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (int)(*arg1)->thread_priority();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_thread_priority(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "priority", NULL 
+  };
+  int result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_set_thread_priority",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_thread_priority" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_set_thread_priority" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  {
+    try {
+      result = (int)(*arg1)->set_thread_priority(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_int(static_cast< int >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_symbol_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_symbol_name",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_symbol_name" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->symbol_name();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_input_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_input_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_input_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->input_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_output_signature(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::io_signature::sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_output_signature",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_output_signature" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->output_signature();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::io_signature::sptr(static_cast< const gr::io_signature::sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__io_signature_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_unique_id(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  long result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_unique_id",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_unique_id" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > const *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (long)(*arg1)->unique_id();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_long(static_cast< long >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_to_basic_block(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  gr::basic_block_sptr result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_to_basic_block",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_to_basic_block" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->to_basic_block();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new gr::basic_block_sptr(static_cast< const gr::basic_block_sptr& >(result))), SWIGTYPE_p_boost__shared_ptrT_gr__basic_block_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_check_topology(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  int arg2 ;
+  int arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "ninputs",(char *) "noutputs", NULL 
+  };
+  bool result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:float_to_bit_single_cpp_sptr_check_topology",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_check_topology" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "float_to_bit_single_cpp_sptr_check_topology" "', argument " "2"" of type '" "int""'");
+  } 
+  arg2 = static_cast< int >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "float_to_bit_single_cpp_sptr_check_topology" "', argument " "3"" of type '" "int""'");
+  } 
+  arg3 = static_cast< int >(val3);
+  {
+    try {
+      result = (bool)(*arg1)->check_topology(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_alias",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->alias();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_set_block_alias(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  std::string arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "name", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_set_block_alias",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_set_block_alias" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    int res = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res) || !ptr) {
+      SWIG_exception_fail(SWIG_ArgError((ptr ? res : SWIG_TypeError)), "in method '" "float_to_bit_single_cpp_sptr_set_block_alias" "', argument " "2"" of type '" "std::string""'"); 
+    }
+    arg2 = *ptr;
+    if (SWIG_IsNewObj(res)) delete ptr;
+  }
+  {
+    try {
+      (*arg1)->set_block_alias(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr__post(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  pmt::pmt_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  void *argp3 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port",(char *) "msg", NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OOO:float_to_bit_single_cpp_sptr__post",kwnames,&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr__post" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "float_to_bit_single_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_single_cpp_sptr__post" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "float_to_bit_single_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp3) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_single_cpp_sptr__post" "', argument " "3"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp3);
+      arg3 = *temp;
+      if (SWIG_IsNewObj(res3)) delete temp;
+    }
+  }
+  {
+    try {
+      (*arg1)->_post(arg2,arg3);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_message_ports_in(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_message_ports_in",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_message_ports_in" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_in();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_message_ports_out(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  pmt::pmt_t result;
+  
+  if(!PyArg_UnpackTuple(args,(char *)"float_to_bit_single_cpp_sptr_message_ports_out",1,1,&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_message_ports_out" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    try {
+      result = (*arg1)->message_ports_out();
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_float_to_bit_single_cpp_sptr_message_subscribers(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *arg1 = (boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *) 0 ;
+  pmt::pmt_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  char *  kwnames[] = {
+    (char *) "self",(char *) "which_port", NULL 
+  };
+  pmt::pmt_t result;
+  
+  if (!PyArg_ParseTupleAndKeywords(args,kwargs,(char *)"OO:float_to_bit_single_cpp_sptr_message_subscribers",kwnames,&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "float_to_bit_single_cpp_sptr_message_subscribers" "', argument " "1"" of type '" "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *""'"); 
+  }
+  arg1 = reinterpret_cast< boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > * >(argp1);
+  {
+    res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t,  0  | 0);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "float_to_bit_single_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'"); 
+    }  
+    if (!argp2) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "float_to_bit_single_cpp_sptr_message_subscribers" "', argument " "2"" of type '" "pmt::pmt_t""'");
+    } else {
+      pmt::pmt_t * temp = reinterpret_cast< pmt::pmt_t * >(argp2);
+      arg2 = *temp;
+      if (SWIG_IsNewObj(res2)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (*arg1)->message_subscribers(arg2);
+    }
+    catch(std::exception &e) {
+      SWIG_exception(SWIG_RuntimeError, e.what());
+    }
+    catch(...) {
+      SWIG_exception(SWIG_RuntimeError, "Unknown exception");
+    }
+    
+  }
+  resultobj = SWIG_NewPointerObj((new pmt::pmt_t(static_cast< const pmt::pmt_t& >(result))), SWIGTYPE_p_boost__intrusive_ptrT_pmt__pmt_base_t, SWIG_POINTER_OWN |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *float_to_bit_single_cpp_sptr_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_UnpackTuple(args,(char*)"swigregister", 1, 1,&obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 static PyMethodDef SwigMethods[] = {
 	 { (char *)"SWIG_PyInstanceMethod_New", (PyCFunction)SWIG_PyInstanceMethod_New, METH_O, NULL},
 	 { (char *)"high_res_timer_now", _wrap_high_res_timer_now, METH_VARARGS, (char *)"high_res_timer_now() -> gr::high_res_timer_type"},
@@ -14964,35 +34072,611 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"conv_decode_tag_sptr_message_ports_out", _wrap_conv_decode_tag_sptr_message_ports_out, METH_VARARGS, (char *)"conv_decode_tag_sptr_message_ports_out(conv_decode_tag_sptr self) -> swig_int_ptr"},
 	 { (char *)"conv_decode_tag_sptr_message_subscribers", (PyCFunction) _wrap_conv_decode_tag_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_sptr_message_subscribers(conv_decode_tag_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
 	 { (char *)"conv_decode_tag_sptr_swigregister", conv_decode_tag_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"float_to_bit_cpp_make", _wrap_float_to_bit_cpp_make, METH_VARARGS, (char *)"float_to_bit_cpp_make() -> float_to_bit_cpp_sptr"},
+	 { (char *)"delete_float_to_bit_cpp", _wrap_delete_float_to_bit_cpp, METH_VARARGS, (char *)"delete_float_to_bit_cpp(float_to_bit_cpp self)"},
+	 { (char *)"float_to_bit_cpp_swigregister", float_to_bit_cpp_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_float_to_bit_cpp_sptr", _wrap_new_float_to_bit_cpp_sptr, METH_VARARGS, (char *)"\n"
+		"float_to_bit_cpp_sptr()\n"
+		"new_float_to_bit_cpp_sptr(float_to_bit_cpp p) -> float_to_bit_cpp_sptr\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr___deref__", _wrap_float_to_bit_cpp_sptr___deref__, METH_VARARGS, (char *)"float_to_bit_cpp_sptr___deref__(float_to_bit_cpp_sptr self) -> float_to_bit_cpp"},
+	 { (char *)"delete_float_to_bit_cpp_sptr", _wrap_delete_float_to_bit_cpp_sptr, METH_VARARGS, (char *)"delete_float_to_bit_cpp_sptr(float_to_bit_cpp_sptr self)"},
+	 { (char *)"float_to_bit_cpp_sptr_make", _wrap_float_to_bit_cpp_sptr_make, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_make(float_to_bit_cpp_sptr self) -> float_to_bit_cpp_sptr"},
+	 { (char *)"float_to_bit_cpp_sptr_history", _wrap_float_to_bit_cpp_sptr_history, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_history(float_to_bit_cpp_sptr self) -> unsigned int"},
+	 { (char *)"float_to_bit_cpp_sptr_declare_sample_delay", _wrap_float_to_bit_cpp_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"float_to_bit_cpp_sptr_declare_sample_delay(float_to_bit_cpp_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_sample_delay", (PyCFunction) _wrap_float_to_bit_cpp_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_sample_delay(float_to_bit_cpp_sptr self, int which) -> unsigned int"},
+	 { (char *)"float_to_bit_cpp_sptr_output_multiple", _wrap_float_to_bit_cpp_sptr_output_multiple, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_output_multiple(float_to_bit_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_cpp_sptr_relative_rate", _wrap_float_to_bit_cpp_sptr_relative_rate, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_relative_rate(float_to_bit_cpp_sptr self) -> double"},
+	 { (char *)"float_to_bit_cpp_sptr_start", _wrap_float_to_bit_cpp_sptr_start, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_start(float_to_bit_cpp_sptr self) -> bool"},
+	 { (char *)"float_to_bit_cpp_sptr_stop", _wrap_float_to_bit_cpp_sptr_stop, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_stop(float_to_bit_cpp_sptr self) -> bool"},
+	 { (char *)"float_to_bit_cpp_sptr_nitems_read", (PyCFunction) _wrap_float_to_bit_cpp_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_nitems_read(float_to_bit_cpp_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"float_to_bit_cpp_sptr_nitems_written", (PyCFunction) _wrap_float_to_bit_cpp_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_nitems_written(float_to_bit_cpp_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"float_to_bit_cpp_sptr_max_noutput_items", _wrap_float_to_bit_cpp_sptr_max_noutput_items, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_max_noutput_items(float_to_bit_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_cpp_sptr_set_max_noutput_items", (PyCFunction) _wrap_float_to_bit_cpp_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_set_max_noutput_items(float_to_bit_cpp_sptr self, int m)"},
+	 { (char *)"float_to_bit_cpp_sptr_unset_max_noutput_items", _wrap_float_to_bit_cpp_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_unset_max_noutput_items(float_to_bit_cpp_sptr self)"},
+	 { (char *)"float_to_bit_cpp_sptr_is_set_max_noutput_items", _wrap_float_to_bit_cpp_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_is_set_max_noutput_items(float_to_bit_cpp_sptr self) -> bool"},
+	 { (char *)"float_to_bit_cpp_sptr_set_min_noutput_items", (PyCFunction) _wrap_float_to_bit_cpp_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_set_min_noutput_items(float_to_bit_cpp_sptr self, int m)"},
+	 { (char *)"float_to_bit_cpp_sptr_min_noutput_items", _wrap_float_to_bit_cpp_sptr_min_noutput_items, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_min_noutput_items(float_to_bit_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_cpp_sptr_max_output_buffer", (PyCFunction) _wrap_float_to_bit_cpp_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_max_output_buffer(float_to_bit_cpp_sptr self, int i) -> long"},
+	 { (char *)"float_to_bit_cpp_sptr_set_max_output_buffer", _wrap_float_to_bit_cpp_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"float_to_bit_cpp_sptr_set_max_output_buffer(float_to_bit_cpp_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_min_output_buffer", (PyCFunction) _wrap_float_to_bit_cpp_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_min_output_buffer(float_to_bit_cpp_sptr self, int i) -> long"},
+	 { (char *)"float_to_bit_cpp_sptr_set_min_output_buffer", _wrap_float_to_bit_cpp_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"float_to_bit_cpp_sptr_set_min_output_buffer(float_to_bit_cpp_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_pc_noutput_items", _wrap_float_to_bit_cpp_sptr_pc_noutput_items, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_noutput_items(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_noutput_items_avg", _wrap_float_to_bit_cpp_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_noutput_items_avg(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_noutput_items_var", _wrap_float_to_bit_cpp_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_noutput_items_var(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_nproduced", _wrap_float_to_bit_cpp_sptr_pc_nproduced, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_nproduced(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_nproduced_avg", _wrap_float_to_bit_cpp_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_nproduced_avg(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_nproduced_var", _wrap_float_to_bit_cpp_sptr_pc_nproduced_var, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_nproduced_var(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_input_buffers_full", _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"float_to_bit_cpp_sptr_pc_input_buffers_full(float_to_bit_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_pc_input_buffers_full_avg", _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"float_to_bit_cpp_sptr_pc_input_buffers_full_avg(float_to_bit_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_pc_input_buffers_full_var", _wrap_float_to_bit_cpp_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"float_to_bit_cpp_sptr_pc_input_buffers_full_var(float_to_bit_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_pc_output_buffers_full", _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"float_to_bit_cpp_sptr_pc_output_buffers_full(float_to_bit_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_pc_output_buffers_full_avg", _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"float_to_bit_cpp_sptr_pc_output_buffers_full_avg(float_to_bit_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_pc_output_buffers_full_var", _wrap_float_to_bit_cpp_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"float_to_bit_cpp_sptr_pc_output_buffers_full_var(float_to_bit_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_cpp_sptr_pc_work_time", _wrap_float_to_bit_cpp_sptr_pc_work_time, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_work_time(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_work_time_avg", _wrap_float_to_bit_cpp_sptr_pc_work_time_avg, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_work_time_avg(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_work_time_var", _wrap_float_to_bit_cpp_sptr_pc_work_time_var, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_work_time_var(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_work_time_total", _wrap_float_to_bit_cpp_sptr_pc_work_time_total, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_work_time_total(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_pc_throughput_avg", _wrap_float_to_bit_cpp_sptr_pc_throughput_avg, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_pc_throughput_avg(float_to_bit_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_cpp_sptr_set_processor_affinity", (PyCFunction) _wrap_float_to_bit_cpp_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_set_processor_affinity(float_to_bit_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"float_to_bit_cpp_sptr_unset_processor_affinity", _wrap_float_to_bit_cpp_sptr_unset_processor_affinity, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_unset_processor_affinity(float_to_bit_cpp_sptr self)"},
+	 { (char *)"float_to_bit_cpp_sptr_processor_affinity", _wrap_float_to_bit_cpp_sptr_processor_affinity, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_processor_affinity(float_to_bit_cpp_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"float_to_bit_cpp_sptr_active_thread_priority", _wrap_float_to_bit_cpp_sptr_active_thread_priority, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_active_thread_priority(float_to_bit_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_cpp_sptr_thread_priority", _wrap_float_to_bit_cpp_sptr_thread_priority, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_thread_priority(float_to_bit_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_cpp_sptr_set_thread_priority", (PyCFunction) _wrap_float_to_bit_cpp_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_set_thread_priority(float_to_bit_cpp_sptr self, int priority) -> int"},
+	 { (char *)"float_to_bit_cpp_sptr_name", _wrap_float_to_bit_cpp_sptr_name, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_name(float_to_bit_cpp_sptr self) -> std::string"},
+	 { (char *)"float_to_bit_cpp_sptr_symbol_name", _wrap_float_to_bit_cpp_sptr_symbol_name, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_symbol_name(float_to_bit_cpp_sptr self) -> std::string"},
+	 { (char *)"float_to_bit_cpp_sptr_input_signature", _wrap_float_to_bit_cpp_sptr_input_signature, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_input_signature(float_to_bit_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"float_to_bit_cpp_sptr_output_signature", _wrap_float_to_bit_cpp_sptr_output_signature, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_output_signature(float_to_bit_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"float_to_bit_cpp_sptr_unique_id", _wrap_float_to_bit_cpp_sptr_unique_id, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_unique_id(float_to_bit_cpp_sptr self) -> long"},
+	 { (char *)"float_to_bit_cpp_sptr_to_basic_block", _wrap_float_to_bit_cpp_sptr_to_basic_block, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_to_basic_block(float_to_bit_cpp_sptr self) -> basic_block_sptr"},
+	 { (char *)"float_to_bit_cpp_sptr_check_topology", (PyCFunction) _wrap_float_to_bit_cpp_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_check_topology(float_to_bit_cpp_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"float_to_bit_cpp_sptr_alias", _wrap_float_to_bit_cpp_sptr_alias, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_alias(float_to_bit_cpp_sptr self) -> std::string"},
+	 { (char *)"float_to_bit_cpp_sptr_set_block_alias", (PyCFunction) _wrap_float_to_bit_cpp_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_set_block_alias(float_to_bit_cpp_sptr self, std::string name)"},
+	 { (char *)"float_to_bit_cpp_sptr__post", (PyCFunction) _wrap_float_to_bit_cpp_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr__post(float_to_bit_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"float_to_bit_cpp_sptr_message_ports_in", _wrap_float_to_bit_cpp_sptr_message_ports_in, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_message_ports_in(float_to_bit_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"float_to_bit_cpp_sptr_message_ports_out", _wrap_float_to_bit_cpp_sptr_message_ports_out, METH_VARARGS, (char *)"float_to_bit_cpp_sptr_message_ports_out(float_to_bit_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"float_to_bit_cpp_sptr_message_subscribers", (PyCFunction) _wrap_float_to_bit_cpp_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_cpp_sptr_message_subscribers(float_to_bit_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"float_to_bit_cpp_sptr_swigregister", float_to_bit_cpp_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"wave_to_float_cpp_make", (PyCFunction) _wrap_wave_to_float_cpp_make, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_make(int decim) -> wave_to_float_cpp_sptr"},
+	 { (char *)"delete_wave_to_float_cpp", _wrap_delete_wave_to_float_cpp, METH_VARARGS, (char *)"delete_wave_to_float_cpp(wave_to_float_cpp self)"},
+	 { (char *)"wave_to_float_cpp_swigregister", wave_to_float_cpp_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_wave_to_float_cpp_sptr", _wrap_new_wave_to_float_cpp_sptr, METH_VARARGS, (char *)"\n"
+		"wave_to_float_cpp_sptr()\n"
+		"new_wave_to_float_cpp_sptr(wave_to_float_cpp p) -> wave_to_float_cpp_sptr\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr___deref__", _wrap_wave_to_float_cpp_sptr___deref__, METH_VARARGS, (char *)"wave_to_float_cpp_sptr___deref__(wave_to_float_cpp_sptr self) -> wave_to_float_cpp"},
+	 { (char *)"delete_wave_to_float_cpp_sptr", _wrap_delete_wave_to_float_cpp_sptr, METH_VARARGS, (char *)"delete_wave_to_float_cpp_sptr(wave_to_float_cpp_sptr self)"},
+	 { (char *)"wave_to_float_cpp_sptr_make", (PyCFunction) _wrap_wave_to_float_cpp_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_make(wave_to_float_cpp_sptr self, int decim) -> wave_to_float_cpp_sptr"},
+	 { (char *)"wave_to_float_cpp_sptr_history", _wrap_wave_to_float_cpp_sptr_history, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_history(wave_to_float_cpp_sptr self) -> unsigned int"},
+	 { (char *)"wave_to_float_cpp_sptr_declare_sample_delay", _wrap_wave_to_float_cpp_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"wave_to_float_cpp_sptr_declare_sample_delay(wave_to_float_cpp_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_sample_delay", (PyCFunction) _wrap_wave_to_float_cpp_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_sample_delay(wave_to_float_cpp_sptr self, int which) -> unsigned int"},
+	 { (char *)"wave_to_float_cpp_sptr_output_multiple", _wrap_wave_to_float_cpp_sptr_output_multiple, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_output_multiple(wave_to_float_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_cpp_sptr_relative_rate", _wrap_wave_to_float_cpp_sptr_relative_rate, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_relative_rate(wave_to_float_cpp_sptr self) -> double"},
+	 { (char *)"wave_to_float_cpp_sptr_start", _wrap_wave_to_float_cpp_sptr_start, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_start(wave_to_float_cpp_sptr self) -> bool"},
+	 { (char *)"wave_to_float_cpp_sptr_stop", _wrap_wave_to_float_cpp_sptr_stop, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_stop(wave_to_float_cpp_sptr self) -> bool"},
+	 { (char *)"wave_to_float_cpp_sptr_nitems_read", (PyCFunction) _wrap_wave_to_float_cpp_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_nitems_read(wave_to_float_cpp_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"wave_to_float_cpp_sptr_nitems_written", (PyCFunction) _wrap_wave_to_float_cpp_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_nitems_written(wave_to_float_cpp_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"wave_to_float_cpp_sptr_max_noutput_items", _wrap_wave_to_float_cpp_sptr_max_noutput_items, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_max_noutput_items(wave_to_float_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_cpp_sptr_set_max_noutput_items", (PyCFunction) _wrap_wave_to_float_cpp_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_set_max_noutput_items(wave_to_float_cpp_sptr self, int m)"},
+	 { (char *)"wave_to_float_cpp_sptr_unset_max_noutput_items", _wrap_wave_to_float_cpp_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_unset_max_noutput_items(wave_to_float_cpp_sptr self)"},
+	 { (char *)"wave_to_float_cpp_sptr_is_set_max_noutput_items", _wrap_wave_to_float_cpp_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_is_set_max_noutput_items(wave_to_float_cpp_sptr self) -> bool"},
+	 { (char *)"wave_to_float_cpp_sptr_set_min_noutput_items", (PyCFunction) _wrap_wave_to_float_cpp_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_set_min_noutput_items(wave_to_float_cpp_sptr self, int m)"},
+	 { (char *)"wave_to_float_cpp_sptr_min_noutput_items", _wrap_wave_to_float_cpp_sptr_min_noutput_items, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_min_noutput_items(wave_to_float_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_cpp_sptr_max_output_buffer", (PyCFunction) _wrap_wave_to_float_cpp_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_max_output_buffer(wave_to_float_cpp_sptr self, int i) -> long"},
+	 { (char *)"wave_to_float_cpp_sptr_set_max_output_buffer", _wrap_wave_to_float_cpp_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"wave_to_float_cpp_sptr_set_max_output_buffer(wave_to_float_cpp_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_min_output_buffer", (PyCFunction) _wrap_wave_to_float_cpp_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_min_output_buffer(wave_to_float_cpp_sptr self, int i) -> long"},
+	 { (char *)"wave_to_float_cpp_sptr_set_min_output_buffer", _wrap_wave_to_float_cpp_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"wave_to_float_cpp_sptr_set_min_output_buffer(wave_to_float_cpp_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_pc_noutput_items", _wrap_wave_to_float_cpp_sptr_pc_noutput_items, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_noutput_items(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_noutput_items_avg", _wrap_wave_to_float_cpp_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_noutput_items_avg(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_noutput_items_var", _wrap_wave_to_float_cpp_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_noutput_items_var(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_nproduced", _wrap_wave_to_float_cpp_sptr_pc_nproduced, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_nproduced(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_nproduced_avg", _wrap_wave_to_float_cpp_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_nproduced_avg(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_nproduced_var", _wrap_wave_to_float_cpp_sptr_pc_nproduced_var, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_nproduced_var(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_input_buffers_full", _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"wave_to_float_cpp_sptr_pc_input_buffers_full(wave_to_float_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_pc_input_buffers_full_avg", _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"wave_to_float_cpp_sptr_pc_input_buffers_full_avg(wave_to_float_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_pc_input_buffers_full_var", _wrap_wave_to_float_cpp_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"wave_to_float_cpp_sptr_pc_input_buffers_full_var(wave_to_float_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_pc_output_buffers_full", _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"wave_to_float_cpp_sptr_pc_output_buffers_full(wave_to_float_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_pc_output_buffers_full_avg", _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"wave_to_float_cpp_sptr_pc_output_buffers_full_avg(wave_to_float_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_pc_output_buffers_full_var", _wrap_wave_to_float_cpp_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"wave_to_float_cpp_sptr_pc_output_buffers_full_var(wave_to_float_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_cpp_sptr_pc_work_time", _wrap_wave_to_float_cpp_sptr_pc_work_time, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_work_time(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_work_time_avg", _wrap_wave_to_float_cpp_sptr_pc_work_time_avg, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_work_time_avg(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_work_time_var", _wrap_wave_to_float_cpp_sptr_pc_work_time_var, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_work_time_var(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_work_time_total", _wrap_wave_to_float_cpp_sptr_pc_work_time_total, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_work_time_total(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_pc_throughput_avg", _wrap_wave_to_float_cpp_sptr_pc_throughput_avg, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_pc_throughput_avg(wave_to_float_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_cpp_sptr_set_processor_affinity", (PyCFunction) _wrap_wave_to_float_cpp_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_set_processor_affinity(wave_to_float_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"wave_to_float_cpp_sptr_unset_processor_affinity", _wrap_wave_to_float_cpp_sptr_unset_processor_affinity, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_unset_processor_affinity(wave_to_float_cpp_sptr self)"},
+	 { (char *)"wave_to_float_cpp_sptr_processor_affinity", _wrap_wave_to_float_cpp_sptr_processor_affinity, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_processor_affinity(wave_to_float_cpp_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"wave_to_float_cpp_sptr_active_thread_priority", _wrap_wave_to_float_cpp_sptr_active_thread_priority, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_active_thread_priority(wave_to_float_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_cpp_sptr_thread_priority", _wrap_wave_to_float_cpp_sptr_thread_priority, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_thread_priority(wave_to_float_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_cpp_sptr_set_thread_priority", (PyCFunction) _wrap_wave_to_float_cpp_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_set_thread_priority(wave_to_float_cpp_sptr self, int priority) -> int"},
+	 { (char *)"wave_to_float_cpp_sptr_name", _wrap_wave_to_float_cpp_sptr_name, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_name(wave_to_float_cpp_sptr self) -> std::string"},
+	 { (char *)"wave_to_float_cpp_sptr_symbol_name", _wrap_wave_to_float_cpp_sptr_symbol_name, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_symbol_name(wave_to_float_cpp_sptr self) -> std::string"},
+	 { (char *)"wave_to_float_cpp_sptr_input_signature", _wrap_wave_to_float_cpp_sptr_input_signature, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_input_signature(wave_to_float_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"wave_to_float_cpp_sptr_output_signature", _wrap_wave_to_float_cpp_sptr_output_signature, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_output_signature(wave_to_float_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"wave_to_float_cpp_sptr_unique_id", _wrap_wave_to_float_cpp_sptr_unique_id, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_unique_id(wave_to_float_cpp_sptr self) -> long"},
+	 { (char *)"wave_to_float_cpp_sptr_to_basic_block", _wrap_wave_to_float_cpp_sptr_to_basic_block, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_to_basic_block(wave_to_float_cpp_sptr self) -> basic_block_sptr"},
+	 { (char *)"wave_to_float_cpp_sptr_check_topology", (PyCFunction) _wrap_wave_to_float_cpp_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_check_topology(wave_to_float_cpp_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"wave_to_float_cpp_sptr_alias", _wrap_wave_to_float_cpp_sptr_alias, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_alias(wave_to_float_cpp_sptr self) -> std::string"},
+	 { (char *)"wave_to_float_cpp_sptr_set_block_alias", (PyCFunction) _wrap_wave_to_float_cpp_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_set_block_alias(wave_to_float_cpp_sptr self, std::string name)"},
+	 { (char *)"wave_to_float_cpp_sptr__post", (PyCFunction) _wrap_wave_to_float_cpp_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr__post(wave_to_float_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"wave_to_float_cpp_sptr_message_ports_in", _wrap_wave_to_float_cpp_sptr_message_ports_in, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_message_ports_in(wave_to_float_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"wave_to_float_cpp_sptr_message_ports_out", _wrap_wave_to_float_cpp_sptr_message_ports_out, METH_VARARGS, (char *)"wave_to_float_cpp_sptr_message_ports_out(wave_to_float_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"wave_to_float_cpp_sptr_message_subscribers", (PyCFunction) _wrap_wave_to_float_cpp_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_cpp_sptr_message_subscribers(wave_to_float_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"wave_to_float_cpp_sptr_swigregister", wave_to_float_cpp_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"find_preamble_cpp_make", (PyCFunction) _wrap_find_preamble_cpp_make, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_make(std::vector< int,std::allocator< int > > const & preamble, int rate, int skip) -> find_preamble_cpp_sptr"},
+	 { (char *)"delete_find_preamble_cpp", _wrap_delete_find_preamble_cpp, METH_VARARGS, (char *)"delete_find_preamble_cpp(find_preamble_cpp self)"},
+	 { (char *)"find_preamble_cpp_swigregister", find_preamble_cpp_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_find_preamble_cpp_sptr", _wrap_new_find_preamble_cpp_sptr, METH_VARARGS, (char *)"\n"
+		"find_preamble_cpp_sptr()\n"
+		"new_find_preamble_cpp_sptr(find_preamble_cpp p) -> find_preamble_cpp_sptr\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr___deref__", _wrap_find_preamble_cpp_sptr___deref__, METH_VARARGS, (char *)"find_preamble_cpp_sptr___deref__(find_preamble_cpp_sptr self) -> find_preamble_cpp"},
+	 { (char *)"delete_find_preamble_cpp_sptr", _wrap_delete_find_preamble_cpp_sptr, METH_VARARGS, (char *)"delete_find_preamble_cpp_sptr(find_preamble_cpp_sptr self)"},
+	 { (char *)"find_preamble_cpp_sptr_make", (PyCFunction) _wrap_find_preamble_cpp_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_make(find_preamble_cpp_sptr self, std::vector< int,std::allocator< int > > const & preamble, int rate, int skip) -> find_preamble_cpp_sptr"},
+	 { (char *)"find_preamble_cpp_sptr_history", _wrap_find_preamble_cpp_sptr_history, METH_VARARGS, (char *)"find_preamble_cpp_sptr_history(find_preamble_cpp_sptr self) -> unsigned int"},
+	 { (char *)"find_preamble_cpp_sptr_declare_sample_delay", _wrap_find_preamble_cpp_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"find_preamble_cpp_sptr_declare_sample_delay(find_preamble_cpp_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_sample_delay", (PyCFunction) _wrap_find_preamble_cpp_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_sample_delay(find_preamble_cpp_sptr self, int which) -> unsigned int"},
+	 { (char *)"find_preamble_cpp_sptr_output_multiple", _wrap_find_preamble_cpp_sptr_output_multiple, METH_VARARGS, (char *)"find_preamble_cpp_sptr_output_multiple(find_preamble_cpp_sptr self) -> int"},
+	 { (char *)"find_preamble_cpp_sptr_relative_rate", _wrap_find_preamble_cpp_sptr_relative_rate, METH_VARARGS, (char *)"find_preamble_cpp_sptr_relative_rate(find_preamble_cpp_sptr self) -> double"},
+	 { (char *)"find_preamble_cpp_sptr_start", _wrap_find_preamble_cpp_sptr_start, METH_VARARGS, (char *)"find_preamble_cpp_sptr_start(find_preamble_cpp_sptr self) -> bool"},
+	 { (char *)"find_preamble_cpp_sptr_stop", _wrap_find_preamble_cpp_sptr_stop, METH_VARARGS, (char *)"find_preamble_cpp_sptr_stop(find_preamble_cpp_sptr self) -> bool"},
+	 { (char *)"find_preamble_cpp_sptr_nitems_read", (PyCFunction) _wrap_find_preamble_cpp_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_nitems_read(find_preamble_cpp_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"find_preamble_cpp_sptr_nitems_written", (PyCFunction) _wrap_find_preamble_cpp_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_nitems_written(find_preamble_cpp_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"find_preamble_cpp_sptr_max_noutput_items", _wrap_find_preamble_cpp_sptr_max_noutput_items, METH_VARARGS, (char *)"find_preamble_cpp_sptr_max_noutput_items(find_preamble_cpp_sptr self) -> int"},
+	 { (char *)"find_preamble_cpp_sptr_set_max_noutput_items", (PyCFunction) _wrap_find_preamble_cpp_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_set_max_noutput_items(find_preamble_cpp_sptr self, int m)"},
+	 { (char *)"find_preamble_cpp_sptr_unset_max_noutput_items", _wrap_find_preamble_cpp_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"find_preamble_cpp_sptr_unset_max_noutput_items(find_preamble_cpp_sptr self)"},
+	 { (char *)"find_preamble_cpp_sptr_is_set_max_noutput_items", _wrap_find_preamble_cpp_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"find_preamble_cpp_sptr_is_set_max_noutput_items(find_preamble_cpp_sptr self) -> bool"},
+	 { (char *)"find_preamble_cpp_sptr_set_min_noutput_items", (PyCFunction) _wrap_find_preamble_cpp_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_set_min_noutput_items(find_preamble_cpp_sptr self, int m)"},
+	 { (char *)"find_preamble_cpp_sptr_min_noutput_items", _wrap_find_preamble_cpp_sptr_min_noutput_items, METH_VARARGS, (char *)"find_preamble_cpp_sptr_min_noutput_items(find_preamble_cpp_sptr self) -> int"},
+	 { (char *)"find_preamble_cpp_sptr_max_output_buffer", (PyCFunction) _wrap_find_preamble_cpp_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_max_output_buffer(find_preamble_cpp_sptr self, int i) -> long"},
+	 { (char *)"find_preamble_cpp_sptr_set_max_output_buffer", _wrap_find_preamble_cpp_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"find_preamble_cpp_sptr_set_max_output_buffer(find_preamble_cpp_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_min_output_buffer", (PyCFunction) _wrap_find_preamble_cpp_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_min_output_buffer(find_preamble_cpp_sptr self, int i) -> long"},
+	 { (char *)"find_preamble_cpp_sptr_set_min_output_buffer", _wrap_find_preamble_cpp_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"find_preamble_cpp_sptr_set_min_output_buffer(find_preamble_cpp_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_pc_noutput_items", _wrap_find_preamble_cpp_sptr_pc_noutput_items, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_noutput_items(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_noutput_items_avg", _wrap_find_preamble_cpp_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_noutput_items_avg(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_noutput_items_var", _wrap_find_preamble_cpp_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_noutput_items_var(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_nproduced", _wrap_find_preamble_cpp_sptr_pc_nproduced, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_nproduced(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_nproduced_avg", _wrap_find_preamble_cpp_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_nproduced_avg(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_nproduced_var", _wrap_find_preamble_cpp_sptr_pc_nproduced_var, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_nproduced_var(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_input_buffers_full", _wrap_find_preamble_cpp_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"find_preamble_cpp_sptr_pc_input_buffers_full(find_preamble_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_pc_input_buffers_full_avg", _wrap_find_preamble_cpp_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"find_preamble_cpp_sptr_pc_input_buffers_full_avg(find_preamble_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_pc_input_buffers_full_var", _wrap_find_preamble_cpp_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"find_preamble_cpp_sptr_pc_input_buffers_full_var(find_preamble_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_pc_output_buffers_full", _wrap_find_preamble_cpp_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"find_preamble_cpp_sptr_pc_output_buffers_full(find_preamble_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_pc_output_buffers_full_avg", _wrap_find_preamble_cpp_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"find_preamble_cpp_sptr_pc_output_buffers_full_avg(find_preamble_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_pc_output_buffers_full_var", _wrap_find_preamble_cpp_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"find_preamble_cpp_sptr_pc_output_buffers_full_var(find_preamble_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"find_preamble_cpp_sptr_pc_work_time", _wrap_find_preamble_cpp_sptr_pc_work_time, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_work_time(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_work_time_avg", _wrap_find_preamble_cpp_sptr_pc_work_time_avg, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_work_time_avg(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_work_time_var", _wrap_find_preamble_cpp_sptr_pc_work_time_var, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_work_time_var(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_work_time_total", _wrap_find_preamble_cpp_sptr_pc_work_time_total, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_work_time_total(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_pc_throughput_avg", _wrap_find_preamble_cpp_sptr_pc_throughput_avg, METH_VARARGS, (char *)"find_preamble_cpp_sptr_pc_throughput_avg(find_preamble_cpp_sptr self) -> float"},
+	 { (char *)"find_preamble_cpp_sptr_set_processor_affinity", (PyCFunction) _wrap_find_preamble_cpp_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_set_processor_affinity(find_preamble_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"find_preamble_cpp_sptr_unset_processor_affinity", _wrap_find_preamble_cpp_sptr_unset_processor_affinity, METH_VARARGS, (char *)"find_preamble_cpp_sptr_unset_processor_affinity(find_preamble_cpp_sptr self)"},
+	 { (char *)"find_preamble_cpp_sptr_processor_affinity", _wrap_find_preamble_cpp_sptr_processor_affinity, METH_VARARGS, (char *)"find_preamble_cpp_sptr_processor_affinity(find_preamble_cpp_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"find_preamble_cpp_sptr_active_thread_priority", _wrap_find_preamble_cpp_sptr_active_thread_priority, METH_VARARGS, (char *)"find_preamble_cpp_sptr_active_thread_priority(find_preamble_cpp_sptr self) -> int"},
+	 { (char *)"find_preamble_cpp_sptr_thread_priority", _wrap_find_preamble_cpp_sptr_thread_priority, METH_VARARGS, (char *)"find_preamble_cpp_sptr_thread_priority(find_preamble_cpp_sptr self) -> int"},
+	 { (char *)"find_preamble_cpp_sptr_set_thread_priority", (PyCFunction) _wrap_find_preamble_cpp_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_set_thread_priority(find_preamble_cpp_sptr self, int priority) -> int"},
+	 { (char *)"find_preamble_cpp_sptr_name", _wrap_find_preamble_cpp_sptr_name, METH_VARARGS, (char *)"find_preamble_cpp_sptr_name(find_preamble_cpp_sptr self) -> std::string"},
+	 { (char *)"find_preamble_cpp_sptr_symbol_name", _wrap_find_preamble_cpp_sptr_symbol_name, METH_VARARGS, (char *)"find_preamble_cpp_sptr_symbol_name(find_preamble_cpp_sptr self) -> std::string"},
+	 { (char *)"find_preamble_cpp_sptr_input_signature", _wrap_find_preamble_cpp_sptr_input_signature, METH_VARARGS, (char *)"find_preamble_cpp_sptr_input_signature(find_preamble_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"find_preamble_cpp_sptr_output_signature", _wrap_find_preamble_cpp_sptr_output_signature, METH_VARARGS, (char *)"find_preamble_cpp_sptr_output_signature(find_preamble_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"find_preamble_cpp_sptr_unique_id", _wrap_find_preamble_cpp_sptr_unique_id, METH_VARARGS, (char *)"find_preamble_cpp_sptr_unique_id(find_preamble_cpp_sptr self) -> long"},
+	 { (char *)"find_preamble_cpp_sptr_to_basic_block", _wrap_find_preamble_cpp_sptr_to_basic_block, METH_VARARGS, (char *)"find_preamble_cpp_sptr_to_basic_block(find_preamble_cpp_sptr self) -> basic_block_sptr"},
+	 { (char *)"find_preamble_cpp_sptr_check_topology", (PyCFunction) _wrap_find_preamble_cpp_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_check_topology(find_preamble_cpp_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"find_preamble_cpp_sptr_alias", _wrap_find_preamble_cpp_sptr_alias, METH_VARARGS, (char *)"find_preamble_cpp_sptr_alias(find_preamble_cpp_sptr self) -> std::string"},
+	 { (char *)"find_preamble_cpp_sptr_set_block_alias", (PyCFunction) _wrap_find_preamble_cpp_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_set_block_alias(find_preamble_cpp_sptr self, std::string name)"},
+	 { (char *)"find_preamble_cpp_sptr__post", (PyCFunction) _wrap_find_preamble_cpp_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr__post(find_preamble_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"find_preamble_cpp_sptr_message_ports_in", _wrap_find_preamble_cpp_sptr_message_ports_in, METH_VARARGS, (char *)"find_preamble_cpp_sptr_message_ports_in(find_preamble_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"find_preamble_cpp_sptr_message_ports_out", _wrap_find_preamble_cpp_sptr_message_ports_out, METH_VARARGS, (char *)"find_preamble_cpp_sptr_message_ports_out(find_preamble_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"find_preamble_cpp_sptr_message_subscribers", (PyCFunction) _wrap_find_preamble_cpp_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"find_preamble_cpp_sptr_message_subscribers(find_preamble_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"find_preamble_cpp_sptr_swigregister", find_preamble_cpp_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"wave_to_float_single_cpp_make", (PyCFunction) _wrap_wave_to_float_single_cpp_make, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_make(int decim) -> wave_to_float_single_cpp_sptr"},
+	 { (char *)"delete_wave_to_float_single_cpp", _wrap_delete_wave_to_float_single_cpp, METH_VARARGS, (char *)"delete_wave_to_float_single_cpp(wave_to_float_single_cpp self)"},
+	 { (char *)"wave_to_float_single_cpp_swigregister", wave_to_float_single_cpp_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_wave_to_float_single_cpp_sptr", _wrap_new_wave_to_float_single_cpp_sptr, METH_VARARGS, (char *)"\n"
+		"wave_to_float_single_cpp_sptr()\n"
+		"new_wave_to_float_single_cpp_sptr(wave_to_float_single_cpp p) -> wave_to_float_single_cpp_sptr\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr___deref__", _wrap_wave_to_float_single_cpp_sptr___deref__, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr___deref__(wave_to_float_single_cpp_sptr self) -> wave_to_float_single_cpp"},
+	 { (char *)"delete_wave_to_float_single_cpp_sptr", _wrap_delete_wave_to_float_single_cpp_sptr, METH_VARARGS, (char *)"delete_wave_to_float_single_cpp_sptr(wave_to_float_single_cpp_sptr self)"},
+	 { (char *)"wave_to_float_single_cpp_sptr_make", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_make(wave_to_float_single_cpp_sptr self, int decim) -> wave_to_float_single_cpp_sptr"},
+	 { (char *)"wave_to_float_single_cpp_sptr_history", _wrap_wave_to_float_single_cpp_sptr_history, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_history(wave_to_float_single_cpp_sptr self) -> unsigned int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_declare_sample_delay", _wrap_wave_to_float_single_cpp_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"wave_to_float_single_cpp_sptr_declare_sample_delay(wave_to_float_single_cpp_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_sample_delay", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_sample_delay(wave_to_float_single_cpp_sptr self, int which) -> unsigned int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_output_multiple", _wrap_wave_to_float_single_cpp_sptr_output_multiple, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_output_multiple(wave_to_float_single_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_relative_rate", _wrap_wave_to_float_single_cpp_sptr_relative_rate, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_relative_rate(wave_to_float_single_cpp_sptr self) -> double"},
+	 { (char *)"wave_to_float_single_cpp_sptr_start", _wrap_wave_to_float_single_cpp_sptr_start, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_start(wave_to_float_single_cpp_sptr self) -> bool"},
+	 { (char *)"wave_to_float_single_cpp_sptr_stop", _wrap_wave_to_float_single_cpp_sptr_stop, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_stop(wave_to_float_single_cpp_sptr self) -> bool"},
+	 { (char *)"wave_to_float_single_cpp_sptr_nitems_read", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_nitems_read(wave_to_float_single_cpp_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"wave_to_float_single_cpp_sptr_nitems_written", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_nitems_written(wave_to_float_single_cpp_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"wave_to_float_single_cpp_sptr_max_noutput_items", _wrap_wave_to_float_single_cpp_sptr_max_noutput_items, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_max_noutput_items(wave_to_float_single_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_set_max_noutput_items", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_set_max_noutput_items(wave_to_float_single_cpp_sptr self, int m)"},
+	 { (char *)"wave_to_float_single_cpp_sptr_unset_max_noutput_items", _wrap_wave_to_float_single_cpp_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_unset_max_noutput_items(wave_to_float_single_cpp_sptr self)"},
+	 { (char *)"wave_to_float_single_cpp_sptr_is_set_max_noutput_items", _wrap_wave_to_float_single_cpp_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_is_set_max_noutput_items(wave_to_float_single_cpp_sptr self) -> bool"},
+	 { (char *)"wave_to_float_single_cpp_sptr_set_min_noutput_items", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_set_min_noutput_items(wave_to_float_single_cpp_sptr self, int m)"},
+	 { (char *)"wave_to_float_single_cpp_sptr_min_noutput_items", _wrap_wave_to_float_single_cpp_sptr_min_noutput_items, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_min_noutput_items(wave_to_float_single_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_max_output_buffer", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_max_output_buffer(wave_to_float_single_cpp_sptr self, int i) -> long"},
+	 { (char *)"wave_to_float_single_cpp_sptr_set_max_output_buffer", _wrap_wave_to_float_single_cpp_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"wave_to_float_single_cpp_sptr_set_max_output_buffer(wave_to_float_single_cpp_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_min_output_buffer", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_min_output_buffer(wave_to_float_single_cpp_sptr self, int i) -> long"},
+	 { (char *)"wave_to_float_single_cpp_sptr_set_min_output_buffer", _wrap_wave_to_float_single_cpp_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"wave_to_float_single_cpp_sptr_set_min_output_buffer(wave_to_float_single_cpp_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_noutput_items", _wrap_wave_to_float_single_cpp_sptr_pc_noutput_items, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_noutput_items(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_noutput_items_avg", _wrap_wave_to_float_single_cpp_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_noutput_items_avg(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_noutput_items_var", _wrap_wave_to_float_single_cpp_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_noutput_items_var(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_nproduced", _wrap_wave_to_float_single_cpp_sptr_pc_nproduced, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_nproduced(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_nproduced_avg", _wrap_wave_to_float_single_cpp_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_nproduced_avg(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_nproduced_var", _wrap_wave_to_float_single_cpp_sptr_pc_nproduced_var, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_nproduced_var(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full", _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"wave_to_float_single_cpp_sptr_pc_input_buffers_full(wave_to_float_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg", _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg(wave_to_float_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_input_buffers_full_var", _wrap_wave_to_float_single_cpp_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"wave_to_float_single_cpp_sptr_pc_input_buffers_full_var(wave_to_float_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full", _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"wave_to_float_single_cpp_sptr_pc_output_buffers_full(wave_to_float_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg", _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg(wave_to_float_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_output_buffers_full_var", _wrap_wave_to_float_single_cpp_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"wave_to_float_single_cpp_sptr_pc_output_buffers_full_var(wave_to_float_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_work_time", _wrap_wave_to_float_single_cpp_sptr_pc_work_time, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_work_time(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_work_time_avg", _wrap_wave_to_float_single_cpp_sptr_pc_work_time_avg, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_work_time_avg(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_work_time_var", _wrap_wave_to_float_single_cpp_sptr_pc_work_time_var, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_work_time_var(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_work_time_total", _wrap_wave_to_float_single_cpp_sptr_pc_work_time_total, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_work_time_total(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_pc_throughput_avg", _wrap_wave_to_float_single_cpp_sptr_pc_throughput_avg, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_pc_throughput_avg(wave_to_float_single_cpp_sptr self) -> float"},
+	 { (char *)"wave_to_float_single_cpp_sptr_set_processor_affinity", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_set_processor_affinity(wave_to_float_single_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"wave_to_float_single_cpp_sptr_unset_processor_affinity", _wrap_wave_to_float_single_cpp_sptr_unset_processor_affinity, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_unset_processor_affinity(wave_to_float_single_cpp_sptr self)"},
+	 { (char *)"wave_to_float_single_cpp_sptr_processor_affinity", _wrap_wave_to_float_single_cpp_sptr_processor_affinity, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_processor_affinity(wave_to_float_single_cpp_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"wave_to_float_single_cpp_sptr_active_thread_priority", _wrap_wave_to_float_single_cpp_sptr_active_thread_priority, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_active_thread_priority(wave_to_float_single_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_thread_priority", _wrap_wave_to_float_single_cpp_sptr_thread_priority, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_thread_priority(wave_to_float_single_cpp_sptr self) -> int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_set_thread_priority", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_set_thread_priority(wave_to_float_single_cpp_sptr self, int priority) -> int"},
+	 { (char *)"wave_to_float_single_cpp_sptr_name", _wrap_wave_to_float_single_cpp_sptr_name, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_name(wave_to_float_single_cpp_sptr self) -> std::string"},
+	 { (char *)"wave_to_float_single_cpp_sptr_symbol_name", _wrap_wave_to_float_single_cpp_sptr_symbol_name, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_symbol_name(wave_to_float_single_cpp_sptr self) -> std::string"},
+	 { (char *)"wave_to_float_single_cpp_sptr_input_signature", _wrap_wave_to_float_single_cpp_sptr_input_signature, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_input_signature(wave_to_float_single_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"wave_to_float_single_cpp_sptr_output_signature", _wrap_wave_to_float_single_cpp_sptr_output_signature, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_output_signature(wave_to_float_single_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"wave_to_float_single_cpp_sptr_unique_id", _wrap_wave_to_float_single_cpp_sptr_unique_id, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_unique_id(wave_to_float_single_cpp_sptr self) -> long"},
+	 { (char *)"wave_to_float_single_cpp_sptr_to_basic_block", _wrap_wave_to_float_single_cpp_sptr_to_basic_block, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_to_basic_block(wave_to_float_single_cpp_sptr self) -> basic_block_sptr"},
+	 { (char *)"wave_to_float_single_cpp_sptr_check_topology", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_check_topology(wave_to_float_single_cpp_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"wave_to_float_single_cpp_sptr_alias", _wrap_wave_to_float_single_cpp_sptr_alias, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_alias(wave_to_float_single_cpp_sptr self) -> std::string"},
+	 { (char *)"wave_to_float_single_cpp_sptr_set_block_alias", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_set_block_alias(wave_to_float_single_cpp_sptr self, std::string name)"},
+	 { (char *)"wave_to_float_single_cpp_sptr__post", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr__post(wave_to_float_single_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"wave_to_float_single_cpp_sptr_message_ports_in", _wrap_wave_to_float_single_cpp_sptr_message_ports_in, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_message_ports_in(wave_to_float_single_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"wave_to_float_single_cpp_sptr_message_ports_out", _wrap_wave_to_float_single_cpp_sptr_message_ports_out, METH_VARARGS, (char *)"wave_to_float_single_cpp_sptr_message_ports_out(wave_to_float_single_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"wave_to_float_single_cpp_sptr_message_subscribers", (PyCFunction) _wrap_wave_to_float_single_cpp_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"wave_to_float_single_cpp_sptr_message_subscribers(wave_to_float_single_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"wave_to_float_single_cpp_sptr_swigregister", wave_to_float_single_cpp_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"conv_decode_tag_single_make", (PyCFunction) _wrap_conv_decode_tag_single_make, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_make(std::string const & lengthtagname) -> conv_decode_tag_single_sptr"},
+	 { (char *)"delete_conv_decode_tag_single", _wrap_delete_conv_decode_tag_single, METH_VARARGS, (char *)"delete_conv_decode_tag_single(conv_decode_tag_single self)"},
+	 { (char *)"conv_decode_tag_single_swigregister", conv_decode_tag_single_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_conv_decode_tag_single_sptr", _wrap_new_conv_decode_tag_single_sptr, METH_VARARGS, (char *)"\n"
+		"conv_decode_tag_single_sptr()\n"
+		"new_conv_decode_tag_single_sptr(conv_decode_tag_single p) -> conv_decode_tag_single_sptr\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr___deref__", _wrap_conv_decode_tag_single_sptr___deref__, METH_VARARGS, (char *)"conv_decode_tag_single_sptr___deref__(conv_decode_tag_single_sptr self) -> conv_decode_tag_single"},
+	 { (char *)"delete_conv_decode_tag_single_sptr", _wrap_delete_conv_decode_tag_single_sptr, METH_VARARGS, (char *)"delete_conv_decode_tag_single_sptr(conv_decode_tag_single_sptr self)"},
+	 { (char *)"conv_decode_tag_single_sptr_make", (PyCFunction) _wrap_conv_decode_tag_single_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_make(conv_decode_tag_single_sptr self, std::string const & lengthtagname) -> conv_decode_tag_single_sptr"},
+	 { (char *)"conv_decode_tag_single_sptr_history", _wrap_conv_decode_tag_single_sptr_history, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_history(conv_decode_tag_single_sptr self) -> unsigned int"},
+	 { (char *)"conv_decode_tag_single_sptr_declare_sample_delay", _wrap_conv_decode_tag_single_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"conv_decode_tag_single_sptr_declare_sample_delay(conv_decode_tag_single_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_sample_delay", (PyCFunction) _wrap_conv_decode_tag_single_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_sample_delay(conv_decode_tag_single_sptr self, int which) -> unsigned int"},
+	 { (char *)"conv_decode_tag_single_sptr_output_multiple", _wrap_conv_decode_tag_single_sptr_output_multiple, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_output_multiple(conv_decode_tag_single_sptr self) -> int"},
+	 { (char *)"conv_decode_tag_single_sptr_relative_rate", _wrap_conv_decode_tag_single_sptr_relative_rate, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_relative_rate(conv_decode_tag_single_sptr self) -> double"},
+	 { (char *)"conv_decode_tag_single_sptr_start", _wrap_conv_decode_tag_single_sptr_start, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_start(conv_decode_tag_single_sptr self) -> bool"},
+	 { (char *)"conv_decode_tag_single_sptr_stop", _wrap_conv_decode_tag_single_sptr_stop, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_stop(conv_decode_tag_single_sptr self) -> bool"},
+	 { (char *)"conv_decode_tag_single_sptr_nitems_read", (PyCFunction) _wrap_conv_decode_tag_single_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_nitems_read(conv_decode_tag_single_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"conv_decode_tag_single_sptr_nitems_written", (PyCFunction) _wrap_conv_decode_tag_single_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_nitems_written(conv_decode_tag_single_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"conv_decode_tag_single_sptr_max_noutput_items", _wrap_conv_decode_tag_single_sptr_max_noutput_items, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_max_noutput_items(conv_decode_tag_single_sptr self) -> int"},
+	 { (char *)"conv_decode_tag_single_sptr_set_max_noutput_items", (PyCFunction) _wrap_conv_decode_tag_single_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_set_max_noutput_items(conv_decode_tag_single_sptr self, int m)"},
+	 { (char *)"conv_decode_tag_single_sptr_unset_max_noutput_items", _wrap_conv_decode_tag_single_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_unset_max_noutput_items(conv_decode_tag_single_sptr self)"},
+	 { (char *)"conv_decode_tag_single_sptr_is_set_max_noutput_items", _wrap_conv_decode_tag_single_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_is_set_max_noutput_items(conv_decode_tag_single_sptr self) -> bool"},
+	 { (char *)"conv_decode_tag_single_sptr_set_min_noutput_items", (PyCFunction) _wrap_conv_decode_tag_single_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_set_min_noutput_items(conv_decode_tag_single_sptr self, int m)"},
+	 { (char *)"conv_decode_tag_single_sptr_min_noutput_items", _wrap_conv_decode_tag_single_sptr_min_noutput_items, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_min_noutput_items(conv_decode_tag_single_sptr self) -> int"},
+	 { (char *)"conv_decode_tag_single_sptr_max_output_buffer", (PyCFunction) _wrap_conv_decode_tag_single_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_max_output_buffer(conv_decode_tag_single_sptr self, int i) -> long"},
+	 { (char *)"conv_decode_tag_single_sptr_set_max_output_buffer", _wrap_conv_decode_tag_single_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"conv_decode_tag_single_sptr_set_max_output_buffer(conv_decode_tag_single_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_min_output_buffer", (PyCFunction) _wrap_conv_decode_tag_single_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_min_output_buffer(conv_decode_tag_single_sptr self, int i) -> long"},
+	 { (char *)"conv_decode_tag_single_sptr_set_min_output_buffer", _wrap_conv_decode_tag_single_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"conv_decode_tag_single_sptr_set_min_output_buffer(conv_decode_tag_single_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_pc_noutput_items", _wrap_conv_decode_tag_single_sptr_pc_noutput_items, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_noutput_items(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_noutput_items_avg", _wrap_conv_decode_tag_single_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_noutput_items_avg(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_noutput_items_var", _wrap_conv_decode_tag_single_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_noutput_items_var(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_nproduced", _wrap_conv_decode_tag_single_sptr_pc_nproduced, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_nproduced(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_nproduced_avg", _wrap_conv_decode_tag_single_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_nproduced_avg(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_nproduced_var", _wrap_conv_decode_tag_single_sptr_pc_nproduced_var, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_nproduced_var(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_input_buffers_full", _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"conv_decode_tag_single_sptr_pc_input_buffers_full(conv_decode_tag_single_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_pc_input_buffers_full_avg", _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"conv_decode_tag_single_sptr_pc_input_buffers_full_avg(conv_decode_tag_single_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_pc_input_buffers_full_var", _wrap_conv_decode_tag_single_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"conv_decode_tag_single_sptr_pc_input_buffers_full_var(conv_decode_tag_single_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_pc_output_buffers_full", _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"conv_decode_tag_single_sptr_pc_output_buffers_full(conv_decode_tag_single_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_pc_output_buffers_full_avg", _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"conv_decode_tag_single_sptr_pc_output_buffers_full_avg(conv_decode_tag_single_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_pc_output_buffers_full_var", _wrap_conv_decode_tag_single_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"conv_decode_tag_single_sptr_pc_output_buffers_full_var(conv_decode_tag_single_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"conv_decode_tag_single_sptr_pc_work_time", _wrap_conv_decode_tag_single_sptr_pc_work_time, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_work_time(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_work_time_avg", _wrap_conv_decode_tag_single_sptr_pc_work_time_avg, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_work_time_avg(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_work_time_var", _wrap_conv_decode_tag_single_sptr_pc_work_time_var, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_work_time_var(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_work_time_total", _wrap_conv_decode_tag_single_sptr_pc_work_time_total, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_work_time_total(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_pc_throughput_avg", _wrap_conv_decode_tag_single_sptr_pc_throughput_avg, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_pc_throughput_avg(conv_decode_tag_single_sptr self) -> float"},
+	 { (char *)"conv_decode_tag_single_sptr_set_processor_affinity", (PyCFunction) _wrap_conv_decode_tag_single_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_set_processor_affinity(conv_decode_tag_single_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"conv_decode_tag_single_sptr_unset_processor_affinity", _wrap_conv_decode_tag_single_sptr_unset_processor_affinity, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_unset_processor_affinity(conv_decode_tag_single_sptr self)"},
+	 { (char *)"conv_decode_tag_single_sptr_processor_affinity", _wrap_conv_decode_tag_single_sptr_processor_affinity, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_processor_affinity(conv_decode_tag_single_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"conv_decode_tag_single_sptr_active_thread_priority", _wrap_conv_decode_tag_single_sptr_active_thread_priority, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_active_thread_priority(conv_decode_tag_single_sptr self) -> int"},
+	 { (char *)"conv_decode_tag_single_sptr_thread_priority", _wrap_conv_decode_tag_single_sptr_thread_priority, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_thread_priority(conv_decode_tag_single_sptr self) -> int"},
+	 { (char *)"conv_decode_tag_single_sptr_set_thread_priority", (PyCFunction) _wrap_conv_decode_tag_single_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_set_thread_priority(conv_decode_tag_single_sptr self, int priority) -> int"},
+	 { (char *)"conv_decode_tag_single_sptr_name", _wrap_conv_decode_tag_single_sptr_name, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_name(conv_decode_tag_single_sptr self) -> std::string"},
+	 { (char *)"conv_decode_tag_single_sptr_symbol_name", _wrap_conv_decode_tag_single_sptr_symbol_name, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_symbol_name(conv_decode_tag_single_sptr self) -> std::string"},
+	 { (char *)"conv_decode_tag_single_sptr_input_signature", _wrap_conv_decode_tag_single_sptr_input_signature, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_input_signature(conv_decode_tag_single_sptr self) -> io_signature_sptr"},
+	 { (char *)"conv_decode_tag_single_sptr_output_signature", _wrap_conv_decode_tag_single_sptr_output_signature, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_output_signature(conv_decode_tag_single_sptr self) -> io_signature_sptr"},
+	 { (char *)"conv_decode_tag_single_sptr_unique_id", _wrap_conv_decode_tag_single_sptr_unique_id, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_unique_id(conv_decode_tag_single_sptr self) -> long"},
+	 { (char *)"conv_decode_tag_single_sptr_to_basic_block", _wrap_conv_decode_tag_single_sptr_to_basic_block, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_to_basic_block(conv_decode_tag_single_sptr self) -> basic_block_sptr"},
+	 { (char *)"conv_decode_tag_single_sptr_check_topology", (PyCFunction) _wrap_conv_decode_tag_single_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_check_topology(conv_decode_tag_single_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"conv_decode_tag_single_sptr_alias", _wrap_conv_decode_tag_single_sptr_alias, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_alias(conv_decode_tag_single_sptr self) -> std::string"},
+	 { (char *)"conv_decode_tag_single_sptr_set_block_alias", (PyCFunction) _wrap_conv_decode_tag_single_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_set_block_alias(conv_decode_tag_single_sptr self, std::string name)"},
+	 { (char *)"conv_decode_tag_single_sptr__post", (PyCFunction) _wrap_conv_decode_tag_single_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr__post(conv_decode_tag_single_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"conv_decode_tag_single_sptr_message_ports_in", _wrap_conv_decode_tag_single_sptr_message_ports_in, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_message_ports_in(conv_decode_tag_single_sptr self) -> swig_int_ptr"},
+	 { (char *)"conv_decode_tag_single_sptr_message_ports_out", _wrap_conv_decode_tag_single_sptr_message_ports_out, METH_VARARGS, (char *)"conv_decode_tag_single_sptr_message_ports_out(conv_decode_tag_single_sptr self) -> swig_int_ptr"},
+	 { (char *)"conv_decode_tag_single_sptr_message_subscribers", (PyCFunction) _wrap_conv_decode_tag_single_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"conv_decode_tag_single_sptr_message_subscribers(conv_decode_tag_single_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"conv_decode_tag_single_sptr_swigregister", conv_decode_tag_single_sptr_swigregister, METH_VARARGS, NULL},
+	 { (char *)"float_to_bit_single_cpp_make", (PyCFunction) _wrap_float_to_bit_single_cpp_make, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_make(float value) -> float_to_bit_single_cpp_sptr"},
+	 { (char *)"delete_float_to_bit_single_cpp", _wrap_delete_float_to_bit_single_cpp, METH_VARARGS, (char *)"delete_float_to_bit_single_cpp(float_to_bit_single_cpp self)"},
+	 { (char *)"float_to_bit_single_cpp_swigregister", float_to_bit_single_cpp_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_float_to_bit_single_cpp_sptr", _wrap_new_float_to_bit_single_cpp_sptr, METH_VARARGS, (char *)"\n"
+		"float_to_bit_single_cpp_sptr()\n"
+		"new_float_to_bit_single_cpp_sptr(float_to_bit_single_cpp p) -> float_to_bit_single_cpp_sptr\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr___deref__", _wrap_float_to_bit_single_cpp_sptr___deref__, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr___deref__(float_to_bit_single_cpp_sptr self) -> float_to_bit_single_cpp"},
+	 { (char *)"delete_float_to_bit_single_cpp_sptr", _wrap_delete_float_to_bit_single_cpp_sptr, METH_VARARGS, (char *)"delete_float_to_bit_single_cpp_sptr(float_to_bit_single_cpp_sptr self)"},
+	 { (char *)"float_to_bit_single_cpp_sptr_make", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_make, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_make(float_to_bit_single_cpp_sptr self, float value) -> float_to_bit_single_cpp_sptr"},
+	 { (char *)"float_to_bit_single_cpp_sptr_history", _wrap_float_to_bit_single_cpp_sptr_history, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_history(float_to_bit_single_cpp_sptr self) -> unsigned int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_declare_sample_delay", _wrap_float_to_bit_single_cpp_sptr_declare_sample_delay, METH_VARARGS, (char *)"\n"
+		"declare_sample_delay(int which, int delay)\n"
+		"float_to_bit_single_cpp_sptr_declare_sample_delay(float_to_bit_single_cpp_sptr self, unsigned int delay)\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_sample_delay", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_sample_delay, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_sample_delay(float_to_bit_single_cpp_sptr self, int which) -> unsigned int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_output_multiple", _wrap_float_to_bit_single_cpp_sptr_output_multiple, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_output_multiple(float_to_bit_single_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_relative_rate", _wrap_float_to_bit_single_cpp_sptr_relative_rate, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_relative_rate(float_to_bit_single_cpp_sptr self) -> double"},
+	 { (char *)"float_to_bit_single_cpp_sptr_start", _wrap_float_to_bit_single_cpp_sptr_start, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_start(float_to_bit_single_cpp_sptr self) -> bool"},
+	 { (char *)"float_to_bit_single_cpp_sptr_stop", _wrap_float_to_bit_single_cpp_sptr_stop, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_stop(float_to_bit_single_cpp_sptr self) -> bool"},
+	 { (char *)"float_to_bit_single_cpp_sptr_nitems_read", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_nitems_read, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_nitems_read(float_to_bit_single_cpp_sptr self, unsigned int which_input) -> uint64_t"},
+	 { (char *)"float_to_bit_single_cpp_sptr_nitems_written", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_nitems_written, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_nitems_written(float_to_bit_single_cpp_sptr self, unsigned int which_output) -> uint64_t"},
+	 { (char *)"float_to_bit_single_cpp_sptr_max_noutput_items", _wrap_float_to_bit_single_cpp_sptr_max_noutput_items, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_max_noutput_items(float_to_bit_single_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_set_max_noutput_items", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_set_max_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_set_max_noutput_items(float_to_bit_single_cpp_sptr self, int m)"},
+	 { (char *)"float_to_bit_single_cpp_sptr_unset_max_noutput_items", _wrap_float_to_bit_single_cpp_sptr_unset_max_noutput_items, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_unset_max_noutput_items(float_to_bit_single_cpp_sptr self)"},
+	 { (char *)"float_to_bit_single_cpp_sptr_is_set_max_noutput_items", _wrap_float_to_bit_single_cpp_sptr_is_set_max_noutput_items, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_is_set_max_noutput_items(float_to_bit_single_cpp_sptr self) -> bool"},
+	 { (char *)"float_to_bit_single_cpp_sptr_set_min_noutput_items", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_set_min_noutput_items, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_set_min_noutput_items(float_to_bit_single_cpp_sptr self, int m)"},
+	 { (char *)"float_to_bit_single_cpp_sptr_min_noutput_items", _wrap_float_to_bit_single_cpp_sptr_min_noutput_items, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_min_noutput_items(float_to_bit_single_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_max_output_buffer", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_max_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_max_output_buffer(float_to_bit_single_cpp_sptr self, int i) -> long"},
+	 { (char *)"float_to_bit_single_cpp_sptr_set_max_output_buffer", _wrap_float_to_bit_single_cpp_sptr_set_max_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_max_output_buffer(long max_output_buffer)\n"
+		"float_to_bit_single_cpp_sptr_set_max_output_buffer(float_to_bit_single_cpp_sptr self, int port, long max_output_buffer)\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_min_output_buffer", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_min_output_buffer, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_min_output_buffer(float_to_bit_single_cpp_sptr self, int i) -> long"},
+	 { (char *)"float_to_bit_single_cpp_sptr_set_min_output_buffer", _wrap_float_to_bit_single_cpp_sptr_set_min_output_buffer, METH_VARARGS, (char *)"\n"
+		"set_min_output_buffer(long min_output_buffer)\n"
+		"float_to_bit_single_cpp_sptr_set_min_output_buffer(float_to_bit_single_cpp_sptr self, int port, long min_output_buffer)\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_noutput_items", _wrap_float_to_bit_single_cpp_sptr_pc_noutput_items, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_noutput_items(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_noutput_items_avg", _wrap_float_to_bit_single_cpp_sptr_pc_noutput_items_avg, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_noutput_items_avg(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_noutput_items_var", _wrap_float_to_bit_single_cpp_sptr_pc_noutput_items_var, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_noutput_items_var(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_nproduced", _wrap_float_to_bit_single_cpp_sptr_pc_nproduced, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_nproduced(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_nproduced_avg", _wrap_float_to_bit_single_cpp_sptr_pc_nproduced_avg, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_nproduced_avg(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_nproduced_var", _wrap_float_to_bit_single_cpp_sptr_pc_nproduced_var, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_nproduced_var(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full", _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full(int which) -> float\n"
+		"float_to_bit_single_cpp_sptr_pc_input_buffers_full(float_to_bit_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg", _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_avg(int which) -> float\n"
+		"float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg(float_to_bit_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_input_buffers_full_var", _wrap_float_to_bit_single_cpp_sptr_pc_input_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_input_buffers_full_var(int which) -> float\n"
+		"float_to_bit_single_cpp_sptr_pc_input_buffers_full_var(float_to_bit_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full", _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full(int which) -> float\n"
+		"float_to_bit_single_cpp_sptr_pc_output_buffers_full(float_to_bit_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg", _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_avg(int which) -> float\n"
+		"float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg(float_to_bit_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_output_buffers_full_var", _wrap_float_to_bit_single_cpp_sptr_pc_output_buffers_full_var, METH_VARARGS, (char *)"\n"
+		"pc_output_buffers_full_var(int which) -> float\n"
+		"float_to_bit_single_cpp_sptr_pc_output_buffers_full_var(float_to_bit_single_cpp_sptr self) -> pmt_vector_float\n"
+		""},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_work_time", _wrap_float_to_bit_single_cpp_sptr_pc_work_time, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_work_time(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_work_time_avg", _wrap_float_to_bit_single_cpp_sptr_pc_work_time_avg, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_work_time_avg(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_work_time_var", _wrap_float_to_bit_single_cpp_sptr_pc_work_time_var, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_work_time_var(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_work_time_total", _wrap_float_to_bit_single_cpp_sptr_pc_work_time_total, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_work_time_total(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_pc_throughput_avg", _wrap_float_to_bit_single_cpp_sptr_pc_throughput_avg, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_pc_throughput_avg(float_to_bit_single_cpp_sptr self) -> float"},
+	 { (char *)"float_to_bit_single_cpp_sptr_set_processor_affinity", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_set_processor_affinity, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_set_processor_affinity(float_to_bit_single_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"},
+	 { (char *)"float_to_bit_single_cpp_sptr_unset_processor_affinity", _wrap_float_to_bit_single_cpp_sptr_unset_processor_affinity, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_unset_processor_affinity(float_to_bit_single_cpp_sptr self)"},
+	 { (char *)"float_to_bit_single_cpp_sptr_processor_affinity", _wrap_float_to_bit_single_cpp_sptr_processor_affinity, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_processor_affinity(float_to_bit_single_cpp_sptr self) -> std::vector< int,std::allocator< int > >"},
+	 { (char *)"float_to_bit_single_cpp_sptr_active_thread_priority", _wrap_float_to_bit_single_cpp_sptr_active_thread_priority, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_active_thread_priority(float_to_bit_single_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_thread_priority", _wrap_float_to_bit_single_cpp_sptr_thread_priority, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_thread_priority(float_to_bit_single_cpp_sptr self) -> int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_set_thread_priority", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_set_thread_priority, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_set_thread_priority(float_to_bit_single_cpp_sptr self, int priority) -> int"},
+	 { (char *)"float_to_bit_single_cpp_sptr_name", _wrap_float_to_bit_single_cpp_sptr_name, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_name(float_to_bit_single_cpp_sptr self) -> std::string"},
+	 { (char *)"float_to_bit_single_cpp_sptr_symbol_name", _wrap_float_to_bit_single_cpp_sptr_symbol_name, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_symbol_name(float_to_bit_single_cpp_sptr self) -> std::string"},
+	 { (char *)"float_to_bit_single_cpp_sptr_input_signature", _wrap_float_to_bit_single_cpp_sptr_input_signature, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_input_signature(float_to_bit_single_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"float_to_bit_single_cpp_sptr_output_signature", _wrap_float_to_bit_single_cpp_sptr_output_signature, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_output_signature(float_to_bit_single_cpp_sptr self) -> io_signature_sptr"},
+	 { (char *)"float_to_bit_single_cpp_sptr_unique_id", _wrap_float_to_bit_single_cpp_sptr_unique_id, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_unique_id(float_to_bit_single_cpp_sptr self) -> long"},
+	 { (char *)"float_to_bit_single_cpp_sptr_to_basic_block", _wrap_float_to_bit_single_cpp_sptr_to_basic_block, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_to_basic_block(float_to_bit_single_cpp_sptr self) -> basic_block_sptr"},
+	 { (char *)"float_to_bit_single_cpp_sptr_check_topology", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_check_topology, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_check_topology(float_to_bit_single_cpp_sptr self, int ninputs, int noutputs) -> bool"},
+	 { (char *)"float_to_bit_single_cpp_sptr_alias", _wrap_float_to_bit_single_cpp_sptr_alias, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_alias(float_to_bit_single_cpp_sptr self) -> std::string"},
+	 { (char *)"float_to_bit_single_cpp_sptr_set_block_alias", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_set_block_alias, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_set_block_alias(float_to_bit_single_cpp_sptr self, std::string name)"},
+	 { (char *)"float_to_bit_single_cpp_sptr__post", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr__post, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr__post(float_to_bit_single_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"},
+	 { (char *)"float_to_bit_single_cpp_sptr_message_ports_in", _wrap_float_to_bit_single_cpp_sptr_message_ports_in, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_message_ports_in(float_to_bit_single_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"float_to_bit_single_cpp_sptr_message_ports_out", _wrap_float_to_bit_single_cpp_sptr_message_ports_out, METH_VARARGS, (char *)"float_to_bit_single_cpp_sptr_message_ports_out(float_to_bit_single_cpp_sptr self) -> swig_int_ptr"},
+	 { (char *)"float_to_bit_single_cpp_sptr_message_subscribers", (PyCFunction) _wrap_float_to_bit_single_cpp_sptr_message_subscribers, METH_VARARGS | METH_KEYWORDS, (char *)"float_to_bit_single_cpp_sptr_message_subscribers(float_to_bit_single_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"},
+	 { (char *)"float_to_bit_single_cpp_sptr_swigregister", float_to_bit_single_cpp_sptr_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
 
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
-static void *_p_gr__sync_decimatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_decimator *) x));
-}
-static void *_p_gr__sync_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *)  ((gr::sync_block *) x));
+static void *_p_gr__PHY__float_to_bit_cppTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::PHY::float_to_bit_cpp *) x));
 }
 static void *_p_gr__tagged_stream_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *)  ((gr::tagged_stream_block *) x));
 }
-static void *_p_gr__block_gatewayTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *)  ((gr::block_gateway *) x));
+static void *_p_gr__sync_blockTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *)  ((gr::sync_block *) x));
 }
-static void *_p_gr__PHY__conv_encode_tagTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::tagged_stream_block *) ((gr::PHY::conv_encode_tag *) x));
+static void *_p_gr__PHY__float_to_bit_tagTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::tagged_stream_block *) ((gr::PHY::float_to_bit_tag *) x));
 }
-static void *_p_gr__PHY__conv_decode_tagTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::tagged_stream_block *) ((gr::PHY::conv_decode_tag *) x));
+static void *_p_gr__PHY__find_preamble_cppTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::PHY::find_preamble_cpp *) x));
+}
+static void *_p_gr__PHY__wave_to_float_cppTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *)(gr::sync_decimator *) ((gr::PHY::wave_to_float_cpp *) x));
 }
 static void *_p_gr__sync_interpolatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_interpolator *) x));
 }
-static void *_p_gr__PHY__float_to_bit_tagTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::block *) (gr::tagged_stream_block *) ((gr::PHY::float_to_bit_tag *) x));
+static void *_p_gr__block_gatewayTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *)  ((gr::block_gateway *) x));
+}
+static void *_p_gr__PHY__float_to_bit_single_cppTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::PHY::float_to_bit_single_cpp *) x));
+}
+static void *_p_gr__PHY__wave_to_float_single_cppTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *)(gr::sync_decimator *) ((gr::PHY::wave_to_float_single_cpp *) x));
+}
+static void *_p_gr__PHY__conv_decode_tag_singleTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::tagged_stream_block *) ((gr::PHY::conv_decode_tag_single *) x));
+}
+static void *_p_gr__PHY__conv_decode_tagTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::tagged_stream_block *) ((gr::PHY::conv_decode_tag *) x));
+}
+static void *_p_gr__PHY__conv_encode_tagTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::tagged_stream_block *) ((gr::PHY::conv_encode_tag *) x));
+}
+static void *_p_gr__sync_decimatorTo_p_gr__block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::block *) (gr::sync_block *) ((gr::sync_decimator *) x));
 }
 static void *_p_gr__PHY__conv_encode_tagTo_p_gr__tagged_stream_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::tagged_stream_block *)  ((gr::PHY::conv_encode_tag *) x));
@@ -15000,47 +34684,101 @@ static void *_p_gr__PHY__conv_encode_tagTo_p_gr__tagged_stream_block(void *x, in
 static void *_p_gr__PHY__conv_decode_tagTo_p_gr__tagged_stream_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::tagged_stream_block *)  ((gr::PHY::conv_decode_tag *) x));
 }
+static void *_p_gr__PHY__conv_decode_tag_singleTo_p_gr__tagged_stream_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::tagged_stream_block *)  ((gr::PHY::conv_decode_tag_single *) x));
+}
 static void *_p_gr__PHY__float_to_bit_tagTo_p_gr__tagged_stream_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::tagged_stream_block *)  ((gr::PHY::float_to_bit_tag *) x));
+}
+static void *_p_gr__PHY__float_to_bit_cppTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::PHY::float_to_bit_cpp *) x));
 }
 static void *_p_gr__blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *)  ((gr::block *) x));
 }
-static void *_p_gr__sync_decimatorTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::sync_decimator *) x));
-}
-static void *_p_gr__hier_block2To_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::basic_block *)  ((gr::hier_block2 *) x));
+static void *_p_gr__tagged_stream_blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *) ((gr::tagged_stream_block *) x));
 }
 static void *_p_gr__sync_blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *) ((gr::sync_block *) x));
 }
-static void *_p_gr__tagged_stream_blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::basic_block *) (gr::block *) ((gr::tagged_stream_block *) x));
+static void *_p_gr__PHY__float_to_bit_tagTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::PHY::float_to_bit_tag *) x));
 }
-static void *_p_gr__block_gatewayTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::basic_block *) (gr::block *) ((gr::block_gateway *) x));
+static void *_p_gr__PHY__find_preamble_cppTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::PHY::find_preamble_cpp *) x));
 }
-static void *_p_gr__PHY__conv_encode_tagTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::PHY::conv_encode_tag *) x));
+static void *_p_gr__hier_block2To_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *)  ((gr::hier_block2 *) x));
 }
-static void *_p_gr__PHY__conv_decode_tagTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::PHY::conv_decode_tag *) x));
+static void *_p_gr__PHY__wave_to_float_cppTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *)(gr::sync_decimator *) ((gr::PHY::wave_to_float_cpp *) x));
 }
 static void *_p_gr__sync_interpolatorTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::sync_interpolator *) x));
 }
+static void *_p_gr__block_gatewayTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *) ((gr::block_gateway *) x));
+}
+static void *_p_gr__PHY__wave_to_float_single_cppTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *)(gr::sync_decimator *) ((gr::PHY::wave_to_float_single_cpp *) x));
+}
+static void *_p_gr__PHY__float_to_bit_single_cppTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::PHY::float_to_bit_single_cpp *) x));
+}
+static void *_p_gr__PHY__conv_decode_tagTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::PHY::conv_decode_tag *) x));
+}
+static void *_p_gr__PHY__conv_encode_tagTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::PHY::conv_encode_tag *) x));
+}
+static void *_p_gr__PHY__conv_decode_tag_singleTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::PHY::conv_decode_tag_single *) x));
+}
 static void *_p_gr__top_blockTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((gr::basic_block *) (gr::hier_block2 *) ((gr::top_block *) x));
 }
-static void *_p_gr__PHY__float_to_bit_tagTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((gr::basic_block *) (gr::block *)(gr::tagged_stream_block *) ((gr::PHY::float_to_bit_tag *) x));
+static void *_p_gr__sync_decimatorTo_p_gr__basic_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::basic_block *) (gr::block *)(gr::sync_block *) ((gr::sync_decimator *) x));
+}
+static void *_p_gr__PHY__wave_to_float_single_cppTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *) (gr::sync_decimator *) ((gr::PHY::wave_to_float_single_cpp *) x));
+}
+static void *_p_gr__PHY__float_to_bit_single_cppTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::PHY::float_to_bit_single_cpp *) x));
+}
+static void *_p_gr__PHY__find_preamble_cppTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::PHY::find_preamble_cpp *) x));
+}
+static void *_p_gr__PHY__wave_to_float_cppTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *) (gr::sync_decimator *) ((gr::PHY::wave_to_float_cpp *) x));
+}
+static void *_p_gr__sync_decimatorTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::sync_decimator *) x));
+}
+static void *_p_gr__sync_interpolatorTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::sync_interpolator *) x));
+}
+static void *_p_gr__PHY__float_to_bit_cppTo_p_gr__sync_block(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_block *)  ((gr::PHY::float_to_bit_cpp *) x));
+}
+static void *_p_gr__PHY__wave_to_float_single_cppTo_p_gr__sync_decimator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_decimator *)  ((gr::PHY::wave_to_float_single_cpp *) x));
+}
+static void *_p_gr__PHY__wave_to_float_cppTo_p_gr__sync_decimator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((gr::sync_decimator *)  ((gr::PHY::wave_to_float_cpp *) x));
 }
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t = {"_p_boost__intrusive_ptrT_pmt__pmt_base_t", "pmt::pmt_t *|boost::intrusive_ptr< pmt::pmt_base > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t = {"_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t", "gr::PHY::conv_decode_tag_single::sptr *|boost::shared_ptr< gr::PHY::conv_decode_tag_single > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t = {"_p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t", "gr::PHY::conv_decode_tag::sptr *|boost::shared_ptr< gr::PHY::conv_decode_tag > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t = {"_p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t", "gr::PHY::conv_encode_tag::sptr *|boost::shared_ptr< gr::PHY::conv_encode_tag > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t = {"_p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t", "gr::PHY::find_preamble_cpp::sptr *|boost::shared_ptr< gr::PHY::find_preamble_cpp > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t = {"_p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t", "gr::PHY::float_to_bit_cpp::sptr *|boost::shared_ptr< gr::PHY::float_to_bit_cpp > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t = {"_p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t", "boost::shared_ptr< gr::PHY::float_to_bit_single_cpp > *|gr::PHY::float_to_bit_single_cpp::sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t = {"_p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t", "gr::PHY::float_to_bit_tag::sptr *|boost::shared_ptr< gr::PHY::float_to_bit_tag > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t = {"_p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t", "gr::PHY::wave_to_float_cpp::sptr *|boost::shared_ptr< gr::PHY::wave_to_float_cpp > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t = {"_p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t", "gr::PHY::wave_to_float_single_cpp::sptr *|boost::shared_ptr< gr::PHY::wave_to_float_single_cpp > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__basic_block_t = {"_p_boost__shared_ptrT_gr__basic_block_t", "boost::shared_ptr< gr::basic_block > *|gr::basic_block_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__block_detail_t = {"_p_boost__shared_ptrT_gr__block_detail_t", "boost::shared_ptr< gr::block_detail > *|gr::block_detail_sptr *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_boost__shared_ptrT_gr__block_t = {"_p_boost__shared_ptrT_gr__block_t", "boost::shared_ptr< gr::block > *|gr::block_sptr *", 0, 0, (void*)0, 0};
@@ -15055,18 +34793,24 @@ static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_const_reference = {"_p_const_reference", "const_reference *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "difference_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__PHY__conv_decode_tag = {"_p_gr__PHY__conv_decode_tag", "gr::PHY::conv_decode_tag *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__PHY__conv_decode_tag_single = {"_p_gr__PHY__conv_decode_tag_single", "gr::PHY::conv_decode_tag_single *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__PHY__conv_encode_tag = {"_p_gr__PHY__conv_encode_tag", "gr::PHY::conv_encode_tag *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__PHY__find_preamble_cpp = {"_p_gr__PHY__find_preamble_cpp", "gr::PHY::find_preamble_cpp *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__PHY__float_to_bit_cpp = {"_p_gr__PHY__float_to_bit_cpp", "gr::PHY::float_to_bit_cpp *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__PHY__float_to_bit_single_cpp = {"_p_gr__PHY__float_to_bit_single_cpp", "gr::PHY::float_to_bit_single_cpp *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__PHY__float_to_bit_tag = {"_p_gr__PHY__float_to_bit_tag", "gr::PHY::float_to_bit_tag *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__PHY__wave_to_float_cpp = {"_p_gr__PHY__wave_to_float_cpp", "gr::PHY::wave_to_float_cpp *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__PHY__wave_to_float_single_cpp = {"_p_gr__PHY__wave_to_float_single_cpp", "gr::PHY::wave_to_float_single_cpp *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__basic_block = {"_p_gr__basic_block", "gr::basic_block *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_gr__sync_decimator = {"_p_gr__sync_decimator", 0, 0, 0, 0, 0};
-static swig_type_info _swigt__p_gr__sync_block = {"_p_gr__sync_block", 0, 0, 0, 0, 0};
-static swig_type_info _swigt__p_gr__block_gateway = {"_p_gr__block_gateway", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr__hier_block2 = {"_p_gr__hier_block2", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr__sync_interpolator = {"_p_gr__sync_interpolator", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_gr__block_gateway = {"_p_gr__block_gateway", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr__top_block = {"_p_gr__top_block", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_gr__block = {"_p_gr__block", "gr::block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__endianness_t = {"_p_gr__endianness_t", "enum gr::endianness_t *|gr::endianness_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__rt_status_t = {"_p_gr__rt_status_t", "enum gr::rt_status_t *|gr::rt_status_t *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__sync_block = {"_p_gr__sync_block", "gr::sync_block *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_gr__sync_decimator = {"_p_gr__sync_decimator", "gr::sync_decimator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_gr__tagged_stream_block = {"_p_gr__tagged_stream_block", "gr::tagged_stream_block *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int = {"_p_int", "intptr_t *|int *|int_least32_t *|int_fast32_t *|int32_t *|int_fast16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long_long = {"_p_long_long", "gr::high_res_timer_type *|int_least64_t *|int_fast64_t *|int64_t *|long long *|intmax_t *", 0, 0, (void*)0, 0};
@@ -15086,9 +34830,15 @@ static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_allocator_type,
   &_swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t,
+  &_swigt__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t,
   &_swigt__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t,
   &_swigt__p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t,
+  &_swigt__p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t,
+  &_swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t,
+  &_swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t,
   &_swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t,
+  &_swigt__p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t,
+  &_swigt__p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t,
   &_swigt__p_boost__shared_ptrT_gr__basic_block_t,
   &_swigt__p_boost__shared_ptrT_gr__block_detail_t,
   &_swigt__p_boost__shared_ptrT_gr__block_t,
@@ -15103,8 +34853,14 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_const_reference,
   &_swigt__p_difference_type,
   &_swigt__p_gr__PHY__conv_decode_tag,
+  &_swigt__p_gr__PHY__conv_decode_tag_single,
   &_swigt__p_gr__PHY__conv_encode_tag,
+  &_swigt__p_gr__PHY__find_preamble_cpp,
+  &_swigt__p_gr__PHY__float_to_bit_cpp,
+  &_swigt__p_gr__PHY__float_to_bit_single_cpp,
   &_swigt__p_gr__PHY__float_to_bit_tag,
+  &_swigt__p_gr__PHY__wave_to_float_cpp,
+  &_swigt__p_gr__PHY__wave_to_float_single_cpp,
   &_swigt__p_gr__basic_block,
   &_swigt__p_gr__block,
   &_swigt__p_gr__block_gateway,
@@ -15134,9 +34890,15 @@ static swig_type_info *swig_type_initial[] = {
 
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__intrusive_ptrT_pmt__pmt_base_t[] = {  {&_swigt__p_boost__intrusive_ptrT_pmt__pmt_base_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__basic_block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__basic_block_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__block_detail_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__block_detail_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_boost__shared_ptrT_gr__block_t[] = {  {&_swigt__p_boost__shared_ptrT_gr__block_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -15151,19 +34913,25 @@ static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0,
 static swig_cast_info _swigc__p_const_reference[] = {  {&_swigt__p_const_reference, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__PHY__conv_decode_tag[] = {  {&_swigt__p_gr__PHY__conv_decode_tag, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__PHY__conv_decode_tag_single[] = {  {&_swigt__p_gr__PHY__conv_decode_tag_single, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__PHY__conv_encode_tag[] = {  {&_swigt__p_gr__PHY__conv_encode_tag, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__PHY__find_preamble_cpp[] = {  {&_swigt__p_gr__PHY__find_preamble_cpp, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__PHY__float_to_bit_cpp[] = {  {&_swigt__p_gr__PHY__float_to_bit_cpp, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__PHY__float_to_bit_single_cpp[] = {  {&_swigt__p_gr__PHY__float_to_bit_single_cpp, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__PHY__float_to_bit_tag[] = {  {&_swigt__p_gr__PHY__float_to_bit_tag, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__sync_decimator[] = {{&_swigt__p_gr__sync_decimator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__sync_block[] = {{&_swigt__p_gr__sync_block, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__block_gateway[] = {{&_swigt__p_gr__block_gateway, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__PHY__wave_to_float_cpp[] = {  {&_swigt__p_gr__PHY__wave_to_float_cpp, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__PHY__wave_to_float_single_cpp[] = {  {&_swigt__p_gr__PHY__wave_to_float_single_cpp, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__hier_block2[] = {{&_swigt__p_gr__hier_block2, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__sync_interpolator[] = {{&_swigt__p_gr__sync_interpolator, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__block_gateway[] = {{&_swigt__p_gr__block_gateway, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__top_block[] = {{&_swigt__p_gr__top_block, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__conv_encode_tag, _p_gr__PHY__conv_encode_tagTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag, _p_gr__PHY__conv_decode_tagTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_tag, _p_gr__PHY__float_to_bit_tagTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__conv_encode_tag, _p_gr__PHY__conv_encode_tagTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag, _p_gr__PHY__conv_decode_tagTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_tag, _p_gr__PHY__float_to_bit_tagTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__basic_block[] = {  {&_swigt__p_gr__PHY__float_to_bit_cpp, _p_gr__PHY__float_to_bit_cppTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__basic_block, 0, 0, 0},  {&_swigt__p_gr__block, _p_gr__blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_tag, _p_gr__PHY__float_to_bit_tagTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__find_preamble_cpp, _p_gr__PHY__find_preamble_cppTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__wave_to_float_cpp, _p_gr__PHY__wave_to_float_cppTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__hier_block2, _p_gr__hier_block2To_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_single_cpp, _p_gr__PHY__float_to_bit_single_cppTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__wave_to_float_single_cpp, _p_gr__PHY__wave_to_float_single_cppTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag_single, _p_gr__PHY__conv_decode_tag_singleTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag, _p_gr__PHY__conv_decode_tagTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__PHY__conv_encode_tag, _p_gr__PHY__conv_encode_tagTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__top_block, _p_gr__top_blockTo_p_gr__basic_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__basic_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__block[] = {  {&_swigt__p_gr__PHY__float_to_bit_cpp, _p_gr__PHY__float_to_bit_cppTo_p_gr__block, 0, 0},  {&_swigt__p_gr__tagged_stream_block, _p_gr__tagged_stream_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_block, _p_gr__sync_blockTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block, 0, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_tag, _p_gr__PHY__float_to_bit_tagTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__find_preamble_cpp, _p_gr__PHY__find_preamble_cppTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__wave_to_float_cpp, _p_gr__PHY__wave_to_float_cppTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_single_cpp, _p_gr__PHY__float_to_bit_single_cppTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__wave_to_float_single_cpp, _p_gr__PHY__wave_to_float_single_cppTo_p_gr__block, 0, 0},  {&_swigt__p_gr__block_gateway, _p_gr__block_gatewayTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag_single, _p_gr__PHY__conv_decode_tag_singleTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag, _p_gr__PHY__conv_decode_tagTo_p_gr__block, 0, 0},  {&_swigt__p_gr__PHY__conv_encode_tag, _p_gr__PHY__conv_encode_tagTo_p_gr__block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__endianness_t[] = {  {&_swigt__p_gr__endianness_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_gr__rt_status_t[] = {  {&_swigt__p_gr__rt_status_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_gr__tagged_stream_block[] = {  {&_swigt__p_gr__tagged_stream_block, 0, 0, 0},  {&_swigt__p_gr__PHY__conv_encode_tag, _p_gr__PHY__conv_encode_tagTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag, _p_gr__PHY__conv_decode_tagTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_tag, _p_gr__PHY__float_to_bit_tagTo_p_gr__tagged_stream_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__sync_block[] = {  {&_swigt__p_gr__PHY__wave_to_float_single_cpp, _p_gr__PHY__wave_to_float_single_cppTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_single_cpp, _p_gr__PHY__float_to_bit_single_cppTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__PHY__find_preamble_cpp, _p_gr__PHY__find_preamble_cppTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__PHY__wave_to_float_cpp, _p_gr__PHY__wave_to_float_cppTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_decimator, _p_gr__sync_decimatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__sync_block, 0, 0, 0},  {&_swigt__p_gr__sync_interpolator, _p_gr__sync_interpolatorTo_p_gr__sync_block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_cpp, _p_gr__PHY__float_to_bit_cppTo_p_gr__sync_block, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__sync_decimator[] = {  {&_swigt__p_gr__PHY__wave_to_float_single_cpp, _p_gr__PHY__wave_to_float_single_cppTo_p_gr__sync_decimator, 0, 0},  {&_swigt__p_gr__PHY__wave_to_float_cpp, _p_gr__PHY__wave_to_float_cppTo_p_gr__sync_decimator, 0, 0},  {&_swigt__p_gr__sync_decimator, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_gr__tagged_stream_block[] = {  {&_swigt__p_gr__tagged_stream_block, 0, 0, 0},  {&_swigt__p_gr__PHY__conv_encode_tag, _p_gr__PHY__conv_encode_tagTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag, _p_gr__PHY__conv_decode_tagTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__PHY__conv_decode_tag_single, _p_gr__PHY__conv_decode_tag_singleTo_p_gr__tagged_stream_block, 0, 0},  {&_swigt__p_gr__PHY__float_to_bit_tag, _p_gr__PHY__float_to_bit_tagTo_p_gr__tagged_stream_block, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long_long[] = {  {&_swigt__p_long_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_reference[] = {  {&_swigt__p_reference, 0, 0, 0},{0, 0, 0, 0}};
@@ -15182,9 +34950,15 @@ static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_allocator_type,
   _swigc__p_boost__intrusive_ptrT_pmt__pmt_base_t,
+  _swigc__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_single_t,
   _swigc__p_boost__shared_ptrT_gr__PHY__conv_decode_tag_t,
   _swigc__p_boost__shared_ptrT_gr__PHY__conv_encode_tag_t,
+  _swigc__p_boost__shared_ptrT_gr__PHY__find_preamble_cpp_t,
+  _swigc__p_boost__shared_ptrT_gr__PHY__float_to_bit_cpp_t,
+  _swigc__p_boost__shared_ptrT_gr__PHY__float_to_bit_single_cpp_t,
   _swigc__p_boost__shared_ptrT_gr__PHY__float_to_bit_tag_t,
+  _swigc__p_boost__shared_ptrT_gr__PHY__wave_to_float_cpp_t,
+  _swigc__p_boost__shared_ptrT_gr__PHY__wave_to_float_single_cpp_t,
   _swigc__p_boost__shared_ptrT_gr__basic_block_t,
   _swigc__p_boost__shared_ptrT_gr__block_detail_t,
   _swigc__p_boost__shared_ptrT_gr__block_t,
@@ -15199,8 +34973,14 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_const_reference,
   _swigc__p_difference_type,
   _swigc__p_gr__PHY__conv_decode_tag,
+  _swigc__p_gr__PHY__conv_decode_tag_single,
   _swigc__p_gr__PHY__conv_encode_tag,
+  _swigc__p_gr__PHY__find_preamble_cpp,
+  _swigc__p_gr__PHY__float_to_bit_cpp,
+  _swigc__p_gr__PHY__float_to_bit_single_cpp,
   _swigc__p_gr__PHY__float_to_bit_tag,
+  _swigc__p_gr__PHY__wave_to_float_cpp,
+  _swigc__p_gr__PHY__wave_to_float_single_cpp,
   _swigc__p_gr__basic_block,
   _swigc__p_gr__block,
   _swigc__p_gr__block_gateway,

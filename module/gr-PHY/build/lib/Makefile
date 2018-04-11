@@ -222,6 +222,33 @@ conv_decode_tag_impl.cc.s:
 	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_impl.cc.s
 .PHONY : conv_decode_tag_impl.cc.s
 
+conv_decode_tag_single_impl.o: conv_decode_tag_single_impl.cc.o
+
+.PHONY : conv_decode_tag_single_impl.o
+
+# target to build an object file
+conv_decode_tag_single_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_single_impl.cc.o
+.PHONY : conv_decode_tag_single_impl.cc.o
+
+conv_decode_tag_single_impl.i: conv_decode_tag_single_impl.cc.i
+
+.PHONY : conv_decode_tag_single_impl.i
+
+# target to preprocess a source file
+conv_decode_tag_single_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_single_impl.cc.i
+.PHONY : conv_decode_tag_single_impl.cc.i
+
+conv_decode_tag_single_impl.s: conv_decode_tag_single_impl.cc.s
+
+.PHONY : conv_decode_tag_single_impl.s
+
+# target to generate assembly for a file
+conv_decode_tag_single_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_decode_tag_single_impl.cc.s
+.PHONY : conv_decode_tag_single_impl.cc.s
+
 conv_encode_tag_impl.o: conv_encode_tag_impl.cc.o
 
 .PHONY : conv_encode_tag_impl.o
@@ -248,6 +275,87 @@ conv_encode_tag_impl.s: conv_encode_tag_impl.cc.s
 conv_encode_tag_impl.cc.s:
 	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/conv_encode_tag_impl.cc.s
 .PHONY : conv_encode_tag_impl.cc.s
+
+find_preamble_cpp_impl.o: find_preamble_cpp_impl.cc.o
+
+.PHONY : find_preamble_cpp_impl.o
+
+# target to build an object file
+find_preamble_cpp_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/find_preamble_cpp_impl.cc.o
+.PHONY : find_preamble_cpp_impl.cc.o
+
+find_preamble_cpp_impl.i: find_preamble_cpp_impl.cc.i
+
+.PHONY : find_preamble_cpp_impl.i
+
+# target to preprocess a source file
+find_preamble_cpp_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/find_preamble_cpp_impl.cc.i
+.PHONY : find_preamble_cpp_impl.cc.i
+
+find_preamble_cpp_impl.s: find_preamble_cpp_impl.cc.s
+
+.PHONY : find_preamble_cpp_impl.s
+
+# target to generate assembly for a file
+find_preamble_cpp_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/find_preamble_cpp_impl.cc.s
+.PHONY : find_preamble_cpp_impl.cc.s
+
+float_to_bit_cpp_impl.o: float_to_bit_cpp_impl.cc.o
+
+.PHONY : float_to_bit_cpp_impl.o
+
+# target to build an object file
+float_to_bit_cpp_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_cpp_impl.cc.o
+.PHONY : float_to_bit_cpp_impl.cc.o
+
+float_to_bit_cpp_impl.i: float_to_bit_cpp_impl.cc.i
+
+.PHONY : float_to_bit_cpp_impl.i
+
+# target to preprocess a source file
+float_to_bit_cpp_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_cpp_impl.cc.i
+.PHONY : float_to_bit_cpp_impl.cc.i
+
+float_to_bit_cpp_impl.s: float_to_bit_cpp_impl.cc.s
+
+.PHONY : float_to_bit_cpp_impl.s
+
+# target to generate assembly for a file
+float_to_bit_cpp_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_cpp_impl.cc.s
+.PHONY : float_to_bit_cpp_impl.cc.s
+
+float_to_bit_single_cpp_impl.o: float_to_bit_single_cpp_impl.cc.o
+
+.PHONY : float_to_bit_single_cpp_impl.o
+
+# target to build an object file
+float_to_bit_single_cpp_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_single_cpp_impl.cc.o
+.PHONY : float_to_bit_single_cpp_impl.cc.o
+
+float_to_bit_single_cpp_impl.i: float_to_bit_single_cpp_impl.cc.i
+
+.PHONY : float_to_bit_single_cpp_impl.i
+
+# target to preprocess a source file
+float_to_bit_single_cpp_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_single_cpp_impl.cc.i
+.PHONY : float_to_bit_single_cpp_impl.cc.i
+
+float_to_bit_single_cpp_impl.s: float_to_bit_single_cpp_impl.cc.s
+
+.PHONY : float_to_bit_single_cpp_impl.s
+
+# target to generate assembly for a file
+float_to_bit_single_cpp_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/float_to_bit_single_cpp_impl.cc.s
+.PHONY : float_to_bit_single_cpp_impl.cc.s
 
 float_to_bit_tag_impl.o: float_to_bit_tag_impl.cc.o
 
@@ -330,6 +438,60 @@ test_PHY.cc.s:
 	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/test-PHY.dir/build.make lib/CMakeFiles/test-PHY.dir/test_PHY.cc.s
 .PHONY : test_PHY.cc.s
 
+wave_to_float_cpp_impl.o: wave_to_float_cpp_impl.cc.o
+
+.PHONY : wave_to_float_cpp_impl.o
+
+# target to build an object file
+wave_to_float_cpp_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_cpp_impl.cc.o
+.PHONY : wave_to_float_cpp_impl.cc.o
+
+wave_to_float_cpp_impl.i: wave_to_float_cpp_impl.cc.i
+
+.PHONY : wave_to_float_cpp_impl.i
+
+# target to preprocess a source file
+wave_to_float_cpp_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_cpp_impl.cc.i
+.PHONY : wave_to_float_cpp_impl.cc.i
+
+wave_to_float_cpp_impl.s: wave_to_float_cpp_impl.cc.s
+
+.PHONY : wave_to_float_cpp_impl.s
+
+# target to generate assembly for a file
+wave_to_float_cpp_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_cpp_impl.cc.s
+.PHONY : wave_to_float_cpp_impl.cc.s
+
+wave_to_float_single_cpp_impl.o: wave_to_float_single_cpp_impl.cc.o
+
+.PHONY : wave_to_float_single_cpp_impl.o
+
+# target to build an object file
+wave_to_float_single_cpp_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_single_cpp_impl.cc.o
+.PHONY : wave_to_float_single_cpp_impl.cc.o
+
+wave_to_float_single_cpp_impl.i: wave_to_float_single_cpp_impl.cc.i
+
+.PHONY : wave_to_float_single_cpp_impl.i
+
+# target to preprocess a source file
+wave_to_float_single_cpp_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_single_cpp_impl.cc.i
+.PHONY : wave_to_float_single_cpp_impl.cc.i
+
+wave_to_float_single_cpp_impl.s: wave_to_float_single_cpp_impl.cc.s
+
+.PHONY : wave_to_float_single_cpp_impl.s
+
+# target to generate assembly for a file
+wave_to_float_single_cpp_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_single_cpp_impl.cc.s
+.PHONY : wave_to_float_single_cpp_impl.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -348,9 +510,21 @@ help:
 	@echo "... conv_decode_tag_impl.o"
 	@echo "... conv_decode_tag_impl.i"
 	@echo "... conv_decode_tag_impl.s"
+	@echo "... conv_decode_tag_single_impl.o"
+	@echo "... conv_decode_tag_single_impl.i"
+	@echo "... conv_decode_tag_single_impl.s"
 	@echo "... conv_encode_tag_impl.o"
 	@echo "... conv_encode_tag_impl.i"
 	@echo "... conv_encode_tag_impl.s"
+	@echo "... find_preamble_cpp_impl.o"
+	@echo "... find_preamble_cpp_impl.i"
+	@echo "... find_preamble_cpp_impl.s"
+	@echo "... float_to_bit_cpp_impl.o"
+	@echo "... float_to_bit_cpp_impl.i"
+	@echo "... float_to_bit_cpp_impl.s"
+	@echo "... float_to_bit_single_cpp_impl.o"
+	@echo "... float_to_bit_single_cpp_impl.i"
+	@echo "... float_to_bit_single_cpp_impl.s"
 	@echo "... float_to_bit_tag_impl.o"
 	@echo "... float_to_bit_tag_impl.i"
 	@echo "... float_to_bit_tag_impl.s"
@@ -360,6 +534,12 @@ help:
 	@echo "... test_PHY.o"
 	@echo "... test_PHY.i"
 	@echo "... test_PHY.s"
+	@echo "... wave_to_float_cpp_impl.o"
+	@echo "... wave_to_float_cpp_impl.i"
+	@echo "... wave_to_float_cpp_impl.s"
+	@echo "... wave_to_float_single_cpp_impl.o"
+	@echo "... wave_to_float_single_cpp_impl.i"
+	@echo "... wave_to_float_single_cpp_impl.s"
 .PHONY : help
 
 

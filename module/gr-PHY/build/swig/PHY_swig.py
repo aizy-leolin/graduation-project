@@ -1219,5 +1219,2165 @@ conv_decode_tag_sptr_swigregister(conv_decode_tag_sptr)
 conv_decode_tag_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
 conv_decode_tag = conv_decode_tag.make;
 
+class float_to_bit_cpp(object):
+    """Proxy of C++ gr::PHY::float_to_bit_cpp class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make():
+        """make() -> float_to_bit_cpp_sptr"""
+        return _PHY_swig.float_to_bit_cpp_make()
+
+    make = staticmethod(make)
+    __swig_destroy__ = _PHY_swig.delete_float_to_bit_cpp
+    __del__ = lambda self: None
+float_to_bit_cpp_swigregister = _PHY_swig.float_to_bit_cpp_swigregister
+float_to_bit_cpp_swigregister(float_to_bit_cpp)
+
+def float_to_bit_cpp_make():
+    """float_to_bit_cpp_make() -> float_to_bit_cpp_sptr"""
+    return _PHY_swig.float_to_bit_cpp_make()
+
+class float_to_bit_cpp_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::PHY::float_to_bit_cpp)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::PHY::float_to_bit_cpp)> self) -> float_to_bit_cpp_sptr
+        __init__(boost::shared_ptr<(gr::PHY::float_to_bit_cpp)> self, float_to_bit_cpp p) -> float_to_bit_cpp_sptr
+        """
+        this = _PHY_swig.new_float_to_bit_cpp_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(float_to_bit_cpp_sptr self) -> float_to_bit_cpp"""
+        return _PHY_swig.float_to_bit_cpp_sptr___deref__(self)
+
+    __swig_destroy__ = _PHY_swig.delete_float_to_bit_cpp_sptr
+    __del__ = lambda self: None
+
+    def make(self):
+        """make(float_to_bit_cpp_sptr self) -> float_to_bit_cpp_sptr"""
+        return _PHY_swig.float_to_bit_cpp_sptr_make(self)
+
+
+    def history(self):
+        """history(float_to_bit_cpp_sptr self) -> unsigned int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(float_to_bit_cpp_sptr self, int which, int delay)
+        declare_sample_delay(float_to_bit_cpp_sptr self, unsigned int delay)
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(float_to_bit_cpp_sptr self, int which) -> unsigned int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(float_to_bit_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(float_to_bit_cpp_sptr self) -> double"""
+        return _PHY_swig.float_to_bit_cpp_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(float_to_bit_cpp_sptr self) -> bool"""
+        return _PHY_swig.float_to_bit_cpp_sptr_start(self)
+
+
+    def stop(self):
+        """stop(float_to_bit_cpp_sptr self) -> bool"""
+        return _PHY_swig.float_to_bit_cpp_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(float_to_bit_cpp_sptr self, unsigned int which_input) -> uint64_t"""
+        return _PHY_swig.float_to_bit_cpp_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(float_to_bit_cpp_sptr self, unsigned int which_output) -> uint64_t"""
+        return _PHY_swig.float_to_bit_cpp_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(float_to_bit_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(float_to_bit_cpp_sptr self, int m)"""
+        return _PHY_swig.float_to_bit_cpp_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(float_to_bit_cpp_sptr self)"""
+        return _PHY_swig.float_to_bit_cpp_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(float_to_bit_cpp_sptr self) -> bool"""
+        return _PHY_swig.float_to_bit_cpp_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(float_to_bit_cpp_sptr self, int m)"""
+        return _PHY_swig.float_to_bit_cpp_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(float_to_bit_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(float_to_bit_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.float_to_bit_cpp_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(float_to_bit_cpp_sptr self, long max_output_buffer)
+        set_max_output_buffer(float_to_bit_cpp_sptr self, int port, long max_output_buffer)
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(float_to_bit_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.float_to_bit_cpp_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(float_to_bit_cpp_sptr self, long min_output_buffer)
+        set_min_output_buffer(float_to_bit_cpp_sptr self, int port, long min_output_buffer)
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(float_to_bit_cpp_sptr self, int which) -> float
+        pc_input_buffers_full(float_to_bit_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(float_to_bit_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_avg(float_to_bit_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(float_to_bit_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_var(float_to_bit_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(float_to_bit_cpp_sptr self, int which) -> float
+        pc_output_buffers_full(float_to_bit_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(float_to_bit_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_avg(float_to_bit_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(float_to_bit_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_var(float_to_bit_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(float_to_bit_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_cpp_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(float_to_bit_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _PHY_swig.float_to_bit_cpp_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(float_to_bit_cpp_sptr self)"""
+        return _PHY_swig.float_to_bit_cpp_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(float_to_bit_cpp_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _PHY_swig.float_to_bit_cpp_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(float_to_bit_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(float_to_bit_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(float_to_bit_cpp_sptr self, int priority) -> int"""
+        return _PHY_swig.float_to_bit_cpp_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(float_to_bit_cpp_sptr self) -> std::string"""
+        return _PHY_swig.float_to_bit_cpp_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(float_to_bit_cpp_sptr self) -> std::string"""
+        return _PHY_swig.float_to_bit_cpp_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(float_to_bit_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.float_to_bit_cpp_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(float_to_bit_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.float_to_bit_cpp_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(float_to_bit_cpp_sptr self) -> long"""
+        return _PHY_swig.float_to_bit_cpp_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(float_to_bit_cpp_sptr self) -> basic_block_sptr"""
+        return _PHY_swig.float_to_bit_cpp_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(float_to_bit_cpp_sptr self, int ninputs, int noutputs) -> bool"""
+        return _PHY_swig.float_to_bit_cpp_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(float_to_bit_cpp_sptr self) -> std::string"""
+        return _PHY_swig.float_to_bit_cpp_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(float_to_bit_cpp_sptr self, std::string name)"""
+        return _PHY_swig.float_to_bit_cpp_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(float_to_bit_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _PHY_swig.float_to_bit_cpp_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(float_to_bit_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.float_to_bit_cpp_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(float_to_bit_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.float_to_bit_cpp_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(float_to_bit_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _PHY_swig.float_to_bit_cpp_sptr_message_subscribers(self, which_port)
+
+float_to_bit_cpp_sptr_swigregister = _PHY_swig.float_to_bit_cpp_sptr_swigregister
+float_to_bit_cpp_sptr_swigregister(float_to_bit_cpp_sptr)
+
+
+float_to_bit_cpp_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+float_to_bit_cpp = float_to_bit_cpp.make;
+
+class wave_to_float_cpp(object):
+    """Proxy of C++ gr::PHY::wave_to_float_cpp class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(decim):
+        """make(int decim) -> wave_to_float_cpp_sptr"""
+        return _PHY_swig.wave_to_float_cpp_make(decim)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _PHY_swig.delete_wave_to_float_cpp
+    __del__ = lambda self: None
+wave_to_float_cpp_swigregister = _PHY_swig.wave_to_float_cpp_swigregister
+wave_to_float_cpp_swigregister(wave_to_float_cpp)
+
+def wave_to_float_cpp_make(decim):
+    """wave_to_float_cpp_make(int decim) -> wave_to_float_cpp_sptr"""
+    return _PHY_swig.wave_to_float_cpp_make(decim)
+
+class wave_to_float_cpp_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::PHY::wave_to_float_cpp)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::PHY::wave_to_float_cpp)> self) -> wave_to_float_cpp_sptr
+        __init__(boost::shared_ptr<(gr::PHY::wave_to_float_cpp)> self, wave_to_float_cpp p) -> wave_to_float_cpp_sptr
+        """
+        this = _PHY_swig.new_wave_to_float_cpp_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(wave_to_float_cpp_sptr self) -> wave_to_float_cpp"""
+        return _PHY_swig.wave_to_float_cpp_sptr___deref__(self)
+
+    __swig_destroy__ = _PHY_swig.delete_wave_to_float_cpp_sptr
+    __del__ = lambda self: None
+
+    def make(self, decim):
+        """make(wave_to_float_cpp_sptr self, int decim) -> wave_to_float_cpp_sptr"""
+        return _PHY_swig.wave_to_float_cpp_sptr_make(self, decim)
+
+
+    def history(self):
+        """history(wave_to_float_cpp_sptr self) -> unsigned int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(wave_to_float_cpp_sptr self, int which, int delay)
+        declare_sample_delay(wave_to_float_cpp_sptr self, unsigned int delay)
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(wave_to_float_cpp_sptr self, int which) -> unsigned int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(wave_to_float_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(wave_to_float_cpp_sptr self) -> double"""
+        return _PHY_swig.wave_to_float_cpp_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(wave_to_float_cpp_sptr self) -> bool"""
+        return _PHY_swig.wave_to_float_cpp_sptr_start(self)
+
+
+    def stop(self):
+        """stop(wave_to_float_cpp_sptr self) -> bool"""
+        return _PHY_swig.wave_to_float_cpp_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(wave_to_float_cpp_sptr self, unsigned int which_input) -> uint64_t"""
+        return _PHY_swig.wave_to_float_cpp_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(wave_to_float_cpp_sptr self, unsigned int which_output) -> uint64_t"""
+        return _PHY_swig.wave_to_float_cpp_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(wave_to_float_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(wave_to_float_cpp_sptr self, int m)"""
+        return _PHY_swig.wave_to_float_cpp_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(wave_to_float_cpp_sptr self)"""
+        return _PHY_swig.wave_to_float_cpp_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(wave_to_float_cpp_sptr self) -> bool"""
+        return _PHY_swig.wave_to_float_cpp_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(wave_to_float_cpp_sptr self, int m)"""
+        return _PHY_swig.wave_to_float_cpp_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(wave_to_float_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(wave_to_float_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.wave_to_float_cpp_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(wave_to_float_cpp_sptr self, long max_output_buffer)
+        set_max_output_buffer(wave_to_float_cpp_sptr self, int port, long max_output_buffer)
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(wave_to_float_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.wave_to_float_cpp_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(wave_to_float_cpp_sptr self, long min_output_buffer)
+        set_min_output_buffer(wave_to_float_cpp_sptr self, int port, long min_output_buffer)
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(wave_to_float_cpp_sptr self, int which) -> float
+        pc_input_buffers_full(wave_to_float_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(wave_to_float_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_avg(wave_to_float_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(wave_to_float_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_var(wave_to_float_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(wave_to_float_cpp_sptr self, int which) -> float
+        pc_output_buffers_full(wave_to_float_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(wave_to_float_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_avg(wave_to_float_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(wave_to_float_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_var(wave_to_float_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(wave_to_float_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_cpp_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(wave_to_float_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _PHY_swig.wave_to_float_cpp_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(wave_to_float_cpp_sptr self)"""
+        return _PHY_swig.wave_to_float_cpp_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(wave_to_float_cpp_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _PHY_swig.wave_to_float_cpp_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(wave_to_float_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(wave_to_float_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(wave_to_float_cpp_sptr self, int priority) -> int"""
+        return _PHY_swig.wave_to_float_cpp_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(wave_to_float_cpp_sptr self) -> std::string"""
+        return _PHY_swig.wave_to_float_cpp_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(wave_to_float_cpp_sptr self) -> std::string"""
+        return _PHY_swig.wave_to_float_cpp_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(wave_to_float_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.wave_to_float_cpp_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(wave_to_float_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.wave_to_float_cpp_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(wave_to_float_cpp_sptr self) -> long"""
+        return _PHY_swig.wave_to_float_cpp_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(wave_to_float_cpp_sptr self) -> basic_block_sptr"""
+        return _PHY_swig.wave_to_float_cpp_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(wave_to_float_cpp_sptr self, int ninputs, int noutputs) -> bool"""
+        return _PHY_swig.wave_to_float_cpp_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(wave_to_float_cpp_sptr self) -> std::string"""
+        return _PHY_swig.wave_to_float_cpp_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(wave_to_float_cpp_sptr self, std::string name)"""
+        return _PHY_swig.wave_to_float_cpp_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(wave_to_float_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _PHY_swig.wave_to_float_cpp_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(wave_to_float_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.wave_to_float_cpp_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(wave_to_float_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.wave_to_float_cpp_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(wave_to_float_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _PHY_swig.wave_to_float_cpp_sptr_message_subscribers(self, which_port)
+
+wave_to_float_cpp_sptr_swigregister = _PHY_swig.wave_to_float_cpp_sptr_swigregister
+wave_to_float_cpp_sptr_swigregister(wave_to_float_cpp_sptr)
+
+
+wave_to_float_cpp_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+wave_to_float_cpp = wave_to_float_cpp.make;
+
+class find_preamble_cpp(object):
+    """Proxy of C++ gr::PHY::find_preamble_cpp class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(preamble, rate, skip):
+        """make(std::vector< int,std::allocator< int > > const & preamble, int rate, int skip) -> find_preamble_cpp_sptr"""
+        return _PHY_swig.find_preamble_cpp_make(preamble, rate, skip)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _PHY_swig.delete_find_preamble_cpp
+    __del__ = lambda self: None
+find_preamble_cpp_swigregister = _PHY_swig.find_preamble_cpp_swigregister
+find_preamble_cpp_swigregister(find_preamble_cpp)
+
+def find_preamble_cpp_make(preamble, rate, skip):
+    """find_preamble_cpp_make(std::vector< int,std::allocator< int > > const & preamble, int rate, int skip) -> find_preamble_cpp_sptr"""
+    return _PHY_swig.find_preamble_cpp_make(preamble, rate, skip)
+
+class find_preamble_cpp_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::PHY::find_preamble_cpp)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::PHY::find_preamble_cpp)> self) -> find_preamble_cpp_sptr
+        __init__(boost::shared_ptr<(gr::PHY::find_preamble_cpp)> self, find_preamble_cpp p) -> find_preamble_cpp_sptr
+        """
+        this = _PHY_swig.new_find_preamble_cpp_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(find_preamble_cpp_sptr self) -> find_preamble_cpp"""
+        return _PHY_swig.find_preamble_cpp_sptr___deref__(self)
+
+    __swig_destroy__ = _PHY_swig.delete_find_preamble_cpp_sptr
+    __del__ = lambda self: None
+
+    def make(self, preamble, rate, skip):
+        """make(find_preamble_cpp_sptr self, std::vector< int,std::allocator< int > > const & preamble, int rate, int skip) -> find_preamble_cpp_sptr"""
+        return _PHY_swig.find_preamble_cpp_sptr_make(self, preamble, rate, skip)
+
+
+    def history(self):
+        """history(find_preamble_cpp_sptr self) -> unsigned int"""
+        return _PHY_swig.find_preamble_cpp_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(find_preamble_cpp_sptr self, int which, int delay)
+        declare_sample_delay(find_preamble_cpp_sptr self, unsigned int delay)
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(find_preamble_cpp_sptr self, int which) -> unsigned int"""
+        return _PHY_swig.find_preamble_cpp_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(find_preamble_cpp_sptr self) -> int"""
+        return _PHY_swig.find_preamble_cpp_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(find_preamble_cpp_sptr self) -> double"""
+        return _PHY_swig.find_preamble_cpp_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(find_preamble_cpp_sptr self) -> bool"""
+        return _PHY_swig.find_preamble_cpp_sptr_start(self)
+
+
+    def stop(self):
+        """stop(find_preamble_cpp_sptr self) -> bool"""
+        return _PHY_swig.find_preamble_cpp_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(find_preamble_cpp_sptr self, unsigned int which_input) -> uint64_t"""
+        return _PHY_swig.find_preamble_cpp_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(find_preamble_cpp_sptr self, unsigned int which_output) -> uint64_t"""
+        return _PHY_swig.find_preamble_cpp_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(find_preamble_cpp_sptr self) -> int"""
+        return _PHY_swig.find_preamble_cpp_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(find_preamble_cpp_sptr self, int m)"""
+        return _PHY_swig.find_preamble_cpp_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(find_preamble_cpp_sptr self)"""
+        return _PHY_swig.find_preamble_cpp_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(find_preamble_cpp_sptr self) -> bool"""
+        return _PHY_swig.find_preamble_cpp_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(find_preamble_cpp_sptr self, int m)"""
+        return _PHY_swig.find_preamble_cpp_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(find_preamble_cpp_sptr self) -> int"""
+        return _PHY_swig.find_preamble_cpp_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(find_preamble_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.find_preamble_cpp_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(find_preamble_cpp_sptr self, long max_output_buffer)
+        set_max_output_buffer(find_preamble_cpp_sptr self, int port, long max_output_buffer)
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(find_preamble_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.find_preamble_cpp_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(find_preamble_cpp_sptr self, long min_output_buffer)
+        set_min_output_buffer(find_preamble_cpp_sptr self, int port, long min_output_buffer)
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(find_preamble_cpp_sptr self, int which) -> float
+        pc_input_buffers_full(find_preamble_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(find_preamble_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_avg(find_preamble_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(find_preamble_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_var(find_preamble_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(find_preamble_cpp_sptr self, int which) -> float
+        pc_output_buffers_full(find_preamble_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(find_preamble_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_avg(find_preamble_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(find_preamble_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_var(find_preamble_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.find_preamble_cpp_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(find_preamble_cpp_sptr self) -> float"""
+        return _PHY_swig.find_preamble_cpp_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(find_preamble_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _PHY_swig.find_preamble_cpp_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(find_preamble_cpp_sptr self)"""
+        return _PHY_swig.find_preamble_cpp_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(find_preamble_cpp_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _PHY_swig.find_preamble_cpp_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(find_preamble_cpp_sptr self) -> int"""
+        return _PHY_swig.find_preamble_cpp_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(find_preamble_cpp_sptr self) -> int"""
+        return _PHY_swig.find_preamble_cpp_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(find_preamble_cpp_sptr self, int priority) -> int"""
+        return _PHY_swig.find_preamble_cpp_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(find_preamble_cpp_sptr self) -> std::string"""
+        return _PHY_swig.find_preamble_cpp_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(find_preamble_cpp_sptr self) -> std::string"""
+        return _PHY_swig.find_preamble_cpp_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(find_preamble_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.find_preamble_cpp_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(find_preamble_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.find_preamble_cpp_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(find_preamble_cpp_sptr self) -> long"""
+        return _PHY_swig.find_preamble_cpp_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(find_preamble_cpp_sptr self) -> basic_block_sptr"""
+        return _PHY_swig.find_preamble_cpp_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(find_preamble_cpp_sptr self, int ninputs, int noutputs) -> bool"""
+        return _PHY_swig.find_preamble_cpp_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(find_preamble_cpp_sptr self) -> std::string"""
+        return _PHY_swig.find_preamble_cpp_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(find_preamble_cpp_sptr self, std::string name)"""
+        return _PHY_swig.find_preamble_cpp_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(find_preamble_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _PHY_swig.find_preamble_cpp_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(find_preamble_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.find_preamble_cpp_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(find_preamble_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.find_preamble_cpp_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(find_preamble_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _PHY_swig.find_preamble_cpp_sptr_message_subscribers(self, which_port)
+
+find_preamble_cpp_sptr_swigregister = _PHY_swig.find_preamble_cpp_sptr_swigregister
+find_preamble_cpp_sptr_swigregister(find_preamble_cpp_sptr)
+
+
+find_preamble_cpp_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+find_preamble_cpp = find_preamble_cpp.make;
+
+class wave_to_float_single_cpp(object):
+    """Proxy of C++ gr::PHY::wave_to_float_single_cpp class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(decim):
+        """make(int decim) -> wave_to_float_single_cpp_sptr"""
+        return _PHY_swig.wave_to_float_single_cpp_make(decim)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _PHY_swig.delete_wave_to_float_single_cpp
+    __del__ = lambda self: None
+wave_to_float_single_cpp_swigregister = _PHY_swig.wave_to_float_single_cpp_swigregister
+wave_to_float_single_cpp_swigregister(wave_to_float_single_cpp)
+
+def wave_to_float_single_cpp_make(decim):
+    """wave_to_float_single_cpp_make(int decim) -> wave_to_float_single_cpp_sptr"""
+    return _PHY_swig.wave_to_float_single_cpp_make(decim)
+
+class wave_to_float_single_cpp_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::PHY::wave_to_float_single_cpp)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::PHY::wave_to_float_single_cpp)> self) -> wave_to_float_single_cpp_sptr
+        __init__(boost::shared_ptr<(gr::PHY::wave_to_float_single_cpp)> self, wave_to_float_single_cpp p) -> wave_to_float_single_cpp_sptr
+        """
+        this = _PHY_swig.new_wave_to_float_single_cpp_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(wave_to_float_single_cpp_sptr self) -> wave_to_float_single_cpp"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr___deref__(self)
+
+    __swig_destroy__ = _PHY_swig.delete_wave_to_float_single_cpp_sptr
+    __del__ = lambda self: None
+
+    def make(self, decim):
+        """make(wave_to_float_single_cpp_sptr self, int decim) -> wave_to_float_single_cpp_sptr"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_make(self, decim)
+
+
+    def history(self):
+        """history(wave_to_float_single_cpp_sptr self) -> unsigned int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(wave_to_float_single_cpp_sptr self, int which, int delay)
+        declare_sample_delay(wave_to_float_single_cpp_sptr self, unsigned int delay)
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(wave_to_float_single_cpp_sptr self, int which) -> unsigned int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(wave_to_float_single_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(wave_to_float_single_cpp_sptr self) -> double"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(wave_to_float_single_cpp_sptr self) -> bool"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_start(self)
+
+
+    def stop(self):
+        """stop(wave_to_float_single_cpp_sptr self) -> bool"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(wave_to_float_single_cpp_sptr self, unsigned int which_input) -> uint64_t"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(wave_to_float_single_cpp_sptr self, unsigned int which_output) -> uint64_t"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(wave_to_float_single_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(wave_to_float_single_cpp_sptr self, int m)"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(wave_to_float_single_cpp_sptr self)"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(wave_to_float_single_cpp_sptr self) -> bool"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(wave_to_float_single_cpp_sptr self, int m)"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(wave_to_float_single_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(wave_to_float_single_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(wave_to_float_single_cpp_sptr self, long max_output_buffer)
+        set_max_output_buffer(wave_to_float_single_cpp_sptr self, int port, long max_output_buffer)
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(wave_to_float_single_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(wave_to_float_single_cpp_sptr self, long min_output_buffer)
+        set_min_output_buffer(wave_to_float_single_cpp_sptr self, int port, long min_output_buffer)
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(wave_to_float_single_cpp_sptr self, int which) -> float
+        pc_input_buffers_full(wave_to_float_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(wave_to_float_single_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_avg(wave_to_float_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(wave_to_float_single_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_var(wave_to_float_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(wave_to_float_single_cpp_sptr self, int which) -> float
+        pc_output_buffers_full(wave_to_float_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(wave_to_float_single_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_avg(wave_to_float_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(wave_to_float_single_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_var(wave_to_float_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(wave_to_float_single_cpp_sptr self) -> float"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(wave_to_float_single_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(wave_to_float_single_cpp_sptr self)"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(wave_to_float_single_cpp_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(wave_to_float_single_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(wave_to_float_single_cpp_sptr self) -> int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(wave_to_float_single_cpp_sptr self, int priority) -> int"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(wave_to_float_single_cpp_sptr self) -> std::string"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(wave_to_float_single_cpp_sptr self) -> std::string"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(wave_to_float_single_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(wave_to_float_single_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(wave_to_float_single_cpp_sptr self) -> long"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(wave_to_float_single_cpp_sptr self) -> basic_block_sptr"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(wave_to_float_single_cpp_sptr self, int ninputs, int noutputs) -> bool"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(wave_to_float_single_cpp_sptr self) -> std::string"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(wave_to_float_single_cpp_sptr self, std::string name)"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(wave_to_float_single_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(wave_to_float_single_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(wave_to_float_single_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(wave_to_float_single_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _PHY_swig.wave_to_float_single_cpp_sptr_message_subscribers(self, which_port)
+
+wave_to_float_single_cpp_sptr_swigregister = _PHY_swig.wave_to_float_single_cpp_sptr_swigregister
+wave_to_float_single_cpp_sptr_swigregister(wave_to_float_single_cpp_sptr)
+
+
+wave_to_float_single_cpp_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+wave_to_float_single_cpp = wave_to_float_single_cpp.make;
+
+class conv_decode_tag_single(object):
+    """Proxy of C++ gr::PHY::conv_decode_tag_single class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(*args, **kwargs):
+        """make(std::string const & lengthtagname) -> conv_decode_tag_single_sptr"""
+        return _PHY_swig.conv_decode_tag_single_make(*args, **kwargs)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _PHY_swig.delete_conv_decode_tag_single
+    __del__ = lambda self: None
+conv_decode_tag_single_swigregister = _PHY_swig.conv_decode_tag_single_swigregister
+conv_decode_tag_single_swigregister(conv_decode_tag_single)
+
+def conv_decode_tag_single_make(*args, **kwargs):
+    """conv_decode_tag_single_make(std::string const & lengthtagname) -> conv_decode_tag_single_sptr"""
+    return _PHY_swig.conv_decode_tag_single_make(*args, **kwargs)
+
+class conv_decode_tag_single_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::PHY::conv_decode_tag_single)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::PHY::conv_decode_tag_single)> self) -> conv_decode_tag_single_sptr
+        __init__(boost::shared_ptr<(gr::PHY::conv_decode_tag_single)> self, conv_decode_tag_single p) -> conv_decode_tag_single_sptr
+        """
+        this = _PHY_swig.new_conv_decode_tag_single_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(conv_decode_tag_single_sptr self) -> conv_decode_tag_single"""
+        return _PHY_swig.conv_decode_tag_single_sptr___deref__(self)
+
+    __swig_destroy__ = _PHY_swig.delete_conv_decode_tag_single_sptr
+    __del__ = lambda self: None
+
+    def make(self, *args, **kwargs):
+        """make(conv_decode_tag_single_sptr self, std::string const & lengthtagname) -> conv_decode_tag_single_sptr"""
+        return _PHY_swig.conv_decode_tag_single_sptr_make(self, *args, **kwargs)
+
+
+    def history(self):
+        """history(conv_decode_tag_single_sptr self) -> unsigned int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(conv_decode_tag_single_sptr self, int which, int delay)
+        declare_sample_delay(conv_decode_tag_single_sptr self, unsigned int delay)
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(conv_decode_tag_single_sptr self, int which) -> unsigned int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(conv_decode_tag_single_sptr self) -> int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(conv_decode_tag_single_sptr self) -> double"""
+        return _PHY_swig.conv_decode_tag_single_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(conv_decode_tag_single_sptr self) -> bool"""
+        return _PHY_swig.conv_decode_tag_single_sptr_start(self)
+
+
+    def stop(self):
+        """stop(conv_decode_tag_single_sptr self) -> bool"""
+        return _PHY_swig.conv_decode_tag_single_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(conv_decode_tag_single_sptr self, unsigned int which_input) -> uint64_t"""
+        return _PHY_swig.conv_decode_tag_single_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(conv_decode_tag_single_sptr self, unsigned int which_output) -> uint64_t"""
+        return _PHY_swig.conv_decode_tag_single_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(conv_decode_tag_single_sptr self) -> int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(conv_decode_tag_single_sptr self, int m)"""
+        return _PHY_swig.conv_decode_tag_single_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(conv_decode_tag_single_sptr self)"""
+        return _PHY_swig.conv_decode_tag_single_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(conv_decode_tag_single_sptr self) -> bool"""
+        return _PHY_swig.conv_decode_tag_single_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(conv_decode_tag_single_sptr self, int m)"""
+        return _PHY_swig.conv_decode_tag_single_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(conv_decode_tag_single_sptr self) -> int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(conv_decode_tag_single_sptr self, int i) -> long"""
+        return _PHY_swig.conv_decode_tag_single_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(conv_decode_tag_single_sptr self, long max_output_buffer)
+        set_max_output_buffer(conv_decode_tag_single_sptr self, int port, long max_output_buffer)
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(conv_decode_tag_single_sptr self, int i) -> long"""
+        return _PHY_swig.conv_decode_tag_single_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(conv_decode_tag_single_sptr self, long min_output_buffer)
+        set_min_output_buffer(conv_decode_tag_single_sptr self, int port, long min_output_buffer)
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(conv_decode_tag_single_sptr self, int which) -> float
+        pc_input_buffers_full(conv_decode_tag_single_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(conv_decode_tag_single_sptr self, int which) -> float
+        pc_input_buffers_full_avg(conv_decode_tag_single_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(conv_decode_tag_single_sptr self, int which) -> float
+        pc_input_buffers_full_var(conv_decode_tag_single_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(conv_decode_tag_single_sptr self, int which) -> float
+        pc_output_buffers_full(conv_decode_tag_single_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(conv_decode_tag_single_sptr self, int which) -> float
+        pc_output_buffers_full_avg(conv_decode_tag_single_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(conv_decode_tag_single_sptr self, int which) -> float
+        pc_output_buffers_full_var(conv_decode_tag_single_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(conv_decode_tag_single_sptr self) -> float"""
+        return _PHY_swig.conv_decode_tag_single_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(conv_decode_tag_single_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _PHY_swig.conv_decode_tag_single_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(conv_decode_tag_single_sptr self)"""
+        return _PHY_swig.conv_decode_tag_single_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(conv_decode_tag_single_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _PHY_swig.conv_decode_tag_single_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(conv_decode_tag_single_sptr self) -> int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(conv_decode_tag_single_sptr self) -> int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(conv_decode_tag_single_sptr self, int priority) -> int"""
+        return _PHY_swig.conv_decode_tag_single_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(conv_decode_tag_single_sptr self) -> std::string"""
+        return _PHY_swig.conv_decode_tag_single_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(conv_decode_tag_single_sptr self) -> std::string"""
+        return _PHY_swig.conv_decode_tag_single_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(conv_decode_tag_single_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.conv_decode_tag_single_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(conv_decode_tag_single_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.conv_decode_tag_single_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(conv_decode_tag_single_sptr self) -> long"""
+        return _PHY_swig.conv_decode_tag_single_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(conv_decode_tag_single_sptr self) -> basic_block_sptr"""
+        return _PHY_swig.conv_decode_tag_single_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(conv_decode_tag_single_sptr self, int ninputs, int noutputs) -> bool"""
+        return _PHY_swig.conv_decode_tag_single_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(conv_decode_tag_single_sptr self) -> std::string"""
+        return _PHY_swig.conv_decode_tag_single_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(conv_decode_tag_single_sptr self, std::string name)"""
+        return _PHY_swig.conv_decode_tag_single_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(conv_decode_tag_single_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _PHY_swig.conv_decode_tag_single_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(conv_decode_tag_single_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.conv_decode_tag_single_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(conv_decode_tag_single_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.conv_decode_tag_single_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(conv_decode_tag_single_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _PHY_swig.conv_decode_tag_single_sptr_message_subscribers(self, which_port)
+
+conv_decode_tag_single_sptr_swigregister = _PHY_swig.conv_decode_tag_single_sptr_swigregister
+conv_decode_tag_single_sptr_swigregister(conv_decode_tag_single_sptr)
+
+
+conv_decode_tag_single_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+conv_decode_tag_single = conv_decode_tag_single.make;
+
+class float_to_bit_single_cpp(object):
+    """Proxy of C++ gr::PHY::float_to_bit_single_cpp class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined")
+    __repr__ = _swig_repr
+
+    def make(value):
+        """make(float value) -> float_to_bit_single_cpp_sptr"""
+        return _PHY_swig.float_to_bit_single_cpp_make(value)
+
+    make = staticmethod(make)
+    __swig_destroy__ = _PHY_swig.delete_float_to_bit_single_cpp
+    __del__ = lambda self: None
+float_to_bit_single_cpp_swigregister = _PHY_swig.float_to_bit_single_cpp_swigregister
+float_to_bit_single_cpp_swigregister(float_to_bit_single_cpp)
+
+def float_to_bit_single_cpp_make(value):
+    """float_to_bit_single_cpp_make(float value) -> float_to_bit_single_cpp_sptr"""
+    return _PHY_swig.float_to_bit_single_cpp_make(value)
+
+class float_to_bit_single_cpp_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::PHY::float_to_bit_single_cpp)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::PHY::float_to_bit_single_cpp)> self) -> float_to_bit_single_cpp_sptr
+        __init__(boost::shared_ptr<(gr::PHY::float_to_bit_single_cpp)> self, float_to_bit_single_cpp p) -> float_to_bit_single_cpp_sptr
+        """
+        this = _PHY_swig.new_float_to_bit_single_cpp_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(float_to_bit_single_cpp_sptr self) -> float_to_bit_single_cpp"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr___deref__(self)
+
+    __swig_destroy__ = _PHY_swig.delete_float_to_bit_single_cpp_sptr
+    __del__ = lambda self: None
+
+    def make(self, value):
+        """make(float_to_bit_single_cpp_sptr self, float value) -> float_to_bit_single_cpp_sptr"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_make(self, value)
+
+
+    def history(self):
+        """history(float_to_bit_single_cpp_sptr self) -> unsigned int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(float_to_bit_single_cpp_sptr self, int which, int delay)
+        declare_sample_delay(float_to_bit_single_cpp_sptr self, unsigned int delay)
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(float_to_bit_single_cpp_sptr self, int which) -> unsigned int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(float_to_bit_single_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(float_to_bit_single_cpp_sptr self) -> double"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(float_to_bit_single_cpp_sptr self) -> bool"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_start(self)
+
+
+    def stop(self):
+        """stop(float_to_bit_single_cpp_sptr self) -> bool"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(float_to_bit_single_cpp_sptr self, unsigned int which_input) -> uint64_t"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(float_to_bit_single_cpp_sptr self, unsigned int which_output) -> uint64_t"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(float_to_bit_single_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(float_to_bit_single_cpp_sptr self, int m)"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(float_to_bit_single_cpp_sptr self)"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(float_to_bit_single_cpp_sptr self) -> bool"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(float_to_bit_single_cpp_sptr self, int m)"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(float_to_bit_single_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(float_to_bit_single_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(float_to_bit_single_cpp_sptr self, long max_output_buffer)
+        set_max_output_buffer(float_to_bit_single_cpp_sptr self, int port, long max_output_buffer)
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(float_to_bit_single_cpp_sptr self, int i) -> long"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(float_to_bit_single_cpp_sptr self, long min_output_buffer)
+        set_min_output_buffer(float_to_bit_single_cpp_sptr self, int port, long min_output_buffer)
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(float_to_bit_single_cpp_sptr self, int which) -> float
+        pc_input_buffers_full(float_to_bit_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(float_to_bit_single_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_avg(float_to_bit_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(float_to_bit_single_cpp_sptr self, int which) -> float
+        pc_input_buffers_full_var(float_to_bit_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(float_to_bit_single_cpp_sptr self, int which) -> float
+        pc_output_buffers_full(float_to_bit_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(float_to_bit_single_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_avg(float_to_bit_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(float_to_bit_single_cpp_sptr self, int which) -> float
+        pc_output_buffers_full_var(float_to_bit_single_cpp_sptr self) -> pmt_vector_float
+        """
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(float_to_bit_single_cpp_sptr self) -> float"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(float_to_bit_single_cpp_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(float_to_bit_single_cpp_sptr self)"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(float_to_bit_single_cpp_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(float_to_bit_single_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(float_to_bit_single_cpp_sptr self) -> int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(float_to_bit_single_cpp_sptr self, int priority) -> int"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(float_to_bit_single_cpp_sptr self) -> std::string"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(float_to_bit_single_cpp_sptr self) -> std::string"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(float_to_bit_single_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(float_to_bit_single_cpp_sptr self) -> io_signature_sptr"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(float_to_bit_single_cpp_sptr self) -> long"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(float_to_bit_single_cpp_sptr self) -> basic_block_sptr"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(float_to_bit_single_cpp_sptr self, int ninputs, int noutputs) -> bool"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(float_to_bit_single_cpp_sptr self) -> std::string"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(float_to_bit_single_cpp_sptr self, std::string name)"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(float_to_bit_single_cpp_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(float_to_bit_single_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(float_to_bit_single_cpp_sptr self) -> swig_int_ptr"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(float_to_bit_single_cpp_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _PHY_swig.float_to_bit_single_cpp_sptr_message_subscribers(self, which_port)
+
+float_to_bit_single_cpp_sptr_swigregister = _PHY_swig.float_to_bit_single_cpp_sptr_swigregister
+float_to_bit_single_cpp_sptr_swigregister(float_to_bit_single_cpp_sptr)
+
+
+float_to_bit_single_cpp_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+float_to_bit_single_cpp = float_to_bit_single_cpp.make;
+
 
 

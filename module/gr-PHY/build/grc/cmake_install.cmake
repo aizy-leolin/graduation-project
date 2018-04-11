@@ -44,6 +44,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_float_to_bit.xml"
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_float_to_bit_tag.xml"
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_conv_decode_tag.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_float_to_bit_cpp.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_wave_to_float_cpp.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_find_preamble_cpp.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_wave_to_float_single_cpp.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_conv_decode_tag_single.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_float_to_bit_single_cpp.xml"
     )
 endif()
 

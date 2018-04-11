@@ -20,6 +20,7 @@
 # 
 
 import numpy
+import time
 from gnuradio import gr
 
 class find_preamble(gr.sync_block):
@@ -37,7 +38,9 @@ class find_preamble(gr.sync_block):
         self.state = False
         self.cache = [0]*self.preamble_len
         self.now = 0
-        self.cnt = 1 
+        self.cnt = 0 
+        self.truecnt = 0
+        #self.file = open('/home/huangxf/preamblecnt.txt','w')
 
 
 
@@ -45,6 +48,7 @@ class find_preamble(gr.sync_block):
         in0 = input_items[0]
         out = output_items[0]
         # <+signal processing here+>
+        tmp = time.time()
         for x in range(len(in0)):
             
             if self.state:
@@ -54,8 +58,8 @@ class find_preamble(gr.sync_block):
                 out[x] = 0
 
             self.cache[self.now] = in0[x]
-            if self.cnt < self.preamble_len:
-                self.cnt += 1
+            self.cnt += 1
+            if self.cnt < self.preamble_len:               
                 self.now += 1
                 continue
             wrong = 0
@@ -68,10 +72,12 @@ class find_preamble(gr.sync_block):
                 wrong += 1
             if wrong * self.rate < self.preamble_len:
                 self.state = True
+                self.truecnt += 1
+                print('%d %d \n'%(self.truecnt,self.cnt))
             self.now += 1
             if self.now == self.preamble_len:
                 self.now = 0 
 
-
+        print('find_preamble: %f'%((time.time()-tmp)/len(input_items[0])))
         return len(output_items[0])
 

@@ -20,6 +20,7 @@
 # 
 
 import numpy
+import time
 from gnuradio import gr
 
 class wave_to_float(gr.decim_block):
@@ -77,7 +78,7 @@ class wave_to_float(gr.decim_block):
         minout = output_items[1]
         maxout = output_items[2]
         # <+signal processing here+>
-
+        tmp=time.time()
         for i in range(0,len(in0)/self.decim):
             if self.decim < 10:
                 tot = sum(in0[i*self.decim:(i+1)*self.decim])
@@ -134,6 +135,7 @@ class wave_to_float(gr.decim_block):
         #self.file.write('----------------------\n'+str(self.valuemin)+' '+str(self.valuemax)+'\n---------------------------\n')
         #print('recv_bit: %f %f %f %f'%(in0[0],out[0],minout[0],maxout[0]))
         #print(len(out))
+        #print('wave_to_float: %f'%((time.time()-tmp)/len(output_items[0])))
         return len(output_items[0])
 
 
