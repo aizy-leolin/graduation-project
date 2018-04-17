@@ -80,33 +80,33 @@ for x=1:length(data)
    CRC = bitxor(table( bitxor(data(x) , bitand(bitshift(CRC,-24) , hex2dec('FF')) ) +1) , bitshift(CRC,8));
    CRC = bitand(CRC,hex2dec('FFFFFFFF'));
 end
-crc_data = [sample de2bi(bitxor(CRC,hex2dec('FFFFFFFF')),'left-msb')]
+crc_data = [sample de2bi(bitxor(CRC,hex2dec('FFFFFFFF')),'left-msb')];
 
-% %conv encode
-% 
-% encode_data=[];
-% crc_data=[crc_data zeros(1,6)];
-% history=0;
-% for x=1:length(crc_data)
-%     tmp = crc_data(x);
-%     encode_data(end+1) = bitxor( bitxor( bitxor(tmp,bitand(history,1)) ,  bitand(bitshift(history,-1),1) ),...
-%                                  bitxor( bitand(bitshift(history,-3),1) , bitand(bitshift(history,-4),1))); 
-%     encode_data(end+1) = bitxor( bitxor( bitxor(tmp,bitand(history,1)) ,  bitand(bitshift(history,-3),1) ),...
-%                                  bitxor( bitand(bitshift(history,-4),1) , bitand(bitshift(history,-5),1))); 
-%     history = bitor(bitshift(history,-1) , bitshift(tmp,5));
-% end
-% 
-% %Add packet length
-% 
-% output_data = [de2bi(length(encode_data),12) encode_data];
-% 
-% %Add preamble
-% 
-% preamble = [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, ...
-%             1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, ...
-%             1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, ...
-%             1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0];
-% output_data = [preamble output_data]
+%conv encode
+
+encode_data=[];
+crc_data=[crc_data zeros(1,6)];
+history=0;
+for x=1:length(crc_data)
+    tmp = crc_data(x);
+    encode_data(end+1) = bitxor( bitxor( bitxor(tmp,bitand(history,1)) ,  bitand(bitshift(history,-1),1) ),...
+                                 bitxor( bitand(bitshift(history,-3),1) , bitand(bitshift(history,-4),1))); 
+    encode_data(end+1) = bitxor( bitxor( bitxor(tmp,bitand(history,1)) ,  bitand(bitshift(history,-3),1) ),...
+                                 bitxor( bitand(bitshift(history,-4),1) , bitand(bitshift(history,-5),1))); 
+    history = bitor(bitshift(history,-1) , bitshift(tmp,5));
+end
+
+%Add packet length
+
+output_data = [de2bi(length(encode_data),12) encode_data];
+
+%Add preamble
+
+preamble = [0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, ...
+            1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, ...
+            1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, ...
+            1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0];
+output_data = [preamble output_data]
 
 
 
