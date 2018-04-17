@@ -46,3 +46,8 @@ lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_single_cpp_impl.cc.o: ../include/P
 lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_single_cpp_impl.cc.o: ../lib/wave_to_float_single_cpp_impl.cc
 lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_single_cpp_impl.cc.o: ../lib/wave_to_float_single_cpp_impl.h
 
+lib/CMakeFiles/gnuradio-PHY.dir/writefloat_impl.cc.o: ../include/PHY/api.h
+lib/CMakeFiles/gnuradio-PHY.dir/writefloat_impl.cc.o: ../include/PHY/writefloat.h
+lib/CMakeFiles/gnuradio-PHY.dir/writefloat_impl.cc.o: ../lib/writefloat_impl.cc
+lib/CMakeFiles/gnuradio-PHY.dir/writefloat_impl.cc.o: ../lib/writefloat_impl.h
+

@@ -32,5 +32,7 @@ install(FILES
     PHY_find_preamble_cpp.xml
     PHY_wave_to_float_single_cpp.xml
     PHY_conv_decode_tag_single.xml
-    PHY_float_to_bit_single_cpp.xml DESTINATION share/gnuradio/grc/blocks
+    PHY_float_to_bit_single_cpp.xml
+    PHY_writefloat.xml
+    DESTINATION share/gnuradio/grc/blocks
 )

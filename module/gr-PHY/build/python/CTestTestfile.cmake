@@ -20,3 +20,4 @@ add_test(qa_find_preamble_cpp "/bin/sh" "/home/huangxf/graduation-project/module
 add_test(qa_wave_to_float_single_cpp "/bin/sh" "/home/huangxf/graduation-project/module/gr-PHY/build/python/qa_wave_to_float_single_cpp_test.sh")
 add_test(qa_conv_decode_tag_single "/bin/sh" "/home/huangxf/graduation-project/module/gr-PHY/build/python/qa_conv_decode_tag_single_test.sh")
 add_test(qa_float_to_bit_single_cpp "/bin/sh" "/home/huangxf/graduation-project/module/gr-PHY/build/python/qa_float_to_bit_single_cpp_test.sh")
+add_test(qa_writefloat "/bin/sh" "/home/huangxf/graduation-project/module/gr-PHY/build/python/qa_writefloat_test.sh")

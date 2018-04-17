@@ -492,6 +492,33 @@ wave_to_float_single_cpp_impl.cc.s:
 	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/wave_to_float_single_cpp_impl.cc.s
 .PHONY : wave_to_float_single_cpp_impl.cc.s
 
+writefloat_impl.o: writefloat_impl.cc.o
+
+.PHONY : writefloat_impl.o
+
+# target to build an object file
+writefloat_impl.cc.o:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/writefloat_impl.cc.o
+.PHONY : writefloat_impl.cc.o
+
+writefloat_impl.i: writefloat_impl.cc.i
+
+.PHONY : writefloat_impl.i
+
+# target to preprocess a source file
+writefloat_impl.cc.i:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/writefloat_impl.cc.i
+.PHONY : writefloat_impl.cc.i
+
+writefloat_impl.s: writefloat_impl.cc.s
+
+.PHONY : writefloat_impl.s
+
+# target to generate assembly for a file
+writefloat_impl.cc.s:
+	cd /home/huangxf/graduation-project/module/gr-PHY/build && $(MAKE) -f lib/CMakeFiles/gnuradio-PHY.dir/build.make lib/CMakeFiles/gnuradio-PHY.dir/writefloat_impl.cc.s
+.PHONY : writefloat_impl.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -540,6 +567,9 @@ help:
 	@echo "... wave_to_float_single_cpp_impl.o"
 	@echo "... wave_to_float_single_cpp_impl.i"
 	@echo "... wave_to_float_single_cpp_impl.s"
+	@echo "... writefloat_impl.o"
+	@echo "... writefloat_impl.i"
+	@echo "... writefloat_impl.s"
 .PHONY : help
 
 

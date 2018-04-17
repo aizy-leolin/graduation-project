@@ -50,6 +50,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_wave_to_float_single_cpp.xml"
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_conv_decode_tag_single.xml"
     "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_float_to_bit_single_cpp.xml"
+    "/home/huangxf/graduation-project/module/gr-PHY/grc/PHY_writefloat.xml"
     )
 endif()
 

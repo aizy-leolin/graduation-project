@@ -159,7 +159,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>4000000</value>
+      <value>8000000</value>
     </param>
   </block>
   <block>
@@ -245,7 +245,7 @@
     </param>
     <param>
       <key>preamble</key>
-      <value>(0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0)</value>
+      <value>(0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0)</value>
     </param>
     <param>
       <key>rate</key>
@@ -842,7 +842,7 @@
     </param>
     <param>
       <key>width</key>
-      <value>samp_rate/(decim *10)*2</value>
+      <value>samp_rate/(decim *10)</value>
     </param>
     <param>
       <key>win</key>
@@ -1991,7 +1991,7 @@
     </param>
     <param>
       <key>clock_source0</key>
-      <value>external</value>
+      <value></value>
     </param>
     <param>
       <key>sd_spec0</key>

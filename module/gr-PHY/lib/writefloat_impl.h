@@ -18,50 +18,32 @@
  * Boston, MA 02110-1301, USA.
  */
 
-#ifndef INCLUDED_PHY_WAVE_TO_FLOAT_SINGLE_CPP_IMPL_H
-#define INCLUDED_PHY_WAVE_TO_FLOAT_SINGLE_CPP_IMPL_H
+#ifndef INCLUDED_PHY_WRITEFLOAT_IMPL_H
+#define INCLUDED_PHY_WRITEFLOAT_IMPL_H
 
-#include <PHY/wave_to_float_single_cpp.h>
+#include <PHY/writefloat.h>
 #include <fstream>
-#include <iostream>
-#include <vector>
-#include <algorithm>
 
 namespace gr {
   namespace PHY {
 
-    class wave_to_float_single_cpp_impl : public wave_to_float_single_cpp
+    class writefloat_impl : public writefloat
     {
      private:
       // Nothing to declare in this block.
 
      public:
-      wave_to_float_single_cpp_impl(int decim);
-      ~wave_to_float_single_cpp_impl();
-
-      int decim,maxlen,len;
-      float valuemin,valuemax;
-      bool state,sortstate;
-      float *cache;
-      float maxsplitdis;
-      int maxsplitpos;
-      int timecnt;
-      int splitlen;
+      writefloat_impl();
+      ~writefloat_impl();
       std::ofstream file;
-      std::vector<std::pair<float,int> > record;
-
       // Where all the action really happens
       int work(int noutput_items,
          gr_vector_const_void_star &input_items,
          gr_vector_void_star &output_items);
-      float maxsplit(const float *in);
-      float maxsplit2(const float *in);
-      float maxsplit3(const float *in);
-      float abs(float x);
     };
 
   } // namespace PHY
 } // namespace gr
 
-#endif /* INCLUDED_PHY_WAVE_TO_FLOAT_SINGLE_CPP_IMPL_H */
+#endif /* INCLUDED_PHY_WRITEFLOAT_IMPL_H */
 

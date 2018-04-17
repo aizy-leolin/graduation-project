@@ -17,6 +17,7 @@
 #include "PHY/wave_to_float_single_cpp.h"
 #include "PHY/conv_decode_tag_single.h"
 #include "PHY/float_to_bit_single_cpp.h"
+#include "PHY/writefloat.h"
 %}
 
 
@@ -42,3 +43,6 @@ GR_SWIG_BLOCK_MAGIC2(PHY, wave_to_float_single_cpp);
 GR_SWIG_BLOCK_MAGIC2(PHY, conv_decode_tag_single);
 %include "PHY/float_to_bit_single_cpp.h"
 GR_SWIG_BLOCK_MAGIC2(PHY, float_to_bit_single_cpp);
+%include "PHY/writefloat.h"
+GR_SWIG_BLOCK_MAGIC2(PHY, writefloat);
+

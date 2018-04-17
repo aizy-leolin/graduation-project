@@ -30,5 +30,7 @@ install(FILES
     find_preamble_cpp.h
     wave_to_float_single_cpp.h
     conv_decode_tag_single.h
-    float_to_bit_single_cpp.h DESTINATION include/PHY
+    float_to_bit_single_cpp.h
+    writefloat.h
+    DESTINATION include/PHY
 )

@@ -33,7 +33,9 @@ list(APPEND PHY_sources
     find_preamble_cpp_impl.cc
     wave_to_float_single_cpp_impl.cc
     conv_decode_tag_single_impl.cc
-    float_to_bit_single_cpp_impl.cc )
+    float_to_bit_single_cpp_impl.cc
+    writefloat_impl.cc
+    )
 
 set(PHY_sources "${PHY_sources}" PARENT_SCOPE)
 if(NOT PHY_sources)

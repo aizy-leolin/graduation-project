@@ -63,3 +63,4 @@ GR_ADD_TEST(qa_find_preamble_cpp ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR
 GR_ADD_TEST(qa_wave_to_float_single_cpp ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_wave_to_float_single_cpp.py)
 GR_ADD_TEST(qa_conv_decode_tag_single ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_conv_decode_tag_single.py)
 GR_ADD_TEST(qa_float_to_bit_single_cpp ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_float_to_bit_single_cpp.py)
+GR_ADD_TEST(qa_writefloat ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_SOURCE_DIR}/qa_writefloat.py)
